@@ -11,7 +11,7 @@
   ],
   "source": {
     "github": "Passha64/WiiMCPlus",
-    "asset": "WiiMCPlus-*.zip"
+    "asset": "WiiMCPlus-[0-9]*.zip"
   },
   "format": "zip",
   "pin": {
