@@ -1,0 +1,28 @@
+{
+  "id": "xyzzy-mod",
+  "name": "Xyzzy",
+  "author": "Bushing, DarkMatterCore",
+  "category": "system",
+  "description": "Extract your Wii console keys!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "DarkMatterCore/xyzzy-mod",
+    "asset": "xyzzy-mod_v*.zip"
+  },
+  "page": "https://github.com/DarkMatterCore/xyzzy-mod",
+  "format": "zip",
+  "pin": {
+    "sha256": "11cfc8128f9bcc86f240cea006ff007f3033c671f66514aafd67f79f2e778214",
+    "tag": "v1.3.2"
+  },
+  "install": [
+    {
+      "from": "apps/xyzzy/",
+      "to": "apps/xyzzy-mod/"
+    }
+  ]
+}

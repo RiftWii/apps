@@ -1,0 +1,22 @@
+{
+  "id": "wiirps",
+  "name": "wiiRPS",
+  "author": "sctech-tr",
+  "category": "games",
+  "description": "A port of rock, paper, scissors for the wii.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "sctech-tr/wiiRPS",
+    "asset": "wiirps.7z"
+  },
+  "page": "https://github.com/sctech-tr/wiiRPS",
+  "format": "7z",
+  "pin": {
+    "sha256": "77ddd0b7f201dc969f440c5d1a0a122c63aec39ef21c049e2d9a10cc991fb98f",
+    "tag": "v1.1"
+  }
+}

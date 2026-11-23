@@ -1,0 +1,27 @@
+{
+  "id": "sdlmame-wii",
+  "name": "MAME Wii",
+  "author": "Toad King + MAME Team",
+  "category": "emulators",
+  "description": "Arcade Emulation",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/sdlmame-wii.zip",
+    "version": "1.1 (MAME 0.134u4)"
+  },
+  "page": "https://oscwii.org/library/app/sdlmame-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "7ad1c925bfce9fc79c6003c47f7eb67b376cc67ffe128226d7ca9fd13b36c8b8"
+  },
+  "install": [
+    {
+      "from": "apps/sdlmame-wii/",
+      "to": "apps/sdlmame-wii/"
+    }
+  ]
+}

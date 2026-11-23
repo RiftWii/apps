@@ -1,0 +1,26 @@
+{
+  "id": "Mp3Player-Wii",
+  "name": "Mp3Player-Wii",
+  "author": "AmineTheJurk",
+  "category": "media",
+  "description": "A MP3 Player for the wii",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "AmineTheJurk/OSC_Mp3Player-Wii",
+    "asset": "*.zip"
+  },
+  "page": "https://github.com/AmineTheJurk/OSC_Mp3Player-Wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "16b373d153dc1fffddd9d4f351ae9c9919464e5725dd0a7e83de08352f31f310",
+    "tag": "v1.0"
+  },
+  "install": [
+    {
+      "from": "apps/Mp3Player-Wii/",
+      "to": "apps/Mp3Player-Wii/"
+    }
+  ]
+}

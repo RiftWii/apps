@@ -1,0 +1,27 @@
+{
+  "id": "NewoPuzzle",
+  "name": "Newo Puzzle",
+  "author": "Owen",
+  "category": "games",
+  "description": "Match 3 blocks puzzle",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/newopuzzle.zip",
+    "version": "1.2"
+  },
+  "page": "https://oscwii.org/library/app/NewoPuzzle",
+  "format": "zip",
+  "pin": {
+    "sha256": "62fc14f4dc22b466158619e4684e9b31e84fa7987832351b5a0f063809ab11ba"
+  },
+  "install": [
+    {
+      "from": "NewoPuzzle/",
+      "to": "apps/NewoPuzzle/"
+    }
+  ]
+}

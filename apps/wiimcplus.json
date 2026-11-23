@@ -1,0 +1,27 @@
+{
+  "id": "wiimcplus",
+  "name": "WiiMC+",
+  "author": "Passha64",
+  "category": "media",
+  "description": "WiiMC fork, after WiiMC-SS",
+  "page": "https://github.com/Passha64/WiiMCPlus",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "Passha64/WiiMCPlus",
+    "asset": "WiiMCPlus-*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.0.0",
+    "sha256": "fb2143ba500ebf0b41de80df110130bb8c4d76e99317960f801eb6b899d46cb4"
+  },
+  "install": [
+    {
+      "from": "apps/wiimcplus/",
+      "to": "apps/wiimcplus/"
+    }
+  ]
+}

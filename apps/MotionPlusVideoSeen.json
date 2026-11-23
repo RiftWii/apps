@@ -1,0 +1,28 @@
+{
+  "id": "MotionPlusVideoSeen",
+  "name": "MotionPlusVideoSeen",
+  "author": "WiiDatabase Team",
+  "category": "wiimenu",
+  "description": "Motion Plus Video Seen Setter",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "WiiDatabase/MotionPlusVideoSeen",
+    "asset": "MotionPlusVideoSeen.v*.zip"
+  },
+  "page": "https://github.com/WiiDatabase/MotionPlusVideoSeen",
+  "format": "zip",
+  "pin": {
+    "sha256": "521ebac1cede5597ad5333f498c1eb93ce7c906e751bb401e2b82080c9f163a2",
+    "tag": "v1.0"
+  },
+  "install": [
+    {
+      "from": "apps/MotionPlusVideoSeen/",
+      "to": "apps/MotionPlusVideoSeen/"
+    }
+  ]
+}

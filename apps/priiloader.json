@@ -1,0 +1,32 @@
+{
+  "id": "priiloader",
+  "name": "Priiloader Installer",
+  "author": "DacoTaco/Crediar",
+  "category": "system",
+  "description": "Preloader Mod",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "DacoTaco/priiloader",
+    "asset": "Priiloader_*.zip"
+  },
+  "page": "https://github.com/DacoTaco/priiloader",
+  "format": "zip",
+  "pin": {
+    "sha256": "312881836bc62ae55d496a9caef987d19493f635e26079bc60ecde08a2a31c1d",
+    "tag": "0.10.0"
+  },
+  "install": [
+    {
+      "from": "apps/priiloader/META.XML",
+      "to": "apps/priiloader/meta.xml"
+    },
+    {
+      "from": "apps/priiloader/",
+      "to": "apps/priiloader/"
+    }
+  ]
+}

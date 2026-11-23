@@ -1,0 +1,35 @@
+{
+  "id": "wiihandysdl",
+  "name": "WiiHandy",
+  "author": "raz0red",
+  "category": "emulators",
+  "description": "Atari Lynx Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "raz0red/wiihandy",
+    "asset": "wiihandy-*.zip"
+  },
+  "page": "https://github.com/raz0red/wiihandy",
+  "format": "zip",
+  "pin": {
+    "sha256": "f9459f79304f16945f75db92e067a9524f745f8f9832edf79f56de605d119fb7",
+    "tag": "0.4"
+  },
+  "install": [
+    {
+      "from": "apps/wiihandysdl/",
+      "to": "apps/wiihandysdl/"
+    },
+    {
+      "from": "wiihandysdl/",
+      "to": "wiihandysdl/"
+    }
+  ],
+  "data_folders": [
+    "wiihandysdl"
+  ]
+}

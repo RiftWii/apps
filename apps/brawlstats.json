@@ -1,0 +1,27 @@
+{
+  "id": "brawlstats",
+  "name": "BrawlStats",
+  "author": "Marc",
+  "category": "gametools",
+  "description": "Stores your SSBB stats!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/brawlstats.zip",
+    "version": "1.2.1"
+  },
+  "page": "https://oscwii.org/library/app/brawlstats",
+  "format": "zip",
+  "pin": {
+    "sha256": "8fc4bac868f46f67b51ef4c43588e05ce3256e5c0fb95a14610a6b61cd357b67"
+  },
+  "install": [
+    {
+      "from": "apps/brawlstats/",
+      "to": "apps/brawlstats/"
+    }
+  ]
+}

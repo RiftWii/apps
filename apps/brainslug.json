@@ -1,0 +1,28 @@
+{
+  "id": "brainslug",
+  "name": "brainslug",
+  "author": "Chadderz",
+  "category": "gametools",
+  "description": "BrainSlug Patching Engine",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Chadderz121/wup-028-bslug",
+    "asset": "wup-028-bslug-v*.zip"
+  },
+  "page": "https://github.com/Chadderz121/wup-028-bslug",
+  "format": "zip",
+  "pin": {
+    "sha256": "5515db6b3da9dabc8ef26c0e874783d079de318a58a9da3ed5862ed7592b0399",
+    "tag": "v1.01"
+  },
+  "install": [
+    {
+      "from": "apps/brainslug/",
+      "to": "apps/brainslug/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "uae",
+  "name": "UAE Wii",
+  "author": "Oibaf, Simon Kagstrom",
+  "category": "emulators",
+  "description": "Amiga emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://github.com/Oibaf66/uae-wii/releases/download/v12.0/uae-wii-v12-bin.tar.gz",
+    "version": "12"
+  },
+  "page": "https://oscwii.org/library/app/uae",
+  "format": "tar.gz",
+  "pin": {
+    "sha256": "4df2b1d4ec726f98e43fe10d0121283259dbbb9038b5f70c4893278b9a95ccaa"
+  }
+}

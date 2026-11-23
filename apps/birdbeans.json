@@ -1,0 +1,28 @@
+{
+  "id": "birdbeans",
+  "name": "Bird & Beans GX",
+  "author": "cmyksoda",
+  "category": "games",
+  "description": "Bird & Beans / Pyoro for Wii!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "cmyksoda/Bird-and-Beans-GX",
+    "asset": "Bird-and-Beans-GX.zip"
+  },
+  "page": "https://github.com/cmyksoda/Bird-and-Beans-GX",
+  "format": "zip",
+  "pin": {
+    "sha256": "a06a2da474faf645f0198aa2e917a433d5d56f6a0a82d43fe2fcdae9c8627c21",
+    "tag": "v1.1.0"
+  },
+  "install": [
+    {
+      "from": "apps/birdbeans/",
+      "to": "apps/birdbeans/"
+    }
+  ]
+}

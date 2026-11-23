@@ -1,0 +1,28 @@
+{
+  "id": "DiscDriveDateChecker",
+  "name": "Disc Drive Date Checker",
+  "author": "Aep",
+  "category": "gametools",
+  "description": "Check your Wii's Disc Drive Date",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Aeplet/DiscDriveDateChecker",
+    "asset": "DiscDriveDateChecker.zip"
+  },
+  "page": "https://github.com/Aeplet/DiscDriveDateChecker",
+  "format": "zip",
+  "pin": {
+    "sha256": "c1152f3a0e86faf24c11f94f77ccf60136f20bcce1af392e4522b45ab5a0db83",
+    "tag": "v1.1.2"
+  },
+  "install": [
+    {
+      "from": "apps/DiscDriveDateChecker/",
+      "to": "apps/DiscDriveDateChecker/"
+    }
+  ]
+}

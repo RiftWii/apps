@@ -1,0 +1,28 @@
+{
+  "id": "GodModeWii",
+  "name": "GodModeWii",
+  "author": "quatric",
+  "category": "system",
+  "description": "GodMode9-style file manager",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "quatric/GodModeWii",
+    "asset": "GodModeWii.zip"
+  },
+  "page": "https://github.com/quatric/GodModeWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "cdcb84bed8784a76da4d0bc7e92190210041cbf6f16a9a3adaf6bec221cb9024",
+    "tag": "v0.15.1"
+  },
+  "install": [
+    {
+      "from": "apps/GodModeWii/",
+      "to": "apps/GodModeWii/"
+    }
+  ]
+}

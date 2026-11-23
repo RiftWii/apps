@@ -1,0 +1,25 @@
+{
+  "id": "USB_Toggle",
+  "name": "USB Toggle 2.0",
+  "author": "Onion_Knight, jayjay123",
+  "category": "system",
+  "description": "USB Toggle",
+  "platforms": [
+    "vwii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/USB_Toggle.zip",
+    "version": "v1.00"
+  },
+  "page": "https://oscwii.org/library/app/USB_Toggle",
+  "format": "zip",
+  "pin": {
+    "sha256": "4a928dd550edf6b941172248f4501fb9c029838746905d80d33f4dc052f1b4aa"
+  },
+  "install": [
+    {
+      "from": "apps/USB_Toggle/",
+      "to": "apps/USB_Toggle/"
+    }
+  ]
+}

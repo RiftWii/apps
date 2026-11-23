@@ -1,0 +1,27 @@
+{
+  "id": "fceugx-channel-installer",
+  "name": "FCE Ultra GX Channel Installer",
+  "author": "Tantric",
+  "category": "wiimenu",
+  "description": "FCE Ultra GX Channel Installer",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/fceugx",
+    "asset": "FCEUltraGX-Channel-Installer.zip"
+  },
+  "page": "https://github.com/dborth/fceugx",
+  "format": "zip",
+  "pin": {
+    "sha256": "ff79e86d0469ec2d02d565cc0ea27121541e9ff5d3f90a2b5e73ffce99a7d21b",
+    "tag": "4.0.5"
+  },
+  "install": [
+    {
+      "from": "apps/fceugx-channel-installer/",
+      "to": "apps/fceugx-channel-installer/"
+    }
+  ]
+}

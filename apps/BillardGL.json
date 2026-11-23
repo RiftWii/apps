@@ -1,0 +1,28 @@
+{
+  "id": "BillardGL",
+  "name": "3D pool billiard simulator",
+  "author": "T. Nopper, S. Disch, M. Welte",
+  "category": "games",
+  "description": "3D pool billiard simulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/billardgl",
+    "asset": "billardgl*.zip"
+  },
+  "page": "https://github.com/mardy/billardgl",
+  "format": "zip",
+  "pin": {
+    "sha256": "80ab8988350ee21b388f17af9b8cc3c9accf748ba20be33fcaac0f6850eeac4e",
+    "tag": "1.75-0"
+  },
+  "install": [
+    {
+      "from": "billardgl/",
+      "to": "apps/BillardGL/"
+    }
+  ]
+}

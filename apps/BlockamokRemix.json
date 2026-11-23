@@ -1,0 +1,28 @@
+{
+  "id": "BlockamokRemix",
+  "name": "Blockamok Remix",
+  "author": "Mode8fx",
+  "category": "games",
+  "description": "Dodge the incoming blocks!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Mode8fx/blockamok",
+    "asset": "BlockamokRemix-*-wii.zip"
+  },
+  "page": "https://github.com/Mode8fx/blockamok",
+  "format": "zip",
+  "pin": {
+    "sha256": "453d4a436432a086d0f88d3d09bf0acd5240efddbc6940e21580d8c9d0ca0afb",
+    "tag": "v1.21"
+  },
+  "install": [
+    {
+      "from": "apps/BlockamokRemix/",
+      "to": "apps/BlockamokRemix/"
+    }
+  ]
+}

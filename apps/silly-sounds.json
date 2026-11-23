@@ -1,0 +1,28 @@
+{
+  "id": "silly-sounds",
+  "name": "Silly Sound Maker",
+  "author": "DaniLionn",
+  "category": "toys",
+  "description": "Make silly sounds!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "DaniLionn/silly-sounds-homebrew-wii",
+    "asset": "Silly-sounds.zip"
+  },
+  "page": "https://github.com/DaniLionn/silly-sounds-homebrew-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "a0cb8549e64f1d91741a15dd6fabf4f83b939a8b2b4ddc9eee66aac81b56ae6f",
+    "tag": "2.1"
+  },
+  "install": [
+    {
+      "from": "apps/silly-sounds/",
+      "to": "apps/silly-sounds/"
+    }
+  ]
+}

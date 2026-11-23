@@ -1,0 +1,28 @@
+{
+  "id": "bluemii",
+  "name": "BlueMii",
+  "author": "Zarithya",
+  "category": "system",
+  "description": "BlueBomb a Wii from your Wii!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Zarithya/BlueMii",
+    "asset": "BlueMii.*.zip"
+  },
+  "page": "https://github.com/Zarithya/BlueMii",
+  "format": "zip",
+  "pin": {
+    "sha256": "66e52d04698a680f3050a0bbe94eb03b99dbee41f25abecd6e0d0cfb902b6eca",
+    "tag": "v1.1"
+  },
+  "install": [
+    {
+      "from": "apps/BlueMii/",
+      "to": "apps/bluemii/"
+    }
+  ]
+}

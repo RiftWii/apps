@@ -1,0 +1,26 @@
+{
+  "id": "ww-43db-patcher",
+  "name": "ww-43db-patcher",
+  "author": "DarkMatterCore",
+  "category": "gametools",
+  "description": "vWii WiiWare 43DB patcher.",
+  "platforms": [
+    "vwii"
+  ],
+  "source": {
+    "github": "DarkMatterCore/ww-43db-patcher",
+    "asset": "ww-43db-patcher_v*.zip"
+  },
+  "page": "https://github.com/DarkMatterCore/ww-43db-patcher",
+  "format": "zip",
+  "pin": {
+    "sha256": "62760728a5c152dcce6d66cdcbd54b03b3f257bb9e07da7bbe5ac120a8bfb44d",
+    "tag": "v0.4"
+  },
+  "install": [
+    {
+      "from": "apps/ww-43db-patcher/",
+      "to": "apps/ww-43db-patcher/"
+    }
+  ]
+}

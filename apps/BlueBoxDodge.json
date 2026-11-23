@@ -1,0 +1,27 @@
+{
+  "id": "BlueBoxDodge",
+  "name": "Blue Box Dodge",
+  "author": "Doosan-The-Destroyer",
+  "category": "games",
+  "description": "Arcade dodging game",
+  "page": "https://github.com/Doosan-The-Destroyer/Blue-Box-Dodge-HomeBrew",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "Doosan-The-Destroyer/Blue-Box-Dodge-HomeBrew",
+    "asset": "Blue.Box.Dodge.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.0",
+    "sha256": "8607356398dba2a79fea43cc08483e7825280b26da0ca0a7bf003c82306a5df4"
+  },
+  "install": [
+    {
+      "from": "Blue Box Dodge/BlueBoxDodge/",
+      "to": "apps/BlueBoxDodge/"
+    }
+  ]
+}

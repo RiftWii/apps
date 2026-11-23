@@ -1,0 +1,28 @@
+{
+  "id": "Wii-Tac-Toe",
+  "name": "Wii-Tac-Toe",
+  "author": "Crayon",
+  "category": "games",
+  "description": "Tic-Tac-Toe game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Crayon2000/Wii-Tac-Toe",
+    "asset": "wii-tac-toe.*.zip"
+  },
+  "page": "https://github.com/Crayon2000/Wii-Tac-Toe",
+  "format": "zip",
+  "pin": {
+    "sha256": "25c9217e8e2d2277d6f56a4e1e07838bde461922018eb971fb0e747bc4daf5b3",
+    "tag": "v1.1.0"
+  },
+  "install": [
+    {
+      "from": "Wii-Tac-Toe/",
+      "to": "apps/Wii-Tac-Toe/"
+    }
+  ]
+}

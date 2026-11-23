@@ -1,0 +1,28 @@
+{
+  "id": "OpenHCL",
+  "name": "OpenHCL",
+  "author": "JeffRuLz",
+  "category": "games",
+  "description": "Hydra Castle Labyrinth",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "JeffRuLz/OpenHCL",
+    "asset": "OpenHCL_Wii.zip"
+  },
+  "page": "https://github.com/JeffRuLz/OpenHCL",
+  "format": "zip",
+  "pin": {
+    "sha256": "3cc43eb5c0da3385873f9ee046d10a26652f89a8ea9d11f19694732313ab5142",
+    "tag": "untagged-289a342ec6863598160c"
+  },
+  "install": [
+    {
+      "from": "apps/OpenHCL/",
+      "to": "apps/OpenHCL/"
+    }
+  ]
+}

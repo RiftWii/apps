@@ -1,0 +1,26 @@
+{
+  "id": "gba-sid-send",
+  "name": "GBA SID Send",
+  "author": "FIX94",
+  "category": "gametools",
+  "description": "No description provided.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "FIX94/gba-sid-send",
+    "asset": "GBA-SID-Send_v1.0.zip"
+  },
+  "page": "https://github.com/FIX94/gba-sid-send",
+  "format": "zip",
+  "pin": {
+    "sha256": "5f47e63ec3b5264bdd9fb29514b56175f0d16c0047d61b9476d116485d361526",
+    "tag": "v1.0"
+  },
+  "install": [
+    {
+      "from": "gbasidsend_wii.dol",
+      "to": "apps/gba-sid-send/boot.dol"
+    }
+  ]
+}

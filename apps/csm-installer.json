@@ -1,0 +1,27 @@
+{
+  "id": "csm-installer",
+  "name": "csm-installer",
+  "author": "thepikachugamer",
+  "category": "wiimenu",
+  "description": "Wii menu theme installer.",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Naim2000/csm-installer",
+    "asset": "csm-installer.zip"
+  },
+  "page": "https://github.com/Naim2000/csm-installer",
+  "format": "zip",
+  "pin": {
+    "sha256": "88d59c09aeca8198797fac2ab9b456fa56de9bbcfd86cb7057ce4eb4f6a527cb",
+    "tag": "v1.5"
+  },
+  "install": [
+    {
+      "from": "apps/csm-installer/",
+      "to": "apps/csm-installer/"
+    }
+  ]
+}

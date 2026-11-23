@@ -1,0 +1,34 @@
+{
+  "id": "Settings-Editor-GUI",
+  "name": "Settings Editor GUI",
+  "author": "JoostinOnline, stfour",
+  "category": "system",
+  "description": "Modify your settings via homebrew.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/Settings-Editor-GUI.zip",
+    "version": "v1.9"
+  },
+  "page": "https://oscwii.org/library/app/Settings-Editor-GUI",
+  "format": "zip",
+  "pin": {
+    "sha256": "877539e223b5160966830c57b9aad105b0db16b74c937c11f00b4293cc781e84"
+  },
+  "install": [
+    {
+      "from": "apps/Settings-Editor-GUI/",
+      "to": "apps/Settings-Editor-GUI/"
+    },
+    {
+      "from": "ploader/",
+      "to": "ploader/"
+    }
+  ],
+  "data_folders": [
+    "ploader"
+  ]
+}

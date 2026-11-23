@@ -1,0 +1,27 @@
+{
+  "id": "asciiodyssey",
+  "name": "ASCII Odyssey",
+  "author": "cmyksoda",
+  "category": "creative",
+  "description": "Generative music and ASCII visuals",
+  "page": "https://github.com/cmyksoda/ASCII-Odyssey",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "cmyksoda/ASCII-Odyssey",
+    "asset": "ASCII-Odyssey.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.1.0",
+    "sha256": "f82a3a1d922db6a4c2b4c2c199e25adfeea65b8e3a903790d60cf04af8f7db4d"
+  },
+  "install": [
+    {
+      "from": "apps/asciiodyssey/",
+      "to": "apps/asciiodyssey/"
+    }
+  ]
+}

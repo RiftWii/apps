@@ -1,0 +1,26 @@
+{
+  "id": "d2x-cios-installer",
+  "name": "d2x cIOS installer",
+  "author": "dragbe",
+  "category": "system",
+  "description": "Custom IOS installer",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "wiidev/d2x-cios",
+    "asset": "d2x-v11-*[!-vWii].zip"
+  },
+  "page": "https://github.com/wiidev/d2x-cios",
+  "format": "zip",
+  "pin": {
+    "sha256": "c2c7c9c5dad247c48f561a2b08f74359227e09271104dec814dbab4ad97e68d3",
+    "tag": "d2x-v11-beta3"
+  },
+  "install": [
+    {
+      "from": "apps/d2x-cios-installer/",
+      "to": "apps/d2x-cios-installer/"
+    }
+  ]
+}

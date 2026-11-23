@@ -1,0 +1,28 @@
+{
+  "id": "dosbox-wii",
+  "name": "DOSBox for Wii",
+  "author": "Tantric",
+  "category": "emulators",
+  "description": "DOS Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/dosbox-wii",
+    "asset": "DOSBox-*-Wii.zip"
+  },
+  "page": "https://github.com/dborth/dosbox-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "52632c1cf45c145d09384a4240d4688b5d2b5585457d2349800399f9ee3cac6a",
+    "tag": "2.1"
+  },
+  "install": [
+    {
+      "from": "apps/dosbox-wii/",
+      "to": "apps/dosbox-wii/"
+    }
+  ]
+}

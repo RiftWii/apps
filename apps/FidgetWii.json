@@ -1,0 +1,27 @@
+{
+  "id": "FidgetWii",
+  "name": "FidgetWii",
+  "author": "quatric",
+  "category": "toys",
+  "description": "A fidget spinner",
+  "page": "https://github.com/quatric/FidgetWii",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "quatric/FidgetWii",
+    "asset": "FidgetWii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.2.4",
+    "sha256": "35044984a3a33b64e9cf1e60a3b00fa2205a1b16211e3a7764d9c604105fa4c1"
+  },
+  "install": [
+    {
+      "from": "apps/FidgetWii/",
+      "to": "apps/FidgetWii/"
+    }
+  ]
+}

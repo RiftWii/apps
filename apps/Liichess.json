@@ -1,0 +1,26 @@
+{
+  "id": "Liichess",
+  "name": "Liichess",
+  "author": "26gy2",
+  "category": "internet",
+  "description": "Play online chess from a wii!",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "WiiExpand/Liichess",
+    "asset": "Liichess.zip"
+  },
+  "page": "https://github.com/WiiExpand/Liichess",
+  "format": "zip",
+  "pin": {
+    "sha256": "6aab17cae7d5ac80b423ff8c79961fd9b1e1a4c98836511cdecb0fa739e28f42",
+    "tag": "v1.1"
+  },
+  "install": [
+    {
+      "from": "Liichess/",
+      "to": "apps/Liichess/"
+    }
+  ]
+}

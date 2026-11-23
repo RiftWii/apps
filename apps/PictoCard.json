@@ -1,0 +1,27 @@
+{
+  "id": "PictoCard",
+  "name": "PictoCard",
+  "author": "larsenv",
+  "category": "online",
+  "description": "Picture cards by email or Wii Message Board (WiiLink)",
+  "page": "https://github.com/larsenv/PictoCard-Client",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "larsenv/PictoCard-Client",
+    "asset": "PictoCard-Wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.3.9",
+    "sha256": "d85cf0b2609b32e15ea658305c19b85b540a1e895cc21152bebb9c04fa28e89b"
+  },
+  "install": [
+    {
+      "from": "apps/PictoCard/",
+      "to": "apps/PictoCard/"
+    }
+  ]
+}

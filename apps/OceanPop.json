@@ -1,0 +1,28 @@
+{
+  "id": "OceanPop",
+  "name": "A relaxing match 3 puzzle game",
+  "author": "Wouter Wijsman",
+  "category": "games",
+  "description": "A relaxing match 3 puzzle game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/oceanpop",
+    "asset": "oceanpop*.zip"
+  },
+  "page": "https://github.com/mardy/oceanpop",
+  "format": "zip",
+  "pin": {
+    "sha256": "7f30f1019cf4508f224635e251b6353631918b34555c1c68cdbaaea0160c1816",
+    "tag": "1.1-wii2"
+  },
+  "install": [
+    {
+      "from": "oceanpop/",
+      "to": "apps/OceanPop/"
+    }
+  ]
+}

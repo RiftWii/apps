@@ -1,0 +1,27 @@
+{
+  "id": "wiiapple",
+  "name": "WiiApple",
+  "author": "yohanes",
+  "category": "emulators",
+  "description": "Apple IIe Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "http://tinyhack.com/wii/wiiapple/wiiapple.zip",
+    "version": "0.0.7"
+  },
+  "page": "https://oscwii.org/library/app/wiiapple",
+  "format": "zip",
+  "pin": {
+    "sha256": "2671473ec3658d312451459232010aff5b9d4f7ea9beedcd768452b7427953d1"
+  },
+  "install": [
+    {
+      "from": "apps/wiiapple/",
+      "to": "apps/wiiapple/"
+    }
+  ]
+}

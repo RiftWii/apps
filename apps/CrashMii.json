@@ -1,0 +1,26 @@
+{
+  "id": "CrashMii",
+  "name": "CrashMii",
+  "author": "mango338",
+  "category": "system",
+  "description": "Crash you Wii in one click",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "Mango338/CrashMii",
+    "asset": "CrashMii.zip"
+  },
+  "page": "https://github.com/Mango338/CrashMii",
+  "format": "zip",
+  "pin": {
+    "sha256": "d6669872a69205cf6c964f2ef5876317054a948f8dc6a47cffa7f9a9f8e304d9",
+    "tag": "Homebrew_channel_app"
+  },
+  "install": [
+    {
+      "from": "CrashMii/",
+      "to": "apps/CrashMii/"
+    }
+  ]
+}

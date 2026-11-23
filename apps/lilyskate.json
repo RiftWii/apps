@@ -1,0 +1,27 @@
+{
+  "id": "lilyskate",
+  "name": "Lily Skate",
+  "author": "lliy",
+  "category": "games",
+  "description": "Best skate game EVER",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://github.com/xOx-Liy-Codez-XD-oXo/lilyskate/releases/download/1.0/lilyskate-1_0.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/lilyskate",
+  "format": "zip",
+  "pin": {
+    "sha256": "98b74f879a7c31130e4ac704446d49361893d3fd944d329519a9288d5cb95977"
+  },
+  "install": [
+    {
+      "from": "lilyskate/",
+      "to": "apps/lilyskate/"
+    }
+  ]
+}

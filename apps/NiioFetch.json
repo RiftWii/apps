@@ -1,0 +1,27 @@
+{
+  "id": "NiioFetch",
+  "name": "NiioFetch",
+  "author": "Abdelali221",
+  "category": "system",
+  "description": "Check your Wii's Info!",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Abdelali221/NiioFetch",
+    "asset": "NiioFetch.zip"
+  },
+  "page": "https://github.com/Abdelali221/NiioFetch",
+  "format": "zip",
+  "pin": {
+    "sha256": "32aeef90f2ead076e881d2cb3fd7b617919b093c66346111434fd6760aacd662",
+    "tag": "v1.3.4"
+  },
+  "install": [
+    {
+      "from": "apps/NiioFetch/",
+      "to": "apps/NiioFetch/"
+    }
+  ]
+}

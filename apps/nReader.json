@@ -1,0 +1,27 @@
+{
+  "id": "nReader",
+  "name": "nReader",
+  "author": "hediibl",
+  "category": "system",
+  "description": "Wii NAND Report Tool",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "hediibl/nReader",
+    "asset": "nReader_wii.zip"
+  },
+  "page": "https://github.com/hediibl/nReader",
+  "format": "zip",
+  "pin": {
+    "sha256": "76cba1230e2ced91c409bfe2a554bd96f8875659a853963f64e6e17f688f206f",
+    "tag": "2.5"
+  },
+  "install": [
+    {
+      "from": "apps/nReader/",
+      "to": "apps/nReader/"
+    }
+  ]
+}

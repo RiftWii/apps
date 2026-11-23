@@ -1,0 +1,28 @@
+{
+  "id": "WiiRremote",
+  "name": "WiiRremote",
+  "author": "Abdelali221",
+  "category": "controllers",
+  "description": "Use your Wii as an IR blaster!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "abdelali221/WiiRremote",
+    "asset": "WiiRremote.zip"
+  },
+  "page": "https://github.com/abdelali221/WiiRremote",
+  "format": "zip",
+  "pin": {
+    "sha256": "be5a55925b31dca9c8cd930b6e09d874ed6d28f1f167a434f1602d658757ee48",
+    "tag": "0.5"
+  },
+  "install": [
+    {
+      "from": "apps/WiiRremote/",
+      "to": "apps/WiiRremote/"
+    }
+  ]
+}

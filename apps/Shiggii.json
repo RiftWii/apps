@@ -1,0 +1,28 @@
+{
+  "id": "Shiggii",
+  "name": "Shiggii",
+  "author": "Korbo",
+  "category": "toys",
+  "description": "read if cute :3",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Korbough/Shiggii",
+    "asset": "Shiggii.zip"
+  },
+  "page": "https://github.com/Korbough/Shiggii",
+  "format": "zip",
+  "pin": {
+    "sha256": "c5ff10f6440d86d8e070b176769849462791bc04f977c5362f119ebebf3baf35",
+    "tag": "v3.3.0"
+  },
+  "install": [
+    {
+      "from": "Shiggii/",
+      "to": "apps/Shiggii/"
+    }
+  ]
+}

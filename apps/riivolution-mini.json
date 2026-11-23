@@ -1,0 +1,26 @@
+{
+  "id": "riivolution-mini",
+  "name": "Riivolution for Wii Mini",
+  "author": "Aaron, tueidj, Tempus, megazig, r00t1024",
+  "category": "loaders",
+  "description": "Riivolution Patcher",
+  "platforms": [
+    "mini"
+  ],
+  "source": {
+    "github": "r00t1024/rawksd",
+    "asset": "riivolution.zip"
+  },
+  "page": "https://github.com/r00t1024/rawksd",
+  "format": "zip",
+  "pin": {
+    "sha256": "c1cdf0313a196be4fb4a5d3c2e3c1e937994938a7a72bc8cf382e8c408a770da",
+    "tag": "v1.06-mini"
+  },
+  "install": [
+    {
+      "from": "riivolution/",
+      "to": "apps/riivolution-mini/"
+    }
+  ]
+}

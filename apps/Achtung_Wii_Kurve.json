@@ -1,0 +1,27 @@
+{
+  "id": "Achtung_Wii_Kurve",
+  "name": "Achtung Wii Kurve",
+  "author": "Profetylen",
+  "category": "games",
+  "description": "Watch out for the curve",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/Achtung_Wii_Kurve.zip",
+    "version": "1.3"
+  },
+  "page": "https://oscwii.org/library/app/Achtung_Wii_Kurve",
+  "format": "zip",
+  "pin": {
+    "sha256": "f21a923cbdcf0a6b88152be8962a3cae430dc0d25c8ce6b6e79b105bf6cb814f"
+  },
+  "install": [
+    {
+      "from": "apps/Achtung_Wii_Kurve/",
+      "to": "apps/Achtung_Wii_Kurve/"
+    }
+  ]
+}

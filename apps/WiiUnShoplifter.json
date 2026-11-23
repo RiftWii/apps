@@ -1,0 +1,28 @@
+{
+  "id": "WiiUnShoplifter",
+  "name": "WiiUnShoplifter",
+  "author": "Sketch",
+  "category": "system",
+  "description": "No more shoplifting",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "WiiLink24/WiiUnShoplifter",
+    "asset": "WiiUnShoplifter.zip"
+  },
+  "page": "https://github.com/WiiLink24/WiiUnShoplifter",
+  "format": "zip",
+  "pin": {
+    "sha256": "1591e1e7dbca8b21f6e11c4cf51d04f6db18d07ba2642975c950b37af18dca9e",
+    "tag": "v1.0.0"
+  },
+  "install": [
+    {
+      "from": "apps/WiiUnShoplifter/",
+      "to": "apps/WiiUnShoplifter/"
+    }
+  ]
+}

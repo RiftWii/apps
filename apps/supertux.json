@@ -1,0 +1,28 @@
+{
+  "id": "supertux",
+  "name": "SuperTux Wii",
+  "author": "Two devs, scanff, Arikado, DeltaResero",
+  "category": "games",
+  "description": "Port of SuperTux Milestone 1",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "DeltaResero/SuperTux-Wii",
+    "asset": "SuperTux-Wii-v0.1.4-wii-d.*.zip"
+  },
+  "page": "https://github.com/DeltaResero/SuperTux-Wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "6951faea8b5179a73ffe924c56bc3b4a222ba9789548d516b4d4897efc4af3ed",
+    "tag": "v0.1.4-wii-d.07"
+  },
+  "install": [
+    {
+      "from": "apps/supertux/",
+      "to": "apps/supertux/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "TrojanWii",
+  "name": "TrojanWii",
+  "author": "Jon Conrad",
+  "category": "games",
+  "description": "Trojan LCD Simulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/TrojanWii.zip",
+    "version": "1.1"
+  },
+  "page": "https://oscwii.org/library/app/TrojanWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "c51cdda4fa6b6e7053f7cb8a385fba850cf587fac3b0b20aa2e5c807e048fd60"
+  },
+  "install": [
+    {
+      "from": "apps/TrojanWii/",
+      "to": "apps/TrojanWii/"
+    }
+  ]
+}

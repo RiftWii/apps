@@ -1,0 +1,28 @@
+{
+  "id": "WiiStation",
+  "name": "Wiistation",
+  "author": "xjsxjs197",
+  "category": "emulators",
+  "description": "PSX Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "xjsxjs197/WiiSXRX_2022",
+    "asset": "WiiStation_Ver*.zip"
+  },
+  "page": "https://github.com/xjsxjs197/WiiSXRX_2022",
+  "format": "zip",
+  "pin": {
+    "sha256": "9a492297721ca1156796b908ba9a0f996926bd1fc32b88bb5a5aa0c54a6c7a7c",
+    "tag": "WiiStation_Ver3.2"
+  },
+  "install": [
+    {
+      "from": "WiiStation_Ver3.2/apps/WiiStation_Ver3.2/",
+      "to": "apps/WiiStation/"
+    }
+  ]
+}

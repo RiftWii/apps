@@ -1,0 +1,28 @@
+{
+  "id": "FCEURX",
+  "name": "FCE Ultra RX",
+  "author": "NiuuS, Tantric",
+  "category": "emulators",
+  "description": "Nintendo Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "niuus/FCEUltraRX",
+    "asset": "FCEUltraRX-*[!GCN].zip"
+  },
+  "page": "https://github.com/niuus/FCEUltraRX",
+  "format": "zip",
+  "pin": {
+    "sha256": "800b4711dcec6f35066791ac92b2a716016bf0d9ddc2617249cb5e3cbbfb9ab5",
+    "tag": "v1.7.0"
+  },
+  "install": [
+    {
+      "from": "apps/FCEURX/",
+      "to": "apps/FCEURX/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "neopop",
+  "name": "NeoPop GX",
+  "author": "Eke-Eke",
+  "category": "emulators",
+  "description": "Neo Geo Pocket Color Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/neopop.zip",
+    "version": "0.71.2"
+  },
+  "page": "https://oscwii.org/library/app/neopop",
+  "format": "zip",
+  "pin": {
+    "sha256": "e74200efad18afd2a059bc87fa1a14c6bd3c9bdcb65be67edd96e94c9c160673"
+  },
+  "install": [
+    {
+      "from": "apps/neopop/",
+      "to": "apps/neopop/"
+    }
+  ]
+}

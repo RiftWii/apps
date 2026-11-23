@@ -1,0 +1,27 @@
+{
+  "id": "NewoDefence",
+  "name": "Newo Defence",
+  "author": "Owen",
+  "category": "games",
+  "description": "Like Missile command in space!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/NewoDefence.zip",
+    "version": "1.2"
+  },
+  "page": "https://oscwii.org/library/app/NewoDefence",
+  "format": "zip",
+  "pin": {
+    "sha256": "60ffcea6acb33a219c364b8801bd02cf5142ffd9af2bcd9311578e8d0b8f8f29"
+  },
+  "install": [
+    {
+      "from": "NewoDefence/",
+      "to": "apps/NewoDefence/"
+    }
+  ]
+}

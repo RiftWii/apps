@@ -1,0 +1,21 @@
+{
+  "id": "ftpii",
+  "name": "ftpii",
+  "author": "joedj",
+  "category": "system",
+  "description": "An FTP server",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/FTPii_0.0.22_HBC_package.7z",
+    "version": "0.0.22"
+  },
+  "page": "https://oscwii.org/library/app/ftpii",
+  "format": "7z",
+  "pin": {
+    "sha256": "e6e71847644d1ff28c99dc1a31cd859943d6c092d0c8377974f25427c8c9fcc4"
+  }
+}

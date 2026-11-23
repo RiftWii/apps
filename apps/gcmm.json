@@ -1,0 +1,26 @@
+{
+  "id": "gcmm",
+  "name": "GCMM",
+  "author": "suloku",
+  "category": "gametools",
+  "description": "Memory Card Manager",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "suloku/gcmm",
+    "asset": "gcmm_*.zip"
+  },
+  "page": "https://github.com/suloku/gcmm",
+  "format": "zip",
+  "pin": {
+    "sha256": "840dbfea6d4fbd5f266dcda92e69088d78fb95987685a2d65285d07b66986f5f",
+    "tag": "1.5.2"
+  },
+  "install": [
+    {
+      "from": "*/wii/gcmm/",
+      "to": "apps/gcmm/"
+    }
+  ]
+}

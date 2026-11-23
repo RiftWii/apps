@@ -1,0 +1,27 @@
+{
+  "id": "NewoZero",
+  "name": "Newo Zero",
+  "author": "Owen",
+  "category": "games",
+  "description": "high speed racing",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/newozero.zip",
+    "version": "4.46"
+  },
+  "page": "https://oscwii.org/library/app/NewoZero",
+  "format": "zip",
+  "pin": {
+    "sha256": "9bf9d2c7d62fc8244e6f1f993d30dd7e217be05648d620983403b01bd7a989fc"
+  },
+  "install": [
+    {
+      "from": "newozero/",
+      "to": "apps/NewoZero/"
+    }
+  ]
+}

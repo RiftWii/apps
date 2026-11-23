@@ -1,0 +1,28 @@
+{
+  "id": "wiimc",
+  "name": "WiiMC",
+  "author": "Tantric, rodries",
+  "category": "media",
+  "description": "Wii Media Player",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/wiimc",
+    "asset": "WiiMC.*.New.Install.zip"
+  },
+  "page": "https://github.com/dborth/wiimc",
+  "format": "zip",
+  "pin": {
+    "sha256": "53a4a7c5a2b41838b33fc61ad19db32cd85941719871d1871513d150dabb2dd7",
+    "tag": "1.3.4"
+  },
+  "install": [
+    {
+      "from": "apps/wiimc/",
+      "to": "apps/wiimc/"
+    }
+  ]
+}

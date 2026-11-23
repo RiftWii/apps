@@ -1,0 +1,35 @@
+{
+  "id": "hatari",
+  "name": "HatariWii",
+  "author": "Wiimpathy",
+  "category": "emulators",
+  "description": "Atari ST Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Wiimpathy/HatariWii",
+    "asset": "HatariWii-*.zip"
+  },
+  "page": "https://github.com/Wiimpathy/HatariWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "b90839ce8e21583edf96a586b388504a75511f1892a7c9bc0670ca401afd921e",
+    "tag": "v0.0.5"
+  },
+  "install": [
+    {
+      "from": "apps/hatari/",
+      "to": "apps/hatari/"
+    },
+    {
+      "from": "hatari/",
+      "to": "hatari/"
+    }
+  ],
+  "data_folders": [
+    "hatari"
+  ]
+}

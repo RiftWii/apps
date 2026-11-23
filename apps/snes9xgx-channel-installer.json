@@ -1,0 +1,26 @@
+{
+  "id": "snes9xgx-channel-installer",
+  "name": "Snes9x GX Channel Installer",
+  "author": "Tantric",
+  "category": "wiimenu",
+  "description": "Snes9x GX Channel Installer",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/snes9xgx-channel-installer.zip",
+    "version": "1.2"
+  },
+  "page": "https://oscwii.org/library/app/snes9xgx-channel-installer",
+  "format": "zip",
+  "pin": {
+    "sha256": "fdccaeb1a02a797b7462527e336ffca81c37066426daf9cfc37950d7cde53782"
+  },
+  "install": [
+    {
+      "from": "apps/snes9xgx-channel-installer/",
+      "to": "apps/snes9xgx-channel-installer/"
+    }
+  ]
+}

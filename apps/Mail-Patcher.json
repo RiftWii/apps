@@ -1,0 +1,28 @@
+{
+  "id": "Mail-Patcher",
+  "name": "WiiLink Mail Patcher",
+  "author": "WiiLink",
+  "category": "online",
+  "description": "Patches Wii Mail to WiiLink's domain",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "WiiLink24/Mail-Patcher",
+    "asset": "Mail-Patcher.zip"
+  },
+  "page": "https://github.com/WiiLink24/Mail-Patcher",
+  "format": "zip",
+  "pin": {
+    "sha256": "44752038b648ba66c6e6a17041764d041e7bd9ca148045d8a8073545015eec29",
+    "tag": "v2.2.2"
+  },
+  "install": [
+    {
+      "from": "apps/Mail-Patcher/",
+      "to": "apps/Mail-Patcher/"
+    }
+  ]
+}

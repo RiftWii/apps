@@ -1,0 +1,28 @@
+{
+  "id": "retro_tennis_2",
+  "name": "Retro Tennis 2",
+  "author": "ZombieNW",
+  "category": "games",
+  "description": "A fancy pong clone for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "ZombieNW/Retro-Tennis-2",
+    "asset": "Retro.Tennis.2.Homebrew.Channel.zip"
+  },
+  "page": "https://github.com/ZombieNW/Retro-Tennis-2",
+  "format": "zip",
+  "pin": {
+    "sha256": "aaa80b34128d41f40f3ae7d8fc6f526cb3e9e046d5a1ce9168315ab4b525564f",
+    "tag": "1.0"
+  },
+  "install": [
+    {
+      "from": "retro_tennis_2/",
+      "to": "apps/retro_tennis_2/"
+    }
+  ]
+}

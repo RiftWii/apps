@@ -1,0 +1,27 @@
+{
+  "id": "WiiMotionSynth",
+  "name": "Wii Motion Synth",
+  "author": "CGdiego",
+  "category": "creative",
+  "description": "Wii Remote motion synthesizer",
+  "page": "https://github.com/CGdiego/Wii-Motion-Synth",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "CGdiego/Wii-Motion-Synth",
+    "asset": "WiiMotionSynth-v*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.3.0",
+    "sha256": "895c9d6a0fa3da15e30cca785e77562f6aa87dc18a2bb4f8e82b26c597991cba"
+  },
+  "install": [
+    {
+      "from": "apps/WiiMotionSynth/",
+      "to": "apps/WiiMotionSynth/"
+    }
+  ]
+}

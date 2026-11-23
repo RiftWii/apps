@@ -1,0 +1,28 @@
+{
+  "id": "neverball",
+  "name": "Neverball",
+  "author": "Jānis Rūcis, Alberto Mardegan (port)",
+  "category": "games",
+  "description": "3D floor-tilting game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/neverball",
+    "asset": "neverball*.zip"
+  },
+  "page": "https://github.com/mardy/neverball",
+  "format": "zip",
+  "pin": {
+    "sha256": "32a037be1b6aa91ca49c471060715690f35abc61edb7f2fd049f4b6ea28327a1",
+    "tag": "1.6.0+git20180603-wii1"
+  },
+  "install": [
+    {
+      "from": "neverball/",
+      "to": "apps/neverball/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "netsurf",
+  "name": "NetSurf Wii",
+  "author": "quatric",
+  "category": "internet",
+  "description": "NetSurf 3.12 Dev — Experimental",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "quatric/netsurf-wii",
+    "asset": "netsurf-wii.zip"
+  },
+  "page": "https://github.com/quatric/netsurf-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "85feb5a89662e2ce80e1fb642043c97530b5b57f381d13e2cff796d7c4a441ad",
+    "tag": "v1.2.0"
+  },
+  "install": [
+    {
+      "from": "apps/netsurf/",
+      "to": "apps/netsurf/"
+    }
+  ]
+}

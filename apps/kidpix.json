@@ -1,0 +1,27 @@
+{
+  "id": "kidpix",
+  "name": "Kid Pix",
+  "author": "quatric",
+  "category": "creative",
+  "description": "jskidpix recreation (unofficial)",
+  "page": "https://github.com/quatric/kidpix-wii",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "quatric/kidpix-wii",
+    "asset": "kidpix-wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v0.3.2",
+    "sha256": "ec998aa3d30eb73a241b8561438ee5256da6b64dd00b45382021eb1223fb2b79"
+  },
+  "install": [
+    {
+      "from": "apps/kidpix/",
+      "to": "apps/kidpix/"
+    }
+  ]
+}

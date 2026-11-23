@@ -1,0 +1,25 @@
+{
+  "id": "KoreanKii",
+  "name": "KoreanKii",
+  "author": "tueidj, JoostinOnline",
+  "category": "system",
+  "description": "Add or remove the Korean key from the SEEPROM.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/KoreanKii-1.1.zip",
+    "version": "1.1"
+  },
+  "page": "https://oscwii.org/library/app/KoreanKii",
+  "format": "zip",
+  "pin": {
+    "sha256": "7e9427e9fe9c14af92920d0fd3227e1c53f2fb4e3170eadbe8cc73c832dc9902"
+  },
+  "install": [
+    {
+      "from": "apps/KoreanKii/",
+      "to": "apps/KoreanKii/"
+    }
+  ]
+}

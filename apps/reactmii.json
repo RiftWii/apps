@@ -1,0 +1,27 @@
+{
+  "id": "reactmii",
+  "name": "ReactMii",
+  "author": "Some_Random_guy",
+  "category": "games",
+  "description": "Minimal Wii reaction time tester.",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Some-Random-Guy123456/ReactMii",
+    "asset": "reactmii.zip"
+  },
+  "page": "https://github.com/Some-Random-Guy123456/ReactMii",
+  "format": "zip",
+  "pin": {
+    "sha256": "4877937d2f008b010964a58970c207b2d2b603d4b18973a182ee60aedb7878a8",
+    "tag": "v0.3"
+  },
+  "install": [
+    {
+      "from": "apps/reactmii/",
+      "to": "apps/reactmii/"
+    }
+  ]
+}

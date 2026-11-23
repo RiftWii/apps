@@ -1,0 +1,101 @@
+# SPDX-FileCopyrightText: 2026 RiftWii contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# On every push to main: download every pinned file, check it again, write
+# apps.json and the icons, and deploy them to GitHub Pages
+# (https://riftwii.github.io/apps/). No app is hosted here: apps.json points
+# at each app's own release file.
+# The repository's Settings > Pages source must be "GitHub Actions".
+name: publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One deploy at a time, and never cancel one halfway.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # TODO: main once KakarottoCake/Riftwii#608 is merged.
+  RIFTWII_REPO: KakarottoCake/Riftwii
+  RIFTWII_REF: app-list
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check out RiftWii's list tools
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.RIFTWII_REPO }}
+          ref: ${{ env.RIFTWII_REF }}
+          path: riftwii
+          persist-credentials: false
+          sparse-checkout: |
+            tools/app_list.py
+            tools/app_list_check.cpp
+            src/net/applist.cpp
+            include/riftwii/applist.hpp
+            include/riftwii/jsonreader.hpp
+          sparse-checkout-cone-mode: false
+
+      - name: Build app_list_check
+        run: sh scripts/build_app_list_check.sh riftwii "$RUNNER_TEMP/app_list_check"
+
+      # The files are about 1 GB in all; keep them between runs so only a
+      # changed pin is downloaded again.
+      - name: Restore downloaded files
+        uses: actions/cache/restore@v4
+        with:
+          path: .app-cache
+          key: app-cache-${{ hashFiles('apps/*.json') }}
+          restore-keys: app-cache-
+
+      # A list RiftWii's parser would cut short is never published: build
+      # fails on any problem, including an app the Wii would leave out.
+      - name: Build apps.json and the icons
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >
+          python3 -I riftwii/tools/app_list.py
+          --cache .app-cache
+          --check-tool "$RUNNER_TEMP/app_list_check"
+          build apps site
+
+      - name: Save downloaded files
+        uses: actions/cache/save@v4
+        with:
+          path: .app-cache
+          key: app-cache-${{ hashFiles('apps/*.json') }}
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

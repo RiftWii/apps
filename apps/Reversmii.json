@@ -1,0 +1,27 @@
+{
+  "id": "Reversmii",
+  "name": "Reversmii",
+  "author": "chris",
+  "category": "games",
+  "description": "Othello",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "http://www.toxicbreakfast.com/cgi-bin/download?file=reversmii.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/Reversmii",
+  "format": "zip",
+  "pin": {
+    "sha256": "219669587a950f652279d8be665d0b91b89162dff675fbc56b2cdab19f9a170e"
+  },
+  "install": [
+    {
+      "from": "apps/Reversmii/",
+      "to": "apps/Reversmii/"
+    }
+  ]
+}

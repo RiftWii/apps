@@ -1,0 +1,28 @@
+{
+  "id": "wiiSX",
+  "name": "WiiSX",
+  "author": "Wii64 Team",
+  "category": "emulators",
+  "description": "PSX Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "emukidid/pcsxgc",
+    "asset": "WiiSX-*.zip"
+  },
+  "page": "https://github.com/emukidid/pcsxgc",
+  "format": "zip",
+  "pin": {
+    "sha256": "aee9e3fa72f9965450edf117a4b276df9af5ec1f5e998a199c6b777eab486ce5",
+    "tag": "Beta_4.2.2"
+  },
+  "install": [
+    {
+      "from": "apps/wiiSX/",
+      "to": "apps/wiiSX/"
+    }
+  ]
+}

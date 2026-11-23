@@ -1,0 +1,25 @@
+{
+  "id": "wiibatak",
+  "name": "Wii Batak",
+  "author": "Koopa van Beethoven",
+  "category": "games",
+  "description": "Single-player Batak",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://github.com/ludwigkoopaa/wiibatak/releases/download/v0.1.1/wiibatak-0.1.1.zip",
+    "version": "0.1.1"
+  },
+  "page": "https://oscwii.org/library/app/wiibatak",
+  "format": "zip",
+  "pin": {
+    "sha256": "585cdc3be3f8f70780c6184e1589b1274d222b52c9aab5dd4161958c0f62726b"
+  },
+  "install": [
+    {
+      "from": "apps/wiibatak/",
+      "to": "apps/wiibatak/"
+    }
+  ]
+}

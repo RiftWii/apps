@@ -1,0 +1,28 @@
+{
+  "id": "flapwii",
+  "name": "Flapwii Bird",
+  "author": "TheBlueOompaLoompa",
+  "category": "games",
+  "description": "Flappy Bird for the Wii!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "TheBlueOompaLoompa/flapwii-bird",
+    "asset": "flapwii.zip"
+  },
+  "page": "https://github.com/TheBlueOompaLoompa/flapwii-bird",
+  "format": "zip",
+  "pin": {
+    "sha256": "f6d8538edcd1d10bb888558fc858f2b5b8a3b2de91eb22c85d317f5534d7b815",
+    "tag": "1.2.1"
+  },
+  "install": [
+    {
+      "from": "apps/flapwii/",
+      "to": "apps/flapwii/"
+    }
+  ]
+}

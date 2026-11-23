@@ -1,0 +1,27 @@
+{
+  "id": "easingdemo",
+  "name": "EasingDemo",
+  "author": "Owen",
+  "category": "toys",
+  "description": "Demo visualization",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/easingdemo.zip",
+    "version": "1"
+  },
+  "page": "https://oscwii.org/library/app/easingdemo",
+  "format": "zip",
+  "pin": {
+    "sha256": "50e67a4eac2805fc2dd7688f525cf4ba3f5ffc4d8ad2bfc1980bb4f8d94901d2"
+  },
+  "install": [
+    {
+      "from": "easingdemo/",
+      "to": "apps/easingdemo/"
+    }
+  ]
+}

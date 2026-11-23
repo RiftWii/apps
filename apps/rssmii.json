@@ -1,0 +1,27 @@
+{
+  "id": "rssmii",
+  "name": "RSSMii",
+  "author": "WiiDatabase.de, RiiConnect24, main()",
+  "category": "online",
+  "description": "Subscribe to RSS-Feeds!",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "RiiConnect24/rssmii",
+    "asset": "rssmii.zip"
+  },
+  "page": "https://github.com/RiiConnect24/rssmii",
+  "format": "zip",
+  "pin": {
+    "sha256": "7aae749b84f669848d85e12f7bf70395489fa68b9e1accde897aa7f02043489b",
+    "tag": "v1.4.1"
+  },
+  "install": [
+    {
+      "from": "apps/rssmii/",
+      "to": "apps/rssmii/"
+    }
+  ]
+}

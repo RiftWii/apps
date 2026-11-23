@@ -1,0 +1,27 @@
+{
+  "id": "wiimednafen",
+  "name": "WiiMednafen",
+  "author": "raz0red",
+  "category": "emulators",
+  "description": "Mednafen Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/wiimednafen.zip",
+    "version": "0.2-pre"
+  },
+  "page": "https://oscwii.org/library/app/wiimednafen",
+  "format": "zip",
+  "pin": {
+    "sha256": "2e56d796ce9d424d3e197709eb7e71d219c88b5af4a74c6a26d3faee84866d15"
+  },
+  "install": [
+    {
+      "from": "apps/wiimednafen/",
+      "to": "apps/wiimednafen/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "chromono",
+  "name": "chro.mono",
+  "author": "Thomas Perl, Alberto Mardegan (port)",
+  "category": "games",
+  "description": "Circle color puzzle game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/chromono",
+    "asset": "chromono*.zip"
+  },
+  "page": "https://github.com/mardy/chromono",
+  "format": "zip",
+  "pin": {
+    "sha256": "db22a156a0e95873ff9e676fd3c513495a06cc3060f12ff31c3665a2fdd37df8",
+    "tag": "1.1.1-git3"
+  },
+  "install": [
+    {
+      "from": "chromono/",
+      "to": "apps/chromono/"
+    }
+  ]
+}

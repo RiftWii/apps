@@ -1,0 +1,34 @@
+{
+  "id": "cavestory",
+  "name": "Cave Story",
+  "author": "autumn_mnya",
+  "category": "games",
+  "description": "Port of Cave Story to the Wii.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://autumn-mnya.github.io/games/cavestorywii/files/cavestorywii_1.0.1.zip",
+    "version": "1.0.1"
+  },
+  "page": "https://oscwii.org/library/app/cavestory",
+  "format": "zip",
+  "pin": {
+    "sha256": "b6d22c964f890e415c2af4325ef13baaf5dc1719810e8e8b2dd6cf21e6a2d790"
+  },
+  "install": [
+    {
+      "from": "apps/cavestory/",
+      "to": "apps/cavestory/"
+    },
+    {
+      "from": "cavestory/",
+      "to": "cavestory/"
+    }
+  ],
+  "data_folders": [
+    "cavestory"
+  ]
+}

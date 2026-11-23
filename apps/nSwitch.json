@@ -1,0 +1,25 @@
+{
+  "id": "nSwitch",
+  "name": "nswitch",
+  "author": "OverjoY",
+  "category": "loaders",
+  "description": "neek/realnand switcher",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/nSwitch.zip",
+    "version": "4.2"
+  },
+  "page": "https://oscwii.org/library/app/nSwitch",
+  "format": "zip",
+  "pin": {
+    "sha256": "6a9df0b0977dead8615ba2db8c000f302d4674edd045e6967d8b9ee9fe12934b"
+  },
+  "install": [
+    {
+      "from": "apps/nSwitch/",
+      "to": "apps/nSwitch/"
+    }
+  ]
+}

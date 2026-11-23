@@ -1,0 +1,26 @@
+{
+  "id": "WiiMedic",
+  "name": "WiiMedic",
+  "author": "PowFPS1",
+  "category": "system",
+  "description": "System Diagnostic & Health Monitor",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "PowFPS1/WiiMedic",
+    "asset": "WiiMedic_*.zip"
+  },
+  "page": "https://github.com/PowFPS1/WiiMedic",
+  "format": "zip",
+  "pin": {
+    "sha256": "877211e2f14b32b0125113a2c19c5d9f584883071c92f961f980913e13b3af54",
+    "tag": "v1.3.2"
+  },
+  "install": [
+    {
+      "from": "apps/WiiMedic/",
+      "to": "apps/WiiMedic/"
+    }
+  ]
+}

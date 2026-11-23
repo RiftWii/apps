@@ -1,0 +1,20 @@
+{
+  "id": "pedrowii",
+  "name": "pedrowii",
+  "author": "oscie",
+  "category": "toys",
+  "description": "pedrowii is pedrowii.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "oscie57/pedrowii",
+    "asset": "release.7z"
+  },
+  "page": "https://github.com/oscie57/pedrowii",
+  "format": "7z",
+  "pin": {
+    "sha256": "562f9f8084b30bc9199be21cac885db69584d2700a9730e87ad79c84257fd36a",
+    "tag": "1.0.0"
+  }
+}

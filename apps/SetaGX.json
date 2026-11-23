@@ -1,0 +1,28 @@
+{
+  "id": "SetaGX",
+  "name": "Seta GX",
+  "author": "Evoca",
+  "category": "emulators",
+  "description": "Sega Saturn Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "fadedled/seta-gx",
+    "asset": "setagx-*.zip"
+  },
+  "page": "https://github.com/fadedled/seta-gx",
+  "format": "zip",
+  "pin": {
+    "sha256": "e7e6291496a191d1ec0cb4b64f70b093dfdbf4a4e52c88765d11ce422075d689",
+    "tag": "v0-4-1"
+  },
+  "install": [
+    {
+      "from": "apps/SetaGX/",
+      "to": "apps/SetaGX/"
+    }
+  ]
+}

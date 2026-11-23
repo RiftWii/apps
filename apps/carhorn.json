@@ -1,0 +1,27 @@
+{
+  "id": "carhorn",
+  "name": "Car Horn",
+  "author": "dakotath",
+  "category": "toys",
+  "description": "A car horn",
+  "page": "https://github.com/dakotath/carhorn",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "dakotath/carhorn",
+    "asset": "carhorn.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "release2",
+    "sha256": "c076f58ab3dcc6f159ca01c02b0debe29fe5d16d479cc3314505dde8e34afd9f"
+  },
+  "install": [
+    {
+      "from": "apps/carhorn/",
+      "to": "apps/carhorn/"
+    }
+  ]
+}

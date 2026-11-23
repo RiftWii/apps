@@ -1,0 +1,21 @@
+{
+  "id": "YGO-DT_DLC_Tool",
+  "name": "Yu-Gi-Oh! Duel Transer Data Tool",
+  "author": "Diego A. (SuperrSonic)",
+  "category": "gametools",
+  "description": "Yu-Gi-Oh! DLC Tool",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/YGO-DT_Tool.7z",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/YGO-DT_DLC_Tool",
+  "format": "7z",
+  "pin": {
+    "sha256": "d9b8cf3885cf5e5b41b42465ac636b1e5f8000670956d220a3dc91544492134c"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "PairMyDS4",
+  "name": "Pair My DS4",
+  "author": "Xerpi",
+  "category": "controllers",
+  "description": "Pairing Tool for PS4 Controller",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/PairMyDS4.zip",
+    "version": "20150101"
+  },
+  "page": "https://oscwii.org/library/app/PairMyDS4",
+  "format": "zip",
+  "pin": {
+    "sha256": "9df40fcd0534859151101468e74f03b88f10f072af49657830de579c4ff73850"
+  },
+  "install": [
+    {
+      "from": "apps/PairMyDS4/",
+      "to": "apps/PairMyDS4/"
+    }
+  ]
+}

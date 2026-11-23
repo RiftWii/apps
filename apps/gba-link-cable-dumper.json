@@ -1,0 +1,26 @@
+{
+  "id": "gba-link-cable-dumper",
+  "name": "GBA Link Cable Dumper",
+  "author": "FIX94",
+  "category": "gametools",
+  "description": "No description provided.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "FIX94/gba-link-cable-dumper",
+    "asset": "gba-link-cable-dumper-v1.6.zip"
+  },
+  "page": "https://github.com/FIX94/gba-link-cable-dumper",
+  "format": "zip",
+  "pin": {
+    "sha256": "48d42d299b04cd575eb61686dc59fbe5e897096ead727ca43a39117b8701d21b",
+    "tag": "v1.6"
+  },
+  "install": [
+    {
+      "from": "linkcabledump_wii.dol",
+      "to": "apps/gba-link-cable-dumper/boot.dol"
+    }
+  ]
+}

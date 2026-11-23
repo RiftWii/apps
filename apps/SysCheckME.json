@@ -1,0 +1,27 @@
+{
+  "id": "SysCheckME",
+  "name": "SysCheck ModMii Edition",
+  "author": "blackb0x, JoostinOnline, Double_A, R2-D2199, Nano",
+  "category": "system",
+  "description": "System Checker ModMii Edition",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "modmii/SysCheck-ModMii-Edition",
+    "asset": "SysCheckME.zip"
+  },
+  "page": "https://github.com/modmii/SysCheck-ModMii-Edition",
+  "format": "zip",
+  "pin": {
+    "sha256": "5dfa3dd39c517e8d1b00f77e1718582b8b6e57541c0824f0ec199b37f214c4cb",
+    "tag": "2.5.0"
+  },
+  "install": [
+    {
+      "from": "apps/SysCheckME/",
+      "to": "apps/SysCheckME/"
+    }
+  ]
+}

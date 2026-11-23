@@ -1,0 +1,27 @@
+{
+  "id": "mightymike",
+  "name": "Mighty Mike",
+  "author": "quatric",
+  "category": "games",
+  "description": "Pangea's game, CC BY-NC-SA with Pangea's permission",
+  "page": "https://github.com/quatric/mightymike-wii",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "quatric/mightymike-wii",
+    "asset": "mightymike-wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.1",
+    "sha256": "cc9d7e1b8a53e7851420d2799c4238259e47e1367b525a16fbbf2371c6d69b95"
+  },
+  "install": [
+    {
+      "from": "apps/mightymike/",
+      "to": "apps/mightymike/"
+    }
+  ]
+}

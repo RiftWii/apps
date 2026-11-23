@@ -1,0 +1,22 @@
+{
+  "id": "mgba",
+  "name": "mGBA",
+  "author": "Vicki Pfau (endrift)",
+  "category": "emulators",
+  "description": "mGBA Game Boy Advance emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mgba-emu/mgba",
+    "asset": "mGBA-*-wii.7z"
+  },
+  "page": "https://github.com/mgba-emu/mgba",
+  "format": "7z",
+  "pin": {
+    "sha256": "963c1db137ad35451f03de5a978fffc57c3b898d0d45111568dbee5c8b0e004e",
+    "tag": "0.10.5"
+  }
+}

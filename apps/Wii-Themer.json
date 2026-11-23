@@ -1,0 +1,25 @@
+{
+  "id": "Wii-Themer",
+  "name": "Wii-Themer",
+  "author": "Scooby74029",
+  "category": "wiimenu",
+  "description": "No description provided.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/Wii-Themer.zip",
+    "version": "2.0.1"
+  },
+  "page": "https://oscwii.org/library/app/Wii-Themer",
+  "format": "zip",
+  "pin": {
+    "sha256": "696febf17fbc8c3157fb79cba0c02e92aafeae7b87dcda8d6887690f2ce4e767"
+  },
+  "install": [
+    {
+      "from": "apps/Wii-Themer/",
+      "to": "apps/Wii-Themer/"
+    }
+  ]
+}

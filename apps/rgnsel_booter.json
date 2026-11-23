@@ -1,0 +1,28 @@
+{
+  "id": "rgnsel_booter",
+  "name": "rgnsel booter",
+  "author": "iCON",
+  "category": "loaders",
+  "description": "Boots region select channel",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Brawl345/rgnsel_booter",
+    "asset": "rgnsel_booter-*.zip"
+  },
+  "page": "https://github.com/Brawl345/rgnsel_booter",
+  "format": "zip",
+  "pin": {
+    "sha256": "cfb464ab19a1ffa4f5280bf99f3bf8130e9c977560c6967e24ada4846f5c7f89",
+    "tag": "1.0"
+  },
+  "install": [
+    {
+      "from": "rgnsel_booter/",
+      "to": "apps/rgnsel_booter/"
+    }
+  ]
+}

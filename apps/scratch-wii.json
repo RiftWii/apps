@@ -1,0 +1,27 @@
+{
+  "id": "scratch-wii",
+  "name": "Scratch Everywhere!",
+  "author": "NateXS",
+  "category": "games",
+  "description": "Play Scratch games on anything!",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "ScratchEverywhere/ScratchEverywhere",
+    "asset": "scratch-wii.zip"
+  },
+  "page": "https://github.com/ScratchEverywhere/ScratchEverywhere",
+  "format": "zip",
+  "pin": {
+    "sha256": "be4b23c860f2544860d0d45a03dbdd29ed106c8e297722b0554ede11fb8b8d8b",
+    "tag": "1.3"
+  },
+  "install": [
+    {
+      "from": "apps/scratch-wii/",
+      "to": "apps/scratch-wii/"
+    }
+  ]
+}

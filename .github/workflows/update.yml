@@ -1,0 +1,75 @@
+# SPDX-FileCopyrightText: 2026 RiftWii contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Once a day: pin every GitHub app to its newest release (or a nightly
+# fork's newest build) and open one pull request with the new pins. Nothing
+# changes for players until a maintainer merges it: the review is the
+# approval.
+name: update
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+env:
+  # TODO: main once KakarottoCake/Riftwii#608 is merged.
+  RIFTWII_REPO: KakarottoCake/Riftwii
+  RIFTWII_REF: app-list
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out RiftWii's list tools
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.RIFTWII_REPO }}
+          ref: ${{ env.RIFTWII_REF }}
+          path: riftwii
+          persist-credentials: false
+          sparse-checkout: |
+            tools/app_list.py
+          sparse-checkout-cone-mode: false
+
+      - name: Restore downloaded files
+        uses: actions/cache/restore@v4
+        with:
+          path: .app-cache
+          key: app-cache-${{ hashFiles('apps/*.json') }}
+          restore-keys: app-cache-
+
+      - name: Pin new releases
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 -I riftwii/tools/app_list.py --cache .app-cache update apps | tee "$RUNNER_TEMP/update.txt"
+
+      # One branch, replaced each day, so there is at most one open update.
+      - name: Open the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- apps; then
+            echo "Every app is on its newest release."
+            exit 0
+          fi
+          git config user.name "riftwii"
+          git config user.email "riftwii@localhost"
+          git switch -C update/pins
+          git add apps
+          git commit -q -m "New releases: $(git diff --cached --name-only | sed 's#apps/##; s#\.json##' | paste -sd ' ' -)"
+          git push -f origin update/pins
+          if ! gh pr view update/pins --json state --jq .state 2>/dev/null | grep -q OPEN; then
+            { echo "New releases pinned by the daily update. Check each one before merging:"; echo; grep "pinned" "$RUNNER_TEMP/update.txt" | sed 's/^/- /'; } > "$RUNNER_TEMP/body.md"
+            gh pr create --base main --head update/pins --title "New app releases" --body-file "$RUNNER_TEMP/body.md"
+          fi

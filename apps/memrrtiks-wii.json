@@ -1,0 +1,27 @@
+{
+  "id": "memrrtiks-wii",
+  "name": "memrrtiks, suashem",
+  "author": "Terry Cavanagh",
+  "category": "games",
+  "description": "by Terry Cavanagh",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://reterry.uk/memrrtiks-wii.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/memrrtiks-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "c734d374246e1a5c394bfe696d9d88d726e748eefcb7f3d9d506046907bcaa91"
+  },
+  "install": [
+    {
+      "from": "apps/memrrtiks-wii/",
+      "to": "apps/memrrtiks-wii/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ntp",
+  "name": "NTP client",
+  "author": "Galaxy Master",
+  "category": "system",
+  "description": "Network Time Protocol client",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/ntp.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/ntp",
+  "format": "zip",
+  "pin": {
+    "sha256": "00e963bde8b9b889c1486258d968340aa7244e95dcf9ca323842e2c364189d74"
+  },
+  "install": [
+    {
+      "from": "apps/ntp/",
+      "to": "apps/ntp/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "WoxelCraft",
+  "name": "WoxelCraft",
+  "author": "DaeFennek",
+  "category": "games",
+  "description": "3D Voxel Engine and Minecraft clone",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "kperdlich/wii-voxel-engine",
+    "asset": "woxelcraft_0_0_7.rar"
+  },
+  "page": "https://github.com/kperdlich/wii-voxel-engine",
+  "format": "rar",
+  "pin": {
+    "sha256": "61b2c3cd09c68b06ffbe8a3f4e47b85388dc1d828af77155d3cb34aca64bf761",
+    "tag": "v0.0.7"
+  }
+}

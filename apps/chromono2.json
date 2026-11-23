@@ -1,0 +1,27 @@
+{
+  "id": "chromono2",
+  "name": "chro.mono 2",
+  "author": "thp",
+  "category": "games",
+  "description": "A very circular puzzle game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/chromono2.zip",
+    "version": "2.3.0"
+  },
+  "page": "https://oscwii.org/library/app/chromono2",
+  "format": "zip",
+  "pin": {
+    "sha256": "566f3219f6df74fc0b730a1010001f925ae2427770965ae5f6458503edec29e2"
+  },
+  "install": [
+    {
+      "from": "apps/chromono2/",
+      "to": "apps/chromono2/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "wiiwhiteboard",
+  "name": "WiiWhiteboard",
+  "author": "Bg",
+  "category": "creative",
+  "description": "Interactive Whiteboard",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/wiiwhiteboard.zip",
+    "version": "0.2b"
+  },
+  "page": "https://oscwii.org/library/app/wiiwhiteboard",
+  "format": "zip",
+  "pin": {
+    "sha256": "a34d58eadcd761d66b531d220be046d445581eb54dfa8b9baf736c532375d26d"
+  },
+  "install": [
+    {
+      "from": "apps/wiiwhiteboard/",
+      "to": "apps/wiiwhiteboard/"
+    }
+  ]
+}

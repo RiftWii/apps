@@ -1,0 +1,28 @@
+{
+  "id": "korbodonut",
+  "name": "Korbo's Donut Shop",
+  "author": "Korbo",
+  "category": "toys",
+  "description": "Korbo's spinning donut!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "korbosoft/korbo-donut",
+    "asset": "donut-wii.zip"
+  },
+  "page": "https://github.com/korbosoft/korbo-donut",
+  "format": "zip",
+  "pin": {
+    "sha256": "63589ca04635058d890968d731020b946fcceb0ec8407610812ab8bdf8b158bb",
+    "tag": "v8.7.0"
+  },
+  "install": [
+    {
+      "from": "korbo-donut/",
+      "to": "apps/korbodonut/"
+    }
+  ]
+}

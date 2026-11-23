@@ -1,0 +1,28 @@
+{
+  "id": "betterpii",
+  "name": "betterpii",
+  "author": "Dakotath",
+  "category": "creative",
+  "description": "Calculates Pi.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dakotath/betterpii",
+    "asset": "betterpii.zip"
+  },
+  "page": "https://github.com/dakotath/betterpii",
+  "format": "zip",
+  "pin": {
+    "sha256": "bea404b022f3887f125abe64dd130818fb2d27a58689b2f5eb808aa4d8f3457f",
+    "tag": "betterpii"
+  },
+  "install": [
+    {
+      "from": "apps/betterpii/",
+      "to": "apps/betterpii/"
+    }
+  ]
+}

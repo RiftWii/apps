@@ -1,0 +1,21 @@
+{
+  "id": "gxgeo",
+  "name": "GxGeo",
+  "author": "blizzo",
+  "category": "emulators",
+  "description": "Neo-Geo Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gxgeo/gxgeo-20101119.tar.gz",
+    "version": "20101119"
+  },
+  "page": "https://oscwii.org/library/app/gxgeo",
+  "format": "tar.gz",
+  "pin": {
+    "sha256": "e3a218804b0b9ea2dd5c0ebd81f150d5836706af11928ef42ce720783702d491"
+  }
+}

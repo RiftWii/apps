@@ -1,0 +1,27 @@
+{
+  "id": "WiiFractals",
+  "name": "WiiFractals",
+  "author": "Abdelali221",
+  "category": "toys",
+  "description": "Fractal Generator!",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Abdelali221/WiiFractals",
+    "asset": "WiiFractals.zip"
+  },
+  "page": "https://github.com/Abdelali221/WiiFractals",
+  "format": "zip",
+  "pin": {
+    "sha256": "09ca2e46b398d4c91904fb2d7cca25e10dcd98aefa55c2a7945f103b5fe9c089",
+    "tag": "1.0"
+  },
+  "install": [
+    {
+      "from": "apps/WiiFractals/",
+      "to": "apps/WiiFractals/"
+    }
+  ]
+}

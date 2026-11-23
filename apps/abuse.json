@@ -1,0 +1,28 @@
+{
+  "id": "abuse",
+  "name": "Abuse Wii",
+  "author": "Many",
+  "category": "games",
+  "description": "Abuse for the Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "HunterZ/abuse-wii",
+    "asset": "abuse.zip"
+  },
+  "page": "https://github.com/HunterZ/abuse-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "a90268a6ee16d5a06c2e6b0b9eb3ccae4b698aed0611e723499a95a78ca787f7",
+    "tag": "0.8.684.2"
+  },
+  "install": [
+    {
+      "from": "abuse/",
+      "to": "apps/abuse/"
+    }
+  ]
+}

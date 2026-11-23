@@ -1,0 +1,28 @@
+{
+  "id": "buttonbreakwii",
+  "name": "ButtonBreakWii",
+  "author": "Strong Enough",
+  "category": "games",
+  "description": "Button Break for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "StrongEnough295/ButtonBreakWiiRemote",
+    "asset": "ButtonBreakWii.zip"
+  },
+  "page": "https://github.com/StrongEnough295/ButtonBreakWiiRemote",
+  "format": "zip",
+  "pin": {
+    "sha256": "728a1cd4d917005297baea02e86fb099bcad079def4dc2695a539d7aa99aa4c5",
+    "tag": "v1.3"
+  },
+  "install": [
+    {
+      "from": "ButtonBreakWii/",
+      "to": "apps/buttonbreakwii/"
+    }
+  ]
+}

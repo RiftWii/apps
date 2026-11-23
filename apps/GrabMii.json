@@ -1,0 +1,28 @@
+{
+  "id": "GrabMii",
+  "name": "GrabMii",
+  "author": "DevNull-l1r",
+  "category": "wiimenu",
+  "description": "A tool to backup, install, and convert Miis.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "DevNull-l1r/GrabMii",
+    "asset": "GrabMii-*.zip"
+  },
+  "page": "https://github.com/DevNull-l1r/GrabMii",
+  "format": "zip",
+  "pin": {
+    "sha256": "72fc19d3ab13f346e57e2234d0c5cb3593ba4559eda8e22079acb75b33506fa0",
+    "tag": "v2"
+  },
+  "install": [
+    {
+      "from": "apps/GrabMii/",
+      "to": "apps/GrabMii/"
+    }
+  ]
+}

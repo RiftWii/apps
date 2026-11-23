@@ -1,0 +1,27 @@
+{
+  "id": "SFP",
+  "name": "Standby-Fan-Patcher",
+  "author": "Abdelali221",
+  "category": "system",
+  "description": "Make your fan stay on while in standby!",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "abdelali221/Standby-Fan-Patcher",
+    "asset": "SFP.zip"
+  },
+  "page": "https://github.com/abdelali221/Standby-Fan-Patcher",
+  "format": "zip",
+  "pin": {
+    "sha256": "3b3a6bf51f00b71dd554eca38958ab77ab79ac5b8a0e38163ecfce24c308eab1",
+    "tag": "1.0"
+  },
+  "install": [
+    {
+      "from": "apps/SFP/",
+      "to": "apps/SFP/"
+    }
+  ]
+}

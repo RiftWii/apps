@@ -1,0 +1,27 @@
+{
+  "id": "dkjunior",
+  "name": "Donkey Kong Jr",
+  "author": "Paul Goes",
+  "category": "games",
+  "description": "Homebrew Donkey Kong Jr",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://github.com/PaulGoes/Wii-Donkey-Kong-Jr/raw/master/download/DKJunior.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/dkjunior",
+  "format": "zip",
+  "pin": {
+    "sha256": "7a90cfdf8d2ae39668d915d9765a5f700169db5a039cf5e0515405ffdc740c31"
+  },
+  "install": [
+    {
+      "from": "dkjunior/",
+      "to": "apps/dkjunior/"
+    }
+  ]
+}

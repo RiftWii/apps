@@ -1,0 +1,27 @@
+{
+  "id": "grim",
+  "name": "ResidualVM",
+  "author": "Wiimpathy",
+  "category": "emulators",
+  "description": "LucasArts 3D adventure",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "http://dommagemais.free.fr/progs/wii/ResidualVM/residualvm_wii_v0.2.zip",
+    "version": "0.2"
+  },
+  "page": "https://oscwii.org/library/app/grim",
+  "format": "zip",
+  "pin": {
+    "sha256": "0c348b6596db702bf3d30902f596d266351823069bfa2cf51c1c68f24bdfd611"
+  },
+  "install": [
+    {
+      "from": "apps/grim/",
+      "to": "apps/grim/"
+    }
+  ]
+}

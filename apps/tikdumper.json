@@ -1,0 +1,28 @@
+{
+  "id": "tikdumper",
+  "name": "tikdumper",
+  "author": "Aep",
+  "category": "system",
+  "description": "Dump tickets (.tik) from your Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Aeplet/tikdumper",
+    "asset": "tikdumper.zip"
+  },
+  "page": "https://github.com/Aeplet/tikdumper",
+  "format": "zip",
+  "pin": {
+    "sha256": "f83b638082622116459da874c0252102c48088fca2d0157833aecf70fafdb96e",
+    "tag": "v1.1.0"
+  },
+  "install": [
+    {
+      "from": "apps/tikdumper/",
+      "to": "apps/tikdumper/"
+    }
+  ]
+}

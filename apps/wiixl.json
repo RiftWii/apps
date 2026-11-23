@@ -1,0 +1,28 @@
+{
+  "id": "wiixl",
+  "name": "WiiXL",
+  "author": "raz0red",
+  "category": "emulators",
+  "description": "Atari 800/XL/XE/5200",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "raz0red/wiixl",
+    "asset": "wiixl-*.zip"
+  },
+  "page": "https://github.com/raz0red/wiixl",
+  "format": "zip",
+  "pin": {
+    "sha256": "d2dc24c1f09043c3308c7eb4e647819b7f96583faa4c08f72d9b47b2230bacbf",
+    "tag": "0.1"
+  },
+  "install": [
+    {
+      "from": "apps/wiixl/",
+      "to": "apps/wiixl/"
+    }
+  ]
+}

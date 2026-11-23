@@ -1,0 +1,28 @@
+{
+  "id": "schismtracker",
+  "name": "Schism Tracker",
+  "author": "Storlek, Paper, Mrs. Brisby",
+  "category": "creative",
+  "description": "Tracked music editor",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "schismtracker/schismtracker",
+    "asset": "schismtracker-*-wii.zip"
+  },
+  "page": "https://github.com/schismtracker/schismtracker",
+  "format": "zip",
+  "pin": {
+    "sha256": "fccb1b8becb7377b4a6581b55ceb9733c51794b0f0e9ca24ade2a0b7c5e971c5",
+    "tag": "20261102"
+  },
+  "install": [
+    {
+      "from": "apps/schismtracker/",
+      "to": "apps/schismtracker/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "CityDemo",
+  "name": "CityDemo",
+  "author": "Owen",
+  "category": "toys",
+  "description": "Demo of a cityscape",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/citydemo.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/CityDemo",
+  "format": "zip",
+  "pin": {
+    "sha256": "36e6480a564194fb94239e6fcae80d7f63c46cf7b9f4bab8a84b5a7c698e957c"
+  },
+  "install": [
+    {
+      "from": "citydemo/",
+      "to": "apps/CityDemo/"
+    }
+  ]
+}

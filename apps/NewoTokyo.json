@@ -1,0 +1,27 @@
+{
+  "id": "NewoTokyo",
+  "name": "Newo Tokyo",
+  "author": "Owen",
+  "category": "toys",
+  "description": "Demo / ScreenSaver / Illustration",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/NewoTokyo.zip",
+    "version": "1"
+  },
+  "page": "https://oscwii.org/library/app/NewoTokyo",
+  "format": "zip",
+  "pin": {
+    "sha256": "e0507023ee6d9ffbfed2969b7a08911a4da6cc37806ead7d93a1ce1318b0f192"
+  },
+  "install": [
+    {
+      "from": "NewoTokyo/",
+      "to": "apps/NewoTokyo/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "chippy",
+  "name": "Chippy",
+  "author": "Meir Goldstein",
+  "category": "emulators",
+  "description": "CHIP8 and SCHIP Interpreter",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/chippy.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/chippy",
+  "format": "zip",
+  "pin": {
+    "sha256": "4e9bb5d6d23a3135bebe41f733718c70a5efef8c58fbd5976c7b9d3c5c2d861c"
+  },
+  "install": [
+    {
+      "from": "apps/chippy/",
+      "to": "apps/chippy/"
+    }
+  ]
+}

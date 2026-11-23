@@ -1,0 +1,27 @@
+{
+  "id": "NewoShooter",
+  "name": "Newo Shooter",
+  "author": "Owen",
+  "category": "games",
+  "description": "On rails 3d Shoot-'em-up",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/NewoShooter.zip",
+    "version": "2.2"
+  },
+  "page": "https://oscwii.org/library/app/NewoShooter",
+  "format": "zip",
+  "pin": {
+    "sha256": "59aea498c1fb2299797177ba6dbe181f30dae367641498213806fa905313658c"
+  },
+  "install": [
+    {
+      "from": "NewoShooter/",
+      "to": "apps/NewoShooter/"
+    }
+  ]
+}

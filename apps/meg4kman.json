@@ -1,0 +1,27 @@
+{
+  "id": "meg4kman",
+  "name": "MEG4kMAN",
+  "author": "REHvolution",
+  "category": "games",
+  "description": "MEG4kMAN",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/meg4kman.zip",
+    "version": "0.5"
+  },
+  "page": "https://oscwii.org/library/app/meg4kman",
+  "format": "zip",
+  "pin": {
+    "sha256": "c410b84110e0e4b75220058c0945d6c74f69fdd365ee5e0960ef2a3198659252"
+  },
+  "install": [
+    {
+      "from": "apps/meg4kman/",
+      "to": "apps/meg4kman/"
+    }
+  ]
+}

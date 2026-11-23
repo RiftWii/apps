@@ -1,0 +1,27 @@
+{
+  "id": "metronome",
+  "name": "Metronome",
+  "author": "Westy92",
+  "category": "creative",
+  "description": "A Metronome for the Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/metronome.zip",
+    "version": "1.3"
+  },
+  "page": "https://oscwii.org/library/app/metronome",
+  "format": "zip",
+  "pin": {
+    "sha256": "4947fdc0b2f91747b423792090136afe86eeaed037f3f9a08d02d32dc6eb2abb"
+  },
+  "install": [
+    {
+      "from": "apps/metronome/",
+      "to": "apps/metronome/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "LoadPriiloader",
+  "name": "Load Priiloader",
+  "author": "DacoTaco",
+  "category": "system",
+  "description": "Priiloader Menu Loader",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "DacoTaco/priiloader",
+    "asset": "LoadPriiloader.zip"
+  },
+  "page": "https://github.com/DacoTaco/priiloader",
+  "format": "zip",
+  "pin": {
+    "sha256": "a2fc6f7cd895dbcc48ec10d0759f82d430bc30beb26cabca00b4036245e5e930",
+    "tag": "0.10.0"
+  },
+  "install": [
+    {
+      "from": "apps/LoadPriiloader/",
+      "to": "apps/LoadPriiloader/"
+    }
+  ]
+}

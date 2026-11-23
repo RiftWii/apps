@@ -1,0 +1,28 @@
+{
+  "id": "SuDokuL",
+  "name": "SuDokuL",
+  "author": "Mode8fx",
+  "category": "games",
+  "description": "Sudoku made with SDL2",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Mode8fx/SuDokuL",
+    "asset": "SuDokuL-*-wii.zip"
+  },
+  "page": "https://github.com/Mode8fx/SuDokuL",
+  "format": "zip",
+  "pin": {
+    "sha256": "1e6351db1c0b031499df1bae2c123e7300180ea3d32924d874b931c5ce88f6de",
+    "tag": "v1.5"
+  },
+  "install": [
+    {
+      "from": "SuDokuL-wii/apps/SuDokuL/",
+      "to": "apps/SuDokuL/"
+    }
+  ]
+}

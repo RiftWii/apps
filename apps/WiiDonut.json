@@ -1,0 +1,28 @@
+{
+  "id": "WiiDonut",
+  "name": "Wii Donut",
+  "author": "jornmann, Andy Sloane",
+  "category": "toys",
+  "description": "A spinning donut for your Wii!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "GabubuAvailable/Wii-Donut",
+    "asset": "wiidonut.zip"
+  },
+  "page": "https://github.com/GabubuAvailable/Wii-Donut",
+  "format": "zip",
+  "pin": {
+    "sha256": "eaf2a3a2638c76d87ad3aee9104e7ff49c5bb6289cfa8f282d32fbdddbe6f02a",
+    "tag": "1.0.0"
+  },
+  "install": [
+    {
+      "from": "WiiDonut/",
+      "to": "apps/WiiDonut/"
+    }
+  ]
+}

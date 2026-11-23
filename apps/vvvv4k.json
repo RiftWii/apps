@@ -1,0 +1,27 @@
+{
+  "id": "vvvv4k",
+  "name": "VVVV4K",
+  "author": "REHvolution",
+  "category": "games",
+  "description": "VVVV4K",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/vvvv4k.zip",
+    "version": "0.7"
+  },
+  "page": "https://oscwii.org/library/app/vvvv4k",
+  "format": "zip",
+  "pin": {
+    "sha256": "2a90c63aeb95fa44137c684ce4df37ed3f286bacbefffd5b675e52077d2fa7db"
+  },
+  "install": [
+    {
+      "from": "apps/vvvv4k/",
+      "to": "apps/vvvv4k/"
+    }
+  ]
+}

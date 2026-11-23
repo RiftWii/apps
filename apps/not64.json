@@ -1,0 +1,40 @@
+{
+  "id": "not64",
+  "name": "Not64",
+  "author": "Extrems",
+  "category": "emulators",
+  "description": "N64 Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "extremscorner/not64",
+    "asset": "mupen64-*.zip"
+  },
+  "page": "https://github.com/extremscorner/not64",
+  "format": "zip",
+  "pin": {
+    "sha256": "168f32b9fd659cae1bdca218afc6fdb4050fb73737c0e05954d3c1c757e68560",
+    "tag": "20260410"
+  },
+  "install": [
+    {
+      "from": "apps/not64/",
+      "to": "apps/not64/"
+    },
+    {
+      "from": "MCBACKUP/",
+      "to": "MCBACKUP/"
+    },
+    {
+      "from": "not64/",
+      "to": "not64/"
+    }
+  ],
+  "data_folders": [
+    "MCBACKUP",
+    "not64"
+  ]
+}

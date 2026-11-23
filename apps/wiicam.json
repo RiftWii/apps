@@ -1,0 +1,27 @@
+{
+  "id": "wiicam",
+  "name": "WiiCam",
+  "author": "cmyksoda",
+  "category": "controllers",
+  "description": "USB camera photos and video",
+  "page": "https://github.com/cmyksoda/WiiCam",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "cmyksoda/WiiCam",
+    "asset": "WiiCam.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.0.0-beta",
+    "sha256": "192563c52fb4b5549672fb641c8963056186bac5d2fc259437895a324388570a"
+  },
+  "install": [
+    {
+      "from": "apps/wiicam/",
+      "to": "apps/wiicam/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pacx",
+  "name": "Pac the Man X",
+  "author": "quatric",
+  "category": "games",
+  "description": "Port of the freeware Mac maze game",
+  "page": "https://github.com/quatric/PactheManX",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "quatric/PactheManX",
+    "asset": "pacx-wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.1.1",
+    "sha256": "197afebded1cae7efdc180978f108e6c0c2ac9a1e3884d8e8c568104e0251cab"
+  },
+  "install": [
+    {
+      "from": "pacx-wii/pacx/",
+      "to": "apps/pacx/"
+    }
+  ]
+}

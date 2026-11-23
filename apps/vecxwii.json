@@ -1,0 +1,28 @@
+{
+  "id": "vecxwii",
+  "name": "VectrexWii",
+  "author": "Aruskano, cmyksoda",
+  "category": "emulators",
+  "description": "Vectrex Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "cmyksoda/vectrexwii",
+    "asset": "vecxwii.zip"
+  },
+  "page": "https://github.com/cmyksoda/vectrexwii",
+  "format": "zip",
+  "pin": {
+    "sha256": "f802db443e2b913bd70fac0d9cbd0330dbe100bdf268f981dea95adff12765e5",
+    "tag": "v0.8"
+  },
+  "install": [
+    {
+      "from": "vecxwii/",
+      "to": "apps/vecxwii/"
+    }
+  ]
+}

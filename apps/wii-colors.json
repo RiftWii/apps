@@ -1,0 +1,26 @@
+{
+  "id": "wii-colors",
+  "name": "Wii Colors",
+  "author": "AmineTheJurk",
+  "category": "creative",
+  "description": "A App To Show Colors",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "AmineTheJurk/OSC_wii-colors",
+    "asset": "*.zip"
+  },
+  "page": "https://github.com/AmineTheJurk/OSC_wii-colors",
+  "format": "zip",
+  "pin": {
+    "sha256": "2e5cfec16856d314500008511d368fd179fadaec9628a59a6bd26e4ea83c6a10",
+    "tag": "v1.0"
+  },
+  "install": [
+    {
+      "from": "apps/wii-colors/",
+      "to": "apps/wii-colors/"
+    }
+  ]
+}

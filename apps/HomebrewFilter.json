@@ -1,0 +1,19 @@
+{
+  "id": "HomebrewFilter",
+  "name": "HomebrewFilter (Installer)",
+  "author": "Nano",
+  "category": "loaders",
+  "description": "HBF (Installer)",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "http://www.nanolx.org/hbf/Installer/HomebrewFilter-rev47.tar.bz2",
+    "version": "rev47"
+  },
+  "page": "https://oscwii.org/library/app/HomebrewFilter",
+  "format": "tar.bz2",
+  "pin": {
+    "sha256": "29e6fe79b9f7637f4bc55efcc1cb0bb22a42303af2b64c824ea2570b930af445"
+  }
+}

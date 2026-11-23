@@ -1,0 +1,35 @@
+{
+  "id": "wiicolem",
+  "name": "WiiColEm",
+  "author": "raz0red",
+  "category": "emulators",
+  "description": "ColecoVision Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "raz0red/wiicolem",
+    "asset": "wiicolem-*.zip"
+  },
+  "page": "https://github.com/raz0red/wiicolem",
+  "format": "zip",
+  "pin": {
+    "sha256": "b5c2fff6eb42062d922a7eed9275d87e09c2d8f9bfd107ee0c1c1d81065f73bf",
+    "tag": "0.3"
+  },
+  "install": [
+    {
+      "from": "apps/wiicolem/",
+      "to": "apps/wiicolem/"
+    },
+    {
+      "from": "wiicolem/",
+      "to": "wiicolem/"
+    }
+  ],
+  "data_folders": [
+    "wiicolem"
+  ]
+}

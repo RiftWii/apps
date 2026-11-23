@@ -1,0 +1,27 @@
+{
+  "id": "wiiengine",
+  "name": "Wiiengine",
+  "author": "Hermes",
+  "category": "emulators",
+  "description": "PCengine Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/wiiengine.zip",
+    "version": "1.5BB"
+  },
+  "page": "https://oscwii.org/library/app/wiiengine",
+  "format": "zip",
+  "pin": {
+    "sha256": "dc0f8a88c1e9ac17d5a31cbda3724da17366b91444d0ed8004f07d1f4410346d"
+  },
+  "install": [
+    {
+      "from": "apps/wiiengine/",
+      "to": "apps/wiiengine/"
+    }
+  ]
+}

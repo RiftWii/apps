@@ -1,0 +1,27 @@
+{
+  "id": "ParentalControlsRemover",
+  "name": "Parental Controls Remover",
+  "author": "Aep",
+  "category": "system",
+  "description": "Remove parental controls from your Wii",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "Aeplet/Wii-Parental-Controls-Remover",
+    "asset": "ParentalControlsRemover.zip"
+  },
+  "page": "https://github.com/Aeplet/Wii-Parental-Controls-Remover",
+  "format": "zip",
+  "pin": {
+    "sha256": "8cf72945701814dd5d913a785dfe5928cf0efca3285b6fd26ff2b237c3e49897",
+    "tag": "v1.0.1"
+  },
+  "install": [
+    {
+      "from": "apps/ParentalControlsRemover/",
+      "to": "apps/ParentalControlsRemover/"
+    }
+  ]
+}

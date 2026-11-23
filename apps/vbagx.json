@@ -1,0 +1,28 @@
+{
+  "id": "vbagx",
+  "name": "Visual Boy Advance GX",
+  "author": "Tantric",
+  "category": "emulators",
+  "description": "GBA/GBC/GB Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/vbagx",
+    "asset": "VisualBoyAdvanceGX-*-Wii.zip"
+  },
+  "page": "https://github.com/dborth/vbagx",
+  "format": "zip",
+  "pin": {
+    "sha256": "3fa544c75545f42e3a9e2bb884330d59e4ba04bab6df6f0ec3f543298223c729",
+    "tag": "3.0.6"
+  },
+  "install": [
+    {
+      "from": "apps/vbagx/",
+      "to": "apps/vbagx/"
+    }
+  ]
+}

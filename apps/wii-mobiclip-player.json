@@ -1,0 +1,27 @@
+{
+  "id": "wii-mobiclip-player",
+  "name": "Wii Mobiclip Player",
+  "author": "quatric",
+  "category": "media",
+  "description": "Plays Wii Mobiclip video",
+  "page": "https://github.com/quatric/wii-mobiclip-player",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "quatric/wii-mobiclip-player",
+    "asset": "wii-mobiclip-player.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.3",
+    "sha256": "4350e8dcf0a1807d8abcaa3e2dad319de3d77e1d6ad7e8777e2fc70d8aed926d"
+  },
+  "install": [
+    {
+      "from": "apps/wii-mobiclip-player/",
+      "to": "apps/wii-mobiclip-player/"
+    }
+  ]
+}

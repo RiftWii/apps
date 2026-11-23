@@ -1,0 +1,25 @@
+{
+  "id": "SSRT",
+  "name": "System Settings Replace Tool",
+  "author": "Tona, PabloACZ",
+  "category": "system",
+  "description": "No description provided.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/SSRT.zip",
+    "version": "2"
+  },
+  "page": "https://oscwii.org/library/app/SSRT",
+  "format": "zip",
+  "pin": {
+    "sha256": "bd4f3b82a975eaa6ee5bcfedf950a0d33d000c26756e0a34cfb332bf4a409b3a"
+  },
+  "install": [
+    {
+      "from": "apps/SSRT/",
+      "to": "apps/SSRT/"
+    }
+  ]
+}

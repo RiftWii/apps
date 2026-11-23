@@ -1,0 +1,27 @@
+{
+  "id": "NewoRunner",
+  "name": "Newo Runner",
+  "author": "Owen",
+  "category": "games",
+  "description": "An Endless runner game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/neworunner.zip",
+    "version": "1.2"
+  },
+  "page": "https://oscwii.org/library/app/NewoRunner",
+  "format": "zip",
+  "pin": {
+    "sha256": "22de22e2ff7d5dddea54ef0f2210d6f45952e76d368ba2fd95718a331885d8be"
+  },
+  "install": [
+    {
+      "from": "NewoRunner/",
+      "to": "apps/NewoRunner/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "WiiEAS",
+  "name": "WiiEAS",
+  "author": "cmyksoda",
+  "category": "internet",
+  "description": "Live EAS alerts from the United States",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "cmyksoda/WiiEAS",
+    "asset": "WiiEAS.zip"
+  },
+  "page": "https://github.com/cmyksoda/WiiEAS",
+  "format": "zip",
+  "pin": {
+    "sha256": "601ab8cee42b34fe731f1a683cf61f9a943ede4449e79ba1968c4970e90bf7d8",
+    "tag": "v1.0.2"
+  },
+  "install": [
+    {
+      "from": "WiiEAS/",
+      "to": "apps/WiiEAS/"
+    }
+  ]
+}

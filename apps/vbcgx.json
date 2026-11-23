@@ -1,0 +1,35 @@
+{
+  "id": "vbcgx",
+  "name": "VBoy Color GX",
+  "author": "cmyksoda",
+  "category": "emulators",
+  "description": "Virtual Boy emulator, in color!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "cmyksoda/vbcgx",
+    "asset": "vbcgx.zip"
+  },
+  "page": "https://github.com/cmyksoda/vbcgx",
+  "format": "zip",
+  "pin": {
+    "sha256": "3e8dfa5ecf5a7d37dce2ddd68604c9efe9fef2c990f7fa5a2f6b1c3c1fdd8356",
+    "tag": "v2.0.2"
+  },
+  "install": [
+    {
+      "from": "apps/vbcgx/",
+      "to": "apps/vbcgx/"
+    },
+    {
+      "from": "vbcgx/",
+      "to": "vbcgx/"
+    }
+  ],
+  "data_folders": [
+    "vbcgx"
+  ]
+}

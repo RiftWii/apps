@@ -1,0 +1,28 @@
+{
+  "id": "SnakeWii",
+  "name": "SnakeWii",
+  "author": "Abdelali221",
+  "category": "games",
+  "description": "Just the classic snake game!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "abdelali221/SnakeWii",
+    "asset": "SnakeWii.zip"
+  },
+  "page": "https://github.com/abdelali221/SnakeWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "d96979cce10b234efdeaf16bca6f83fb27e297972438839def381a2495261fbc",
+    "tag": "1.8.5"
+  },
+  "install": [
+    {
+      "from": "apps/SnakeWii/",
+      "to": "apps/SnakeWii/"
+    }
+  ]
+}

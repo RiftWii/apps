@@ -1,0 +1,28 @@
+{
+  "id": "tetwiis",
+  "name": "Tetwiis",
+  "author": "Pembo",
+  "category": "games",
+  "description": "Wii Tetris",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dpembo/tetwiis",
+    "asset": "tetwiis.zip"
+  },
+  "page": "https://github.com/dpembo/tetwiis",
+  "format": "zip",
+  "pin": {
+    "sha256": "e69a176b250efb191341cb5d7f6e5b1a673c90d6a7d42860fc454f0f6b76619c",
+    "tag": "v1.1"
+  },
+  "install": [
+    {
+      "from": "tetwiis/",
+      "to": "apps/tetwiis/"
+    }
+  ]
+}

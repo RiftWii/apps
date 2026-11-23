@@ -1,0 +1,27 @@
+{
+  "id": "wiireaction",
+  "name": "WiiReaction",
+  "author": "KyleWii(U)",
+  "category": "games",
+  "description": "A reaction test game",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "KyleWii/WiiReaction",
+    "asset": "WiiReaction.zip"
+  },
+  "page": "https://github.com/KyleWii/WiiReaction",
+  "format": "zip",
+  "pin": {
+    "sha256": "1d06cdb6057860b76942e08b72e4d0b5de4f484c7f63607d31a5f1ca7a705ebd",
+    "tag": "v0.4.0"
+  },
+  "install": [
+    {
+      "from": "apps/wiireaction/",
+      "to": "apps/wiireaction/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gba-link-cable-wifi-input",
+  "name": "GBA Link Cable WiFi Input Server",
+  "author": "FIX94",
+  "category": "gametools",
+  "description": "No description provided.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "FIX94/gba-link-cable-wifi-input",
+    "asset": "gba-link-cable-wifi-input-v1.2.zip"
+  },
+  "page": "https://github.com/FIX94/gba-link-cable-wifi-input",
+  "format": "zip",
+  "pin": {
+    "sha256": "e0f62f19323212d9307bc35b6920650dd801281df4d7b83b4495de09bf95a13e",
+    "tag": "v1.2"
+  },
+  "install": [
+    {
+      "from": "wii_server/",
+      "to": "apps/gba-link-cable-wifi-input/"
+    }
+  ]
+}

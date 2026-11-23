@@ -1,0 +1,28 @@
+{
+  "id": "crack-attack",
+  "name": "crack-attack",
+  "author": "Daniel Nelson",
+  "category": "games",
+  "description": "Multiplayer puzzle game like \"Tetris Attack\"",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/crack-attack",
+    "asset": "crack-attack*.zip"
+  },
+  "page": "https://github.com/mardy/crack-attack",
+  "format": "zip",
+  "pin": {
+    "sha256": "9631824a852ab15aae19b318f9f39298fdfc8b26e79e9c201a5ef1414c867084",
+    "tag": "1.1.14-0"
+  },
+  "install": [
+    {
+      "from": "crack-attack/",
+      "to": "apps/crack-attack/"
+    }
+  ]
+}

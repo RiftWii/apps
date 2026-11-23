@@ -1,0 +1,27 @@
+{
+  "id": "wiicross",
+  "name": "Piero's Wiicross",
+  "author": "Scognito",
+  "category": "games",
+  "description": "A picross game for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/wiicross.zip",
+    "version": "v0.2"
+  },
+  "page": "https://oscwii.org/library/app/wiicross",
+  "format": "zip",
+  "pin": {
+    "sha256": "50524365278b3bb0e93764e4153ea44398fe158c226f7202d43bbe63cd1e9afd"
+  },
+  "install": [
+    {
+      "from": "apps/wiicross/",
+      "to": "apps/wiicross/"
+    }
+  ]
+}

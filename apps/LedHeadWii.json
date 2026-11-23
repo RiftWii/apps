@@ -1,0 +1,28 @@
+{
+  "id": "LedHeadWii",
+  "name": "LEDhead",
+  "author": "Nebiun",
+  "category": "games",
+  "description": "Classic electronic LED game simulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "nebiun/ledHeadWii",
+    "asset": "ledHeadWii_*.zip"
+  },
+  "page": "https://github.com/nebiun/ledHeadWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "464afd24336ece18866f4516b52a73be6aa676b2543c77cf7080cf13d596829a",
+    "tag": "1.2"
+  },
+  "install": [
+    {
+      "from": "ledHeadWii/",
+      "to": "apps/LedHeadWii/"
+    }
+  ]
+}

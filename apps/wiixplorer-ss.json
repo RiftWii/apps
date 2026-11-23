@@ -1,0 +1,27 @@
+{
+  "id": "wiixplorer-ss",
+  "name": "WiiXplorer SS",
+  "author": "Diego",
+  "category": "system",
+  "description": "Wii File Browser",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/wiixplorer-ss.zip",
+    "version": "260"
+  },
+  "page": "https://oscwii.org/library/app/wiixplorer-ss",
+  "format": "zip",
+  "pin": {
+    "sha256": "d4c863ed040ae937a5e626a87cdfa1ab0e335f0aeaf205664a3fda4c93edab21"
+  },
+  "install": [
+    {
+      "from": "apps/wiixplorer-ss/",
+      "to": "apps/wiixplorer-ss/"
+    }
+  ]
+}

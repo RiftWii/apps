@@ -1,0 +1,28 @@
+{
+  "id": "BounceWii",
+  "name": "BounceWii",
+  "author": "Greeg0",
+  "category": "toys",
+  "description": "Bouncing logo screensaver",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Greeg0/BounceWii",
+    "asset": "BounceWii-v*.zip"
+  },
+  "page": "https://github.com/Greeg0/BounceWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "016cf139855108558f8c39fc31ae462da333edc4e616ca817cf8c773cf58d22e",
+    "tag": "v1.0.0"
+  },
+  "install": [
+    {
+      "from": "BounceWii/",
+      "to": "apps/BounceWii/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "Snes9xRX",
+  "name": "Snes9x RX",
+  "author": "NiuuS",
+  "category": "emulators",
+  "description": "Super Nintendo Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "niuus/Snes9xRX",
+    "asset": "Snes9xRX-*-OnyxBlack.zip"
+  },
+  "page": "https://github.com/niuus/Snes9xRX",
+  "format": "zip",
+  "pin": {
+    "sha256": "9384b015c7facc07d24454443a449e1a9d9bdb055ca59e0aced272c4f2c2bb0a",
+    "tag": "v5.5.0"
+  },
+  "install": [
+    {
+      "from": "apps/Snes9xRX/",
+      "to": "apps/Snes9xRX/"
+    }
+  ]
+}

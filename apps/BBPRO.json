@@ -1,0 +1,31 @@
+{
+  "id": "BBPRO",
+  "name": "BALANCE BOARD PRO",
+  "author": "Paul Craven",
+  "category": "controllers",
+  "description": "\"Weigh\" cool tools!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "http://www.paulplusemily.com/stuff/Balance_Board_Pro.v.1.1.zip",
+    "version": "1.1"
+  },
+  "page": "https://oscwii.org/library/app/BBPRO",
+  "format": "zip",
+  "pin": {
+    "sha256": "6e15035d667f4eaaad31ecca5b6b48987d8c45f3d0f68a742804a9a9a94a97e4"
+  },
+  "install": [
+    {
+      "from": "BBPRO/Balance_Board_Pro.dol",
+      "to": "apps/BBPRO/boot.dol"
+    },
+    {
+      "from": "BBPRO/",
+      "to": "apps/BBPRO/"
+    }
+  ]
+}

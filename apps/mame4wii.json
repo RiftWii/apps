@@ -1,0 +1,38 @@
+{
+  "id": "mame4wii",
+  "name": "MAME4Wii",
+  "author": "Nebiun",
+  "category": "emulators",
+  "description": "Arcade Emulation",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/mame4wii.zip",
+    "version": "1.35.2(MAME 0.135s)"
+  },
+  "page": "https://oscwii.org/library/app/mame4wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "fae9ea7810bd898119c80fd8b137210047b532c557b3a841f0db892b8d59f297"
+  },
+  "install": [
+    {
+      "from": "apps/mame4wii/mame4wii.png",
+      "to": "apps/mame4wii/icon.png"
+    },
+    {
+      "from": "apps/mame4wii/",
+      "to": "apps/mame4wii/"
+    },
+    {
+      "from": "mame/",
+      "to": "mame/"
+    }
+  ],
+  "data_folders": [
+    "mame"
+  ]
+}

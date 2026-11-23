@@ -1,0 +1,28 @@
+{
+  "id": "Rainbii",
+  "name": "Rainbii",
+  "author": "Def64",
+  "category": "toys",
+  "description": "Rainbii - Fade colors",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Def64/rainbii",
+    "asset": "Rainbii.zip"
+  },
+  "page": "https://github.com/Def64/rainbii",
+  "format": "zip",
+  "pin": {
+    "sha256": "183b54413072ec95d77e77c27aff3c32b4a0306e3f903eb45b911bf6a612f652",
+    "tag": "Rainbii"
+  },
+  "install": [
+    {
+      "from": "apps/Rainbii/",
+      "to": "apps/Rainbii/"
+    }
+  ]
+}

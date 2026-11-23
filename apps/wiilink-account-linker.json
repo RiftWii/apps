@@ -1,0 +1,28 @@
+{
+  "id": "wiilink-account-linker",
+  "name": "WiiLink Account Linker",
+  "author": "Sketch",
+  "category": "online",
+  "description": "Links your Wii to your WiiLink Account!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "WiiLink24/AccountLinker",
+    "asset": "account_linker.zip"
+  },
+  "page": "https://github.com/WiiLink24/AccountLinker",
+  "format": "zip",
+  "pin": {
+    "sha256": "a7a9a5585148d030202e01e9e3c48718a43ece449754041da4e81772423963de",
+    "tag": "v2.2.0"
+  },
+  "install": [
+    {
+      "from": "apps/wiilink-account-linker/",
+      "to": "apps/wiilink-account-linker/"
+    }
+  ]
+}

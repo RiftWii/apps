@@ -1,0 +1,27 @@
+{
+  "id": "InspectMii",
+  "name": "InspectMii",
+  "author": "JoostinOnline",
+  "category": "system",
+  "description": "Shows dozens of your Wii settings",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/InspectMii.zip",
+    "version": "v1.2"
+  },
+  "page": "https://oscwii.org/library/app/InspectMii",
+  "format": "zip",
+  "pin": {
+    "sha256": "6f469f7b1ae0308e426f993d8e9f80a0650f8613c34a8654cc326e9228386140"
+  },
+  "install": [
+    {
+      "from": "apps/InspectMii/",
+      "to": "apps/InspectMii/"
+    }
+  ]
+}

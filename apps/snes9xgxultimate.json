@@ -1,0 +1,34 @@
+{
+  "id": "snes9xgxultimate",
+  "name": "Snes9x GX ULTIMATE",
+  "author": "VrepliroidV",
+  "category": "emulators",
+  "description": "Snes9x GX fork with extras",
+  "page": "https://github.com/VrepliroidV/Snes9XGX-ULTIMATE",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "VrepliroidV/Snes9XGX-ULTIMATE",
+    "asset": "Snes9xGXUltimate-Wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.1.6",
+    "sha256": "f0ebf602ae4976d480496cd6fe5bc7c694ccc4583561e6e82cb8fcca77305f1f"
+  },
+  "install": [
+    {
+      "from": "apps/snes9xgxultimate/",
+      "to": "apps/snes9xgxultimate/"
+    },
+    {
+      "from": "snes9xgxultimate/",
+      "to": "snes9xgxultimate/"
+    }
+  ],
+  "data_folders": [
+    "snes9xgxultimate"
+  ]
+}

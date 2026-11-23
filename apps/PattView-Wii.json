@@ -1,0 +1,27 @@
+{
+  "id": "PattView-Wii",
+  "name": "PattView Wii",
+  "author": "Vash",
+  "category": "gametools",
+  "description": "AC:CF Pattern Editor",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/PattView-Wii.zip",
+    "version": "0.1 Alpha"
+  },
+  "page": "https://oscwii.org/library/app/PattView-Wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "795a03e2d6eeda6a6171040a3130a23448032ddaaf95ac61d61518d55215e6f7"
+  },
+  "install": [
+    {
+      "from": "apps/PattView-Wii/",
+      "to": "apps/PattView-Wii/"
+    }
+  ]
+}

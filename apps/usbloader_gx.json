@@ -1,0 +1,28 @@
+{
+  "id": "usbloader_gx",
+  "name": "USB Loader GX",
+  "author": "USB Loader GX Team",
+  "category": "loaders",
+  "description": "Load games from a USB or SD card",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "wiidev/usbloadergx",
+    "asset": "usbloadergx_r*.zip"
+  },
+  "page": "https://github.com/wiidev/usbloadergx",
+  "format": "zip",
+  "pin": {
+    "sha256": "83e3fa9e18fd715c9617125d674b4b965eddff2ee8c54f11394c0bbc04a421a2",
+    "tag": "v4.0-r1283"
+  },
+  "install": [
+    {
+      "from": "apps/usbloader_gx/",
+      "to": "apps/usbloader_gx/"
+    }
+  ]
+}

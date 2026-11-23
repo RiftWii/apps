@@ -1,0 +1,28 @@
+{
+  "id": "wii-screen",
+  "name": "Video mode explorer",
+  "author": "Alberto Mardegan",
+  "category": "controllers",
+  "description": "Video mode explorer",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/wii-screen",
+    "asset": "wii-screen*.zip"
+  },
+  "page": "https://github.com/mardy/wii-screen",
+  "format": "zip",
+  "pin": {
+    "sha256": "e5046c6968ec349d1dcb293929cd8b2cc4bc95142e8c9e2bfd00472ff7b2ffaf",
+    "tag": "0.1"
+  },
+  "install": [
+    {
+      "from": "wii-screen/",
+      "to": "apps/wii-screen/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Harmonium",
+  "name": "Harmonium",
+  "author": "MetaFight",
+  "category": "creative",
+  "description": "A musical doodling tool... with a twist!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://wiibrew.org/w/images/9/9a/Harmonium.zip",
+    "version": "v1 beta3"
+  },
+  "page": "https://oscwii.org/library/app/Harmonium",
+  "format": "zip",
+  "pin": {
+    "sha256": "d80edf2df19d35c7a6a5ae49b8be4fd8039fad9780e407e26b408af9f37f99d1"
+  },
+  "install": [
+    {
+      "from": "Harmonium/",
+      "to": "apps/Harmonium/"
+    }
+  ]
+}

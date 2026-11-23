@@ -1,0 +1,28 @@
+{
+  "id": "WNPV",
+  "name": "WNPV",
+  "author": "Abdelali221",
+  "category": "system",
+  "description": "Network Profiles Viewer!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "abdelali221/Wii-Network-Profiles-Viewer",
+    "asset": "WNPV.zip"
+  },
+  "page": "https://github.com/abdelali221/Wii-Network-Profiles-Viewer",
+  "format": "zip",
+  "pin": {
+    "sha256": "2cbc0012541c6794945adf00ac260b5e5c10248dffc24eda297201c4c13d912f",
+    "tag": "1.6.1"
+  },
+  "install": [
+    {
+      "from": "apps/WNPV/",
+      "to": "apps/WNPV/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Avuari",
+  "name": "Avuari",
+  "author": "ColdHorizon",
+  "category": "games",
+  "description": "A simple shmup",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "ColdHorizon/Avuari",
+    "asset": "Avuari.zip"
+  },
+  "page": "https://github.com/ColdHorizon/Avuari",
+  "format": "zip",
+  "pin": {
+    "sha256": "9a5a38c9bc8c42107b6aaec4927f9b98a180ab5d6b8031000951671c874c6f13",
+    "tag": "Update4"
+  },
+  "install": [
+    {
+      "from": "Avuari/apps/Avuari/",
+      "to": "apps/Avuari/"
+    }
+  ]
+}

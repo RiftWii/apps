@@ -1,0 +1,28 @@
+{
+  "id": "WiiLink-File-Clearer",
+  "name": "WiiLink File Clearer",
+  "author": "WiiLink",
+  "category": "online",
+  "description": "Clear WiiConnect24 files!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "WiiLink24/File-Clearer",
+    "asset": "WiiLink-File-Clearer.zip"
+  },
+  "page": "https://github.com/WiiLink24/File-Clearer",
+  "format": "zip",
+  "pin": {
+    "sha256": "4422ed75a6032bdd3b2060db447bf83e3644ccddde0ab0137539a97bd319fa91",
+    "tag": "v1.0.0"
+  },
+  "install": [
+    {
+      "from": "apps/WiiLink-File-Clearer/",
+      "to": "apps/WiiLink-File-Clearer/"
+    }
+  ]
+}

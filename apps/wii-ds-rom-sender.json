@@ -1,0 +1,28 @@
+{
+  "id": "wii-ds-rom-sender",
+  "name": "Wii DS ROM Sender",
+  "author": "FIX94",
+  "category": "gametools",
+  "description": "Send NDS ROMs to a DS using DLP.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "FIX94/wii-ds-rom-sender",
+    "asset": "wii-ds-rom-sender-v*.zip"
+  },
+  "page": "https://github.com/FIX94/wii-ds-rom-sender",
+  "format": "zip",
+  "pin": {
+    "sha256": "f740c46e431afca4098cb1ecc1c3c5ccb7398f4b7f9ce8888ea8d8325643cb5a",
+    "tag": "v3.3"
+  },
+  "install": [
+    {
+      "from": "apps/wii-ds-rom-sender/",
+      "to": "apps/wii-ds-rom-sender/"
+    }
+  ]
+}

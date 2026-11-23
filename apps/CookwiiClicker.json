@@ -1,0 +1,25 @@
+{
+  "id": "CookwiiClicker",
+  "name": "Cookwii Clicker",
+  "author": "TheHighTide",
+  "category": "games",
+  "description": "The classic clicker game for the Wii",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://hightide.coolpage.biz/projects/cookwii_clicker/source.zip",
+    "version": "0.2.0"
+  },
+  "page": "https://oscwii.org/library/app/CookwiiClicker",
+  "format": "zip",
+  "pin": {
+    "sha256": "29da5c39e38c3b857f306feca88c312b979fe5c2603a63232ecf6ba590cfae7f"
+  },
+  "install": [
+    {
+      "from": "cookwiiclicker/",
+      "to": "apps/CookwiiClicker/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "rumbler",
+  "name": "Rumbler",
+  "author": "emilydaemon",
+  "category": "controllers",
+  "description": "Make your remote rumble!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://donut.eu.org/downloads/rumbler.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/rumbler",
+  "format": "zip",
+  "pin": {
+    "sha256": "7fd6e159b183890588a516f41e4a0f5af88d6a820e29c19805864b041f759cf2"
+  },
+  "install": [
+    {
+      "from": "rumbler/",
+      "to": "apps/rumbler/"
+    }
+  ]
+}

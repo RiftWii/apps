@@ -1,0 +1,27 @@
+{
+  "id": "WiiShopTicketRestorer",
+  "name": "Wii Shop Ticket Restorer",
+  "author": "Quadraxis_v2",
+  "category": "system",
+  "description": "This application lets you get back the tickets of your purchased games from the Wii Shop Channel in case you lost them or overwrote them.",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Quadraxis-v2/WiiShopTicketRestorer",
+    "asset": "WiiShopTicketRestorer_v*.zip"
+  },
+  "page": "https://github.com/Quadraxis-v2/WiiShopTicketRestorer",
+  "format": "zip",
+  "pin": {
+    "sha256": "2f68465e65f1a8233555c0d990521e02d159a55700f6e393421f67850146842a",
+    "tag": "v1.0.1"
+  },
+  "install": [
+    {
+      "from": "apps/WiiShopTicketRestorer/",
+      "to": "apps/WiiShopTicketRestorer/"
+    }
+  ]
+}

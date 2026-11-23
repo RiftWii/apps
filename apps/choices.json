@@ -1,0 +1,28 @@
+{
+  "id": "choices",
+  "name": "Choices",
+  "author": "awes145",
+  "category": "games",
+  "description": "Guess the number correctly for 20 rounds to win.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Awesome-neos145/choices",
+    "asset": "choices-wii.zip"
+  },
+  "page": "https://github.com/Awesome-neos145/choices",
+  "format": "zip",
+  "pin": {
+    "sha256": "2c35376771c4723183e1eeec3d439b4e638ef2f39d723d3ffcc65c7f9fc41151",
+    "tag": "v1.2"
+  },
+  "install": [
+    {
+      "from": "apps/choices/",
+      "to": "apps/choices/"
+    }
+  ]
+}

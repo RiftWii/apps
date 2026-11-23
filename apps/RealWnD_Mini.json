@@ -1,0 +1,25 @@
+{
+  "id": "RealWnD_Mini",
+  "name": "RealWnD for Mini",
+  "author": "pcfree, JoostinOnline, nitr8",
+  "category": "system",
+  "description": "1:1 Wii Mini NAND Dumper",
+  "platforms": [
+    "mini"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/RealWnD_Mini.zip",
+    "version": "0.21b-Mini"
+  },
+  "page": "https://oscwii.org/library/app/RealWnD_Mini",
+  "format": "zip",
+  "pin": {
+    "sha256": "71792893cf1d8465ddcc11b395fdc39617974a7495355953b3622caf3b1738c0"
+  },
+  "install": [
+    {
+      "from": "apps/RealWnD_Mini/",
+      "to": "apps/RealWnD_Mini/"
+    }
+  ]
+}

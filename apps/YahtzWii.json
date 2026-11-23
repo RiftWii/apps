@@ -1,0 +1,27 @@
+{
+  "id": "YahtzWii",
+  "name": "YahtzWii",
+  "author": "chris",
+  "category": "games",
+  "description": "Yahtzee for the Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "http://www.toxicbreakfast.com/cgi-bin/download?file=yahtzwii.zip",
+    "version": "3.11"
+  },
+  "page": "https://oscwii.org/library/app/YahtzWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "d61b39665473692d0bbc4d408720154a0fa934a10b5b3a086bb112910a016875"
+  },
+  "install": [
+    {
+      "from": "apps/YahtzWii/",
+      "to": "apps/YahtzWii/"
+    }
+  ]
+}

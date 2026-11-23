@@ -1,0 +1,25 @@
+{
+  "id": "Patched_IOS80_Installer_for_vWii",
+  "name": "Patched IOS80 Installer for vWii",
+  "author": "Dr Clipper, ZRicky11, dmm, FIX94",
+  "category": "system",
+  "description": "Installs IOS80",
+  "platforms": [
+    "vwii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/Patched_IOS80_Installer_for_vWii.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/Patched_IOS80_Installer_for_vWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "19633d65069c5c2e1939bb2506bdbe70554d6ddabb285903a0499102dfecdaec"
+  },
+  "install": [
+    {
+      "from": "apps/Patched_IOS80_Installer_for_vWii/",
+      "to": "apps/Patched_IOS80_Installer_for_vWii/"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "tworld-wii",
+  "name": "Tile world",
+  "author": "Brian Raiter",
+  "category": "games",
+  "description": "Chip's Challenge clone",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/tworld-wii.zip",
+    "version": "1.4"
+  },
+  "page": "https://oscwii.org/library/app/tworld-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "52c0f8ffbc4ab0a6ae869b36d2b5895b3189a5a97d44abb55269ce93de27c738"
+  },
+  "install": [
+    {
+      "from": "apps/tworld-wii/",
+      "to": "apps/tworld-wii/"
+    },
+    {
+      "from": "tworld/",
+      "to": "tworld/"
+    }
+  ],
+  "data_folders": [
+    "tworld"
+  ]
+}

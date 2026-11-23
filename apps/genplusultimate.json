@@ -1,0 +1,34 @@
+{
+  "id": "genplusultimate",
+  "name": "Genesis Plus GX ULTIMATE",
+  "author": "VrepliroidV",
+  "category": "emulators",
+  "description": "Genesis Plus GX fork with extras",
+  "page": "https://github.com/VrepliroidV/GenesisPlusGX-ULTIMATE",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "VrepliroidV/GenesisPlusGX-ULTIMATE",
+    "asset": "GenesisPlusGXUltimate-Wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.2.2",
+    "sha256": "d0592b69e5f607da5b557e59114d5ffaece16134ef5d664f2f33a97d0bf7f1b0"
+  },
+  "install": [
+    {
+      "from": "apps/genplusultimate/",
+      "to": "apps/genplusultimate/"
+    },
+    {
+      "from": "genplusultimate/",
+      "to": "genplusultimate/"
+    }
+  ],
+  "data_folders": [
+    "genplusultimate"
+  ]
+}

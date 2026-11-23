@@ -1,0 +1,28 @@
+{
+  "id": "wii2600",
+  "name": "Wii2600",
+  "author": "raz0red",
+  "category": "emulators",
+  "description": "Atari 2600 Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "raz0red/wii2600",
+    "asset": "wii2600-0_2.zip"
+  },
+  "page": "https://github.com/raz0red/wii2600",
+  "format": "zip",
+  "pin": {
+    "sha256": "c905e90ae1332c5efcf0a62691554b2d01def0672344c3121b96d1650b376614",
+    "tag": "0.2"
+  },
+  "install": [
+    {
+      "from": "apps/wii2600/",
+      "to": "apps/wii2600/"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "neocd",
+  "name": "NeoCD-WII",
+  "author": "Wiimpathy, Jacobeian",
+  "category": "emulators",
+  "description": "Neo-Geo CD Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Wiimpathy/Neocd-Wii",
+    "asset": "NeoCD-Wii-*.zip"
+  },
+  "page": "https://github.com/Wiimpathy/Neocd-Wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "a292df4dae6eef0179350a02d792681abc0a41c039f31c2301bd893cdfdd866c",
+    "tag": "v0.5"
+  },
+  "install": [
+    {
+      "from": "apps/neocd/",
+      "to": "apps/neocd/"
+    },
+    {
+      "from": "neocd/",
+      "to": "neocd/"
+    }
+  ],
+  "data_folders": [
+    "neocd"
+  ]
+}

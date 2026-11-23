@@ -1,0 +1,27 @@
+{
+  "id": "emptyslot",
+  "name": "Empty Slot Creator",
+  "author": "cmyksoda",
+  "category": "wiimenu",
+  "description": "Makes invisible forwarder channels (WAD to sd:/wad)",
+  "page": "https://github.com/cmyksoda/empty-slot-creator",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "cmyksoda/empty-slot-creator",
+    "asset": "EmptySlotCreator-v*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.0.1",
+    "sha256": "2bf6d894a775a6c3f72c02845f4d76b4a8fe32dd7c5174dcf7ae1578a433b6b5"
+  },
+  "install": [
+    {
+      "from": "apps/emptyslot/",
+      "to": "apps/emptyslot/"
+    }
+  ]
+}

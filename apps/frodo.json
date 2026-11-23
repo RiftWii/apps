@@ -1,0 +1,22 @@
+{
+  "id": "frodo",
+  "name": "C64-network.org (Frodo)",
+  "author": "Simon Kagstrom, Oibaf",
+  "category": "emulators",
+  "description": "Commodore 64 emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Oibaf66/frodo-wii",
+    "asset": "c64-network.org-wii-*.bin.tar.gz"
+  },
+  "page": "https://github.com/Oibaf66/frodo-wii",
+  "format": "tar.gz",
+  "pin": {
+    "sha256": "04c574cd255317c427f7772e89f13da9e7504fce94bba80d2a347c65c8b859c0",
+    "tag": "v2.4.1"
+  }
+}

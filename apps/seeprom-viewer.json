@@ -1,0 +1,26 @@
+{
+  "id": "seeprom-viewer",
+  "name": "SEEPROM Viewer",
+  "author": "Vega, Team Twiizers",
+  "category": "system",
+  "description": "SEEPROM Viewer",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/seeprom-viewer.zip",
+    "version": "0.8"
+  },
+  "page": "https://oscwii.org/library/app/seeprom-viewer",
+  "format": "zip",
+  "pin": {
+    "sha256": "9691d44a2a61dc169580d203345dc8304fc0dff3147a63c65b6323c712d25a2b"
+  },
+  "install": [
+    {
+      "from": "apps/seeprom-viewer/",
+      "to": "apps/seeprom-viewer/"
+    }
+  ]
+}

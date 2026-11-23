@@ -1,0 +1,27 @@
+{
+  "id": "MiiKit-Demo",
+  "name": "MiiKit Demo",
+  "author": "cmyksoda",
+  "category": "toys",
+  "description": "Your Wii's Miis in 3D",
+  "page": "https://github.com/cmyksoda/MiiKit-Demo",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "cmyksoda/MiiKit-Demo",
+    "asset": "MiiKit-Demo-*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.0.2",
+    "sha256": "4a1549085d8626dbb02209b90dbf236e52e464d2225e38bf8db3b1af868b6a4e"
+  },
+  "install": [
+    {
+      "from": "apps/MiiKit-Demo/",
+      "to": "apps/MiiKit-Demo/"
+    }
+  ]
+}

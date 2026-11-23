@@ -1,0 +1,19 @@
+{
+  "id": "piechart",
+  "name": "PieChart",
+  "author": "Dude2kx",
+  "category": "games",
+  "description": "A shameless rip-off",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "url": "https://filetrip.net/files/f/23776-PieChart_0.8.rar",
+    "version": "0.8"
+  },
+  "page": "https://oscwii.org/library/app/piechart",
+  "format": "rar",
+  "pin": {
+    "sha256": "d897a13ab073265de70c59dd7c1502ce2e9378bcc15322ac626ad46c16f70905"
+  }
+}

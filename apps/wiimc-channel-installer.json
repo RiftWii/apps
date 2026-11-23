@@ -1,0 +1,27 @@
+{
+  "id": "wiimc-channel-installer",
+  "name": "WiiMC Channel Installer",
+  "author": "Tantric",
+  "category": "wiimenu",
+  "description": "WiiMC Channel Installer",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/wiimc",
+    "asset": "WiiMC.Channel.Installer.2.0.zip"
+  },
+  "page": "https://github.com/dborth/wiimc",
+  "format": "zip",
+  "pin": {
+    "sha256": "8a1593b920a0c51520e31510ca3fde07df88c9e0d0e3b9dfbec00055bc8a8fdc",
+    "tag": "1.3.4"
+  },
+  "install": [
+    {
+      "from": "apps/wiimc-channel-installer/",
+      "to": "apps/wiimc-channel-installer/"
+    }
+  ]
+}

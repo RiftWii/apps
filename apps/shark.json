@@ -1,0 +1,27 @@
+{
+  "id": "shark",
+  "name": "Shark",
+  "author": "Nebiun",
+  "category": "games",
+  "description": "Board game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "http://nebiun.altervista.org/wiibrew/archives/Shark.zip",
+    "version": "1.1"
+  },
+  "page": "https://oscwii.org/library/app/shark",
+  "format": "zip",
+  "pin": {
+    "sha256": "d4ff29e1e0e03e781b1d94e2a85b571910cbb26aa69f1eb3d5f59fb23af6ccb5"
+  },
+  "install": [
+    {
+      "from": "hbc/",
+      "to": "apps/shark/"
+    }
+  ]
+}

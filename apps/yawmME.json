@@ -1,0 +1,28 @@
+{
+  "id": "yawmME",
+  "name": "YAWM ModMii Edition",
+  "author": "Various",
+  "category": "system",
+  "description": "Manage WADs and Launch Apps",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "modmii/YAWM-ModMii-Edition",
+    "asset": "yawmME.zip"
+  },
+  "page": "https://github.com/modmii/YAWM-ModMii-Edition",
+  "format": "zip",
+  "pin": {
+    "sha256": "022a9aae729b63fdc9bdac1f94379cd454f0802b7dd0b58d22f668073591e9d8",
+    "tag": "1.0.1"
+  },
+  "install": [
+    {
+      "from": "apps/yawmME/",
+      "to": "apps/yawmME/"
+    }
+  ]
+}

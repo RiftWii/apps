@@ -1,0 +1,79 @@
+# SPDX-FileCopyrightText: 2026 RiftWii contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# Checks every pull request: each manifest against RiftWii's rules, its
+# pinned file downloaded and checked against its SHA-256 and its install
+# rules, and the whole list read back by the Wii's own parser.
+#
+# Safety: this runs on pull_request, not pull_request_target, so it gets a
+# read-only token and no secrets. The checks come from RiftWii's repository
+# (tools/app_list.py and the parser), never from the pull request, whose
+# manifests are only read as data.
+name: validate
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  # The RiftWii revision whose rules the list is checked against.
+  # TODO: main once KakarottoCake/Riftwii#608 is merged.
+  RIFTWII_REPO: KakarottoCake/Riftwii
+  RIFTWII_REF: app-list
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the checks (base branch)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+
+      - name: Check out the pull request
+        uses: actions/checkout@v4
+        with:
+          path: pr
+          persist-credentials: false
+
+      - name: Check out RiftWii's list tools
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.RIFTWII_REPO }}
+          ref: ${{ env.RIFTWII_REF }}
+          path: riftwii
+          persist-credentials: false
+          sparse-checkout: |
+            tools/app_list.py
+            tools/app_list_check.cpp
+            src/net/applist.cpp
+            include/riftwii/applist.hpp
+            include/riftwii/jsonreader.hpp
+          sparse-checkout-cone-mode: false
+
+      - name: Build app_list_check
+        run: sh trusted/scripts/build_app_list_check.sh riftwii "$RUNNER_TEMP/app_list_check"
+
+      - name: Restore downloaded files
+        uses: actions/cache/restore@v4
+        with:
+          path: .app-cache
+          key: app-cache-${{ hashFiles('pr/apps/*.json') }}
+          restore-keys: app-cache-
+
+      - name: Check every manifest
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >
+          python3 -I riftwii/tools/app_list.py
+          --cache .app-cache
+          --check-tool "$RUNNER_TEMP/app_list_check"
+          check pr/apps

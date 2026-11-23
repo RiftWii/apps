@@ -1,0 +1,22 @@
+{
+  "id": "wcalc",
+  "name": "wcalc",
+  "author": "sctech-tr",
+  "category": "creative",
+  "description": "calculator for the wii.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "sctech-tr/wcalc",
+    "asset": "wcalc.7z"
+  },
+  "page": "https://github.com/sctech-tr/wcalc",
+  "format": "7z",
+  "pin": {
+    "sha256": "8a97ad4bc92da3483196a90179019b490cbae3c698e2b867e7506ae287a06331",
+    "tag": "v1.1"
+  }
+}

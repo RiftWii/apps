@@ -1,0 +1,35 @@
+{
+  "id": "WiiSXRX",
+  "name": "WiiSXRX",
+  "author": "NiuuS",
+  "category": "emulators",
+  "description": "PSX Emulator for Wii (-FS build)",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "niuus/WiiSXRX",
+    "asset": "WiiSXRX-*-FS.zip"
+  },
+  "page": "https://github.com/niuus/WiiSXRX",
+  "format": "zip",
+  "pin": {
+    "sha256": "c91251fa2196c690f8e587528b58c57545d9d041fd50af8426bc6a99c529d7c0",
+    "tag": "v3.3"
+  },
+  "install": [
+    {
+      "from": "apps/WiiSXRX/",
+      "to": "apps/WiiSXRX/"
+    },
+    {
+      "from": "WiiSXRX/",
+      "to": "WiiSXRX/"
+    }
+  ],
+  "data_folders": [
+    "WiiSXRX"
+  ]
+}

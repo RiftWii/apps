@@ -1,0 +1,28 @@
+{
+  "id": "Trogdor-RB",
+  "name": "Trogdor: Reburninated",
+  "author": "Mode8fx",
+  "category": "games",
+  "description": "Burninate the countryside!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Mode8fx/Trogdor-Reburninated",
+    "asset": "Trogdor-Reburninated-v*-wii.zip"
+  },
+  "page": "https://github.com/Mode8fx/Trogdor-Reburninated",
+  "format": "zip",
+  "pin": {
+    "sha256": "5595b8903754f8f032808f19b000dff2e4a91e470173bf1a12982569c7bb168e",
+    "tag": "v2.4"
+  },
+  "install": [
+    {
+      "from": "Trogdor-Reburninated-wii/apps/Trogdor-RB/",
+      "to": "apps/Trogdor-RB/"
+    }
+  ]
+}

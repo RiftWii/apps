@@ -1,0 +1,22 @@
+{
+  "id": "tbct",
+  "name": "Text-based Controller Test",
+  "author": "sctech-tr",
+  "category": "controllers",
+  "description": "Simple app where you can test your controllers.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "sctech-tr/tbct-wii",
+    "asset": "tbct.7z"
+  },
+  "page": "https://github.com/sctech-tr/tbct-wii",
+  "format": "7z",
+  "pin": {
+    "sha256": "b2eb4b9520f99ba93ae83ea58e0abea9e815e5ab0f9b84bc0d73a16becea0d35",
+    "tag": "v1.3"
+  }
+}

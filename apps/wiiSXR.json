@@ -1,0 +1,28 @@
+{
+  "id": "wiiSXR",
+  "name": "WiiSXR",
+  "author": "Wii64 Team, matguitarist, Daxtsu, Mystro256",
+  "category": "emulators",
+  "description": "PSX Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Mystro256/wiisxr",
+    "asset": "wiiSXR-*.zip"
+  },
+  "page": "https://github.com/Mystro256/wiisxr",
+  "format": "zip",
+  "pin": {
+    "sha256": "5a0e208957e43b1796fc033ee7cf48568e5524cae522607269ff340a67c08a34",
+    "tag": "2.3"
+  },
+  "install": [
+    {
+      "from": "apps/wiiSXR/",
+      "to": "apps/wiiSXR/"
+    }
+  ]
+}

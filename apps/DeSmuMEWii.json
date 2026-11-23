@@ -1,0 +1,27 @@
+{
+  "id": "DeSmuMEWii",
+  "name": "DeSmuME Wii",
+  "author": "Many",
+  "category": "emulators",
+  "description": "DeSmuME on Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/DeSmuMEWii.zip",
+    "version": "r253"
+  },
+  "page": "https://oscwii.org/library/app/DeSmuMEWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "0764e5f8a0848a43e769ac271ac60615433aea4930f816ce54a2ee0b2cd36449"
+  },
+  "install": [
+    {
+      "from": "apps/DeSmuMEWii/",
+      "to": "apps/DeSmuMEWii/"
+    }
+  ]
+}

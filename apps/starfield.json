@@ -1,0 +1,27 @@
+{
+  "id": "starfield",
+  "name": "Starfield Demo",
+  "author": "Owen",
+  "category": "toys",
+  "description": "A demo of a starfield effect",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/starfield.zip",
+    "version": "1.1"
+  },
+  "page": "https://oscwii.org/library/app/starfield",
+  "format": "zip",
+  "pin": {
+    "sha256": "d163bf650a045390a9894fb80ddb808f2c93fc65264fd324caefa956889152db"
+  },
+  "install": [
+    {
+      "from": "starfield/",
+      "to": "apps/starfield/"
+    }
+  ]
+}

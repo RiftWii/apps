@@ -1,0 +1,35 @@
+{
+  "id": "smw-wiigii",
+  "name": "Super Mario War Wii",
+  "author": "Tantric",
+  "category": "games",
+  "description": "Port of Super Mario War",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/smw-wii",
+    "asset": "SuperMarioWar-*Wii.zip"
+  },
+  "page": "https://github.com/dborth/smw-wii",
+  "format": "zip",
+  "pin": {
+    "sha256": "e5027530b423daa255ba287539656315334c9606b1b6e1e3a1548b3e639f2807",
+    "tag": "2.0"
+  },
+  "install": [
+    {
+      "from": "apps/SuperMarioWar-Wii/",
+      "to": "apps/smw-wiigii/"
+    },
+    {
+      "from": "smw/",
+      "to": "smw/"
+    }
+  ],
+  "data_folders": [
+    "smw"
+  ]
+}

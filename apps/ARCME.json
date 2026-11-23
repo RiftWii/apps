@@ -1,0 +1,26 @@
+{
+  "id": "ARCME",
+  "name": "Any Region Changer: ModMii Edition",
+  "author": "Various",
+  "category": "system",
+  "description": "ModMii Edition of ARC",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "modmii/Any-Region-Changer-ModMii-Edition",
+    "asset": "ARCME.zip"
+  },
+  "page": "https://github.com/modmii/Any-Region-Changer-ModMii-Edition",
+  "format": "zip",
+  "pin": {
+    "sha256": "ee93d8dae1c80dcab53ab2d8b64cc7230ac402af0af612e66908d0dbc2fe26e8",
+    "tag": "v1.0.7"
+  },
+  "install": [
+    {
+      "from": "apps/ARCME/",
+      "to": "apps/ARCME/"
+    }
+  ]
+}

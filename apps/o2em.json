@@ -1,0 +1,27 @@
+{
+  "id": "o2em",
+  "name": "O2em",
+  "author": "Consolius",
+  "category": "emulators",
+  "description": "Odyssey emu for the Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/o2em.zip",
+    "version": "1.0"
+  },
+  "page": "https://oscwii.org/library/app/o2em",
+  "format": "zip",
+  "pin": {
+    "sha256": "668cd3bc8d546c4bb88658bd0c559b7942317bbba504dcb60dfc608ac9622fa6"
+  },
+  "install": [
+    {
+      "from": "apps/o2em/",
+      "to": "apps/o2em/"
+    }
+  ]
+}

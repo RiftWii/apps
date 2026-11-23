@@ -1,0 +1,35 @@
+{
+  "id": "wii7800",
+  "name": "Wii7800",
+  "author": "raz0red",
+  "category": "emulators",
+  "description": "Atari 7800 Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "raz0red/wii7800",
+    "asset": "wii7800-*.zip"
+  },
+  "page": "https://github.com/raz0red/wii7800",
+  "format": "zip",
+  "pin": {
+    "sha256": "6777b19f65b429c9dc0ead573d6d928b83612f33514292cf519b90b90cc86558",
+    "tag": "0.5"
+  },
+  "install": [
+    {
+      "from": "apps/wii7800/",
+      "to": "apps/wii7800/"
+    },
+    {
+      "from": "wii7800/",
+      "to": "wii7800/"
+    }
+  ],
+  "data_folders": [
+    "wii7800"
+  ]
+}

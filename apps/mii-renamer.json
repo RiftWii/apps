@@ -1,0 +1,28 @@
+{
+  "id": "mii-renamer",
+  "name": "Mii Renamer",
+  "author": "Floogle",
+  "category": "wiimenu",
+  "description": "Renames Miis",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "skyfloogle/mii-renamer",
+    "asset": "mii-renamer-*.zip"
+  },
+  "page": "https://github.com/skyfloogle/mii-renamer",
+  "format": "zip",
+  "pin": {
+    "sha256": "f0998a41ca7fb1d959cb5b93cbedbb0c361005fb98d0dc52d82a21fba487d00b",
+    "tag": "v0.1.1"
+  },
+  "install": [
+    {
+      "from": "apps/mii-renamer/",
+      "to": "apps/mii-renamer/"
+    }
+  ]
+}

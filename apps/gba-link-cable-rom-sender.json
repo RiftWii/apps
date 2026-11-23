@@ -1,0 +1,26 @@
+{
+  "id": "gba-link-cable-rom-sender",
+  "name": "GBA Link Cable ROM Sender",
+  "author": "FIX94",
+  "category": "gametools",
+  "description": "No description provided.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "FIX94/gba-link-cable-rom-sender",
+    "asset": "gba-link-cable-rom-sender-v1.2.zip"
+  },
+  "page": "https://github.com/FIX94/gba-link-cable-rom-sender",
+  "format": "zip",
+  "pin": {
+    "sha256": "fc9895fd0be9309af3c90f9da77b5bb9b2cf9441b961b16194b42f1034098353",
+    "tag": "v1.2"
+  },
+  "install": [
+    {
+      "from": "gbaromsend_wii.dol",
+      "to": "apps/gba-link-cable-rom-sender/boot.dol"
+    }
+  ]
+}

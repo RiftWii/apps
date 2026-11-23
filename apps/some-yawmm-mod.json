@@ -1,0 +1,26 @@
+{
+  "id": "some-yawmm-mod",
+  "name": "Some YAWMM Mod",
+  "author": "FIX94",
+  "category": "system",
+  "description": "Install\\Uninstall WADs",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "FIX94/Some-YAWMM-Mod",
+    "asset": "some-yawmm-mod-v*.zip"
+  },
+  "page": "https://github.com/FIX94/Some-YAWMM-Mod",
+  "format": "zip",
+  "pin": {
+    "sha256": "c6a82640d47c2a50edb681c880ae01790eb64ba716e6899259f7d4d1b77ff969",
+    "tag": "v1.0"
+  },
+  "install": [
+    {
+      "from": "some-yawmm-mod/",
+      "to": "apps/some-yawmm-mod/"
+    }
+  ]
+}

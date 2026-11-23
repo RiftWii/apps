@@ -1,0 +1,26 @@
+{
+  "id": "GlowWii",
+  "name": "GlowWii",
+  "author": "Larsenv",
+  "category": "wiimenu",
+  "description": "Make your Wii disc drive light glow.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "RiiConnect24/GlowWii",
+    "asset": "GlowWii.zip"
+  },
+  "page": "https://github.com/RiiConnect24/GlowWii",
+  "format": "zip",
+  "pin": {
+    "sha256": "75d159ef8ea5c393011f1bdf3e6b600d7bfc6db69e7164e45bc370d3b398ff5c",
+    "tag": "v1.1"
+  },
+  "install": [
+    {
+      "from": "apps/GlowWii/",
+      "to": "apps/GlowWii/"
+    }
+  ]
+}

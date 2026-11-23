@@ -1,0 +1,22 @@
+{
+  "id": "wii64",
+  "name": "Wii64 | glN64 GFX",
+  "author": "Wii64 Team",
+  "category": "emulators",
+  "description": "N64 Emulator for Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "emukidid/Wii64",
+    "asset": "wii64-*.7z"
+  },
+  "page": "https://github.com/emukidid/Wii64",
+  "format": "7z",
+  "pin": {
+    "sha256": "a6b0efe2db9007180cd2846298fcc6bdf1c34aeb035d423c30f6a99c3cb79b83",
+    "tag": "1.5.0"
+  }
+}

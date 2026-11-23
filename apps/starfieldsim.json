@@ -1,0 +1,26 @@
+{
+  "id": "starfieldsim",
+  "name": "Starfield Simulator",
+  "author": "GatoWare",
+  "category": "toys",
+  "description": "A dynamic 3D starfield screensaver simulation for the Wii.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "OxyZin/starfield",
+    "asset": "starfieldsim.zip"
+  },
+  "page": "https://github.com/OxyZin/starfield",
+  "format": "zip",
+  "pin": {
+    "sha256": "8e2dfb284b3fc767b4ead0bb4cf51b115ba6348ba49d5e9da3df8f1558e187d9",
+    "tag": "OSC"
+  },
+  "install": [
+    {
+      "from": "starfieldsim/",
+      "to": "apps/starfieldsim/"
+    }
+  ]
+}

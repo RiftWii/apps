@@ -1,0 +1,27 @@
+{
+  "id": "NewoAsteroids",
+  "name": "Newo Asteroids",
+  "author": "Owen",
+  "category": "games",
+  "description": "an asteroids like space game",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/NewoAsteroids.zip",
+    "version": "3.1"
+  },
+  "page": "https://oscwii.org/library/app/NewoAsteroids",
+  "format": "zip",
+  "pin": {
+    "sha256": "3db3b25d79d79cb6a6f3f1bfb513caa7ebe5e4d313353ee2786d66521edb8edc"
+  },
+  "install": [
+    {
+      "from": "NewoAsteroids/",
+      "to": "apps/NewoAsteroids/"
+    }
+  ]
+}

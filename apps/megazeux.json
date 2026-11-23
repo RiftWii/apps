@@ -1,0 +1,28 @@
+{
+  "id": "megazeux",
+  "name": "MegaZeux",
+  "author": "Alexis Janson, Gilead Kutnick, Alistair Strachan, Alice Rowan",
+  "category": "games",
+  "description": "A simple game creation system (GCS)",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "AliceLR/megazeux",
+    "asset": "mzx*-wii.zip"
+  },
+  "page": "https://github.com/AliceLR/megazeux",
+  "format": "zip",
+  "pin": {
+    "sha256": "3304f35dacc2d4e2cda3bf575060e244bff2fea508d735b1fe89bc0bbe0f88dd",
+    "tag": "v2.93d"
+  },
+  "install": [
+    {
+      "from": "apps/megazeux/",
+      "to": "apps/megazeux/"
+    }
+  ]
+}

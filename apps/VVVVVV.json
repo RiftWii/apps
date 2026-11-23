@@ -1,0 +1,28 @@
+{
+  "id": "VVVVVV",
+  "name": "VVVVVV",
+  "author": "Terry Cavanagh",
+  "category": "games",
+  "description": "Platforms, teleportation, gravity!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "mardy/VVVVVV",
+    "asset": "VVVVVV*.zip"
+  },
+  "page": "https://github.com/mardy/VVVVVV",
+  "format": "zip",
+  "pin": {
+    "sha256": "2e3c2c9ec0344f5c80e73e6dc54192a34627fcb8be9a795308393b3aa7d41add",
+    "tag": "v2.4.1_wii2"
+  },
+  "install": [
+    {
+      "from": "VVVVVV/",
+      "to": "apps/VVVVVV/"
+    }
+  ]
+}

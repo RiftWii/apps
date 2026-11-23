@@ -1,0 +1,28 @@
+{
+  "id": "wiirdle",
+  "name": "Wiirdle",
+  "author": "HTV04",
+  "category": "games",
+  "description": "Wordle clone for the Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "HTV04/wiirdle",
+    "asset": "wiirdle.zip"
+  },
+  "page": "https://github.com/HTV04/wiirdle",
+  "format": "zip",
+  "pin": {
+    "sha256": "125a7da8e432a5da9b2a1c42c1821b79519150f301244368b4e4c5deed01ca91",
+    "tag": "v1.0.0"
+  },
+  "install": [
+    {
+      "from": "apps/wiirdle/",
+      "to": "apps/wiirdle/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "MyMenuifyMod",
+  "name": "MyMenuifyMod",
+  "author": "Scooby74029",
+  "category": "wiimenu",
+  "description": "Theme Installer",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "scooby7402976/mymenuifymod",
+    "asset": "mymenuifymod.zip"
+  },
+  "page": "https://github.com/scooby7402976/mymenuifymod",
+  "format": "zip",
+  "pin": {
+    "sha256": "649c30007c2dd82f0469d1a8e92cf614c2575a0cb3d6168f10f7cc43464b46a5",
+    "tag": "v3.0.0"
+  },
+  "install": [
+    {
+      "from": "mymenuifymod/",
+      "to": "apps/MyMenuifyMod/"
+    }
+  ]
+}

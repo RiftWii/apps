@@ -1,0 +1,27 @@
+{
+  "id": "PowerCheck",
+  "name": "PowerCheck",
+  "author": "JoostinOnline",
+  "category": "controllers",
+  "description": "Checks how charged your remotes are",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/PowerCheck.zip",
+    "version": "v1.8"
+  },
+  "page": "https://oscwii.org/library/app/PowerCheck",
+  "format": "zip",
+  "pin": {
+    "sha256": "cd12f5ad3deb18997bcf41af598d1cb95ef622b2d193bef5801dff870ac3eb79"
+  },
+  "install": [
+    {
+      "from": "apps/PowerCheck/",
+      "to": "apps/PowerCheck/"
+    }
+  ]
+}

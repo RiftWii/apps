@@ -1,0 +1,30 @@
+{
+  "id": "WNCE",
+  "name": "Wii Network Config Editor",
+  "author": "Bazmoc",
+  "category": "system",
+  "description": "Network Settings Editor",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "Bazmoc/Wii-Network-Config-Editor",
+    "asset": "WNCE.V*.zip"
+  },
+  "page": "https://github.com/Bazmoc/Wii-Network-Config-Editor",
+  "format": "zip",
+  "pin": {
+    "sha256": "0701e46d27af7c464d646ca99fd185c725acfe10beeee67b60a671b14e34ca61",
+    "tag": "V1.4"
+  },
+  "install": [
+    {
+      "from": "apps/WNCE/BOOT.dol",
+      "to": "apps/WNCE/boot.dol"
+    },
+    {
+      "from": "apps/WNCE/",
+      "to": "apps/WNCE/"
+    }
+  ]
+}

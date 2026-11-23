@@ -1,0 +1,22 @@
+{
+  "id": "nulldc4wii",
+  "name": "nullDC4Wii",
+  "author": "BenoitAdam",
+  "category": "emulators",
+  "description": "Dreamcast emulator",
+  "license": "MIT",
+  "page": "https://github.com/BenoitAdam/nullDC4Wii",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "BenoitAdam/nullDC4Wii",
+    "asset": "nulldc4wii_*.7z"
+  },
+  "format": "7z",
+  "pin": {
+    "tag": "alpha0.805",
+    "sha256": "7c2560bed5f85014edbe85f39a3ccf70d6ca8331e149165a1a51fe9712ae1c7d"
+  }
+}

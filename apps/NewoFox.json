@@ -1,0 +1,27 @@
+{
+  "id": "NewoFox",
+  "name": "Newo Fox",
+  "author": "Owen",
+  "category": "games",
+  "description": "on rails arcade shooter",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://owensoft.net/project/newogame/dl/newofox.zip",
+    "version": "1.2"
+  },
+  "page": "https://oscwii.org/library/app/NewoFox",
+  "format": "zip",
+  "pin": {
+    "sha256": "4323a49e926fea101878182c4c5e4fc8cd7874b8117191f5f4f4e2e98685fc44"
+  },
+  "install": [
+    {
+      "from": "newofox/",
+      "to": "apps/NewoFox/"
+    }
+  ]
+}

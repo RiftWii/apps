@@ -1,0 +1,28 @@
+{
+  "id": "linktag-app",
+  "name": "LinkTag App",
+  "author": "emilydaemon",
+  "category": "online",
+  "description": "View your LinkTag!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "emilydaemon/linktag-app",
+    "asset": "linktag-app.zip"
+  },
+  "page": "https://github.com/emilydaemon/linktag-app",
+  "format": "zip",
+  "pin": {
+    "sha256": "6ce68fd9846bd5dbb979480d0973f341197fad9eaec823d4b9a48259a4765906",
+    "tag": "v1.0.2"
+  },
+  "install": [
+    {
+      "from": "linktag-app/",
+      "to": "apps/linktag-app/"
+    }
+  ]
+}

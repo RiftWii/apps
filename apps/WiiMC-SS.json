@@ -1,0 +1,22 @@
+{
+  "id": "WiiMC-SS",
+  "name": "WiiMC-SS",
+  "author": "SuperrSonic",
+  "category": "media",
+  "description": "Wii Media Player",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "SuperrSonic/WiiMC-SSLC",
+    "asset": "WiiMC-SS_*.7z"
+  },
+  "page": "https://github.com/SuperrSonic/WiiMC-SSLC",
+  "format": "7z",
+  "pin": {
+    "sha256": "5ddd363d6070de684ffe324eeaa868a19d7c7e6730248c0dd8eeb2e6027a87cd",
+    "tag": "v3.0.0-2024"
+  }
+}

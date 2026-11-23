@@ -1,0 +1,28 @@
+{
+  "id": "SonicCDWii",
+  "name": "Sonic CD",
+  "author": "ultra0",
+  "category": "games",
+  "description": "Sonic CD (2011) Port",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "ultra0000/Sonic-CD-11-Decompilation",
+    "asset": "RSDKv3.Wii.zip"
+  },
+  "page": "https://github.com/ultra0000/Sonic-CD-11-Decompilation",
+  "format": "zip",
+  "pin": {
+    "sha256": "990d91bfabcd92462dc228fe3d4a5d3dbaefd04855a3ab976cee948151f8c221",
+    "tag": "Wii-v3.1.0"
+  },
+  "install": [
+    {
+      "from": "apps/RSDKv3/",
+      "to": "apps/SonicCDWii/"
+    }
+  ]
+}

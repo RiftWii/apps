@@ -1,0 +1,28 @@
+{
+  "id": "fceugx",
+  "name": "FCE Ultra GX",
+  "author": "Tantric",
+  "category": "emulators",
+  "description": "Nintendo Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/fceugx",
+    "asset": "FCEUltraGX-*-Wii.zip"
+  },
+  "page": "https://github.com/dborth/fceugx",
+  "format": "zip",
+  "pin": {
+    "sha256": "8a1d18d4cac6366b52ce4145c9e34c9b81617632f20afd1f2c91b4abbe58398a",
+    "tag": "4.0.5"
+  },
+  "install": [
+    {
+      "from": "apps/fceugx/",
+      "to": "apps/fceugx/"
+    }
+  ]
+}

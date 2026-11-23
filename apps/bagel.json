@@ -1,0 +1,27 @@
+{
+  "id": "bagel",
+  "name": "bagel",
+  "author": "Bagelman47",
+  "category": "toys",
+  "description": "Displays a bagel",
+  "page": "https://github.com/Bagelman47/bagel-wii",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "Bagelman47/bagel-wii",
+    "asset": "bagel.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.2.0",
+    "sha256": "2f06a4df6416db7b34a9f8153a3484e1513af688740c753e8bcbb104a3c734d4"
+  },
+  "install": [
+    {
+      "from": "apps/bagel/",
+      "to": "apps/bagel/"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "snes9xgx",
+  "name": "Snes9x GX",
+  "author": "Tantric",
+  "category": "emulators",
+  "description": "Super Nintendo Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/snes9xgx",
+    "asset": "Snes9xGX-*-Wii.zip"
+  },
+  "page": "https://github.com/dborth/snes9xgx",
+  "format": "zip",
+  "pin": {
+    "sha256": "37e869691c23ef91f3238f174f594c175d42db6c14e88a11dc90dcd4e275668b",
+    "tag": "5.0.6"
+  },
+  "install": [
+    {
+      "from": "apps/snes9xgx/",
+      "to": "apps/snes9xgx/"
+    }
+  ]
+}

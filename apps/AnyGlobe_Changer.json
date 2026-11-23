@@ -1,0 +1,26 @@
+{
+  "id": "AnyGlobe_Changer",
+  "name": "AnyGlobe Changer",
+  "author": "fishguy6564",
+  "category": "gametools",
+  "description": "Changes your globe position for Wii games.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "fishguy6564/AnyGlobe-Changer",
+    "asset": "AnyGlobe.Changer.zip"
+  },
+  "page": "https://github.com/fishguy6564/AnyGlobe-Changer",
+  "format": "zip",
+  "pin": {
+    "sha256": "6cba19a7e27ad991d2c6fb8eb28d81278c9f158b15ac33953eec8e6637650a3d",
+    "tag": "v1.2"
+  },
+  "install": [
+    {
+      "from": "apps/AnyGlobe Changer/",
+      "to": "apps/AnyGlobe_Changer/"
+    }
+  ]
+}

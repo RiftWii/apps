@@ -1,0 +1,27 @@
+{
+  "id": "babysmash",
+  "name": "BabySmash",
+  "author": "quatric",
+  "category": "toys",
+  "description": "Mash buttons, shapes and letters pop up",
+  "page": "https://github.com/quatric/babysmash-wii",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "quatric/babysmash-wii",
+    "asset": "babysmash-wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v0.4.2",
+    "sha256": "d92b2e5d5d373a32340a7ce763a5232c63e09774237876b0361c9ffcb1152596"
+  },
+  "install": [
+    {
+      "from": "apps/babysmash/",
+      "to": "apps/babysmash/"
+    }
+  ]
+}

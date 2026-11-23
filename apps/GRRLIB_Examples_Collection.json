@@ -1,0 +1,27 @@
+{
+  "id": "GRRLIB_Examples_Collection",
+  "name": "GRRLIB Examples Collection",
+  "author": "boreal",
+  "category": "toys",
+  "description": "A colletion of the examples bundled with GRRLIB.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://codeberg.org/boreal/GRRLIB-Examples-Collection/releases/download/latest/release.zip",
+    "version": "0.1.2"
+  },
+  "page": "https://oscwii.org/library/app/GRRLIB_Examples_Collection",
+  "format": "zip",
+  "pin": {
+    "sha256": "bdc6feb5202dcd70030c80596908a16630a6c65f0df3286989625f36b3cd4cca"
+  },
+  "install": [
+    {
+      "from": "apps/GRRLIB-Examples-Collection/",
+      "to": "apps/GRRLIB_Examples_Collection/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "WIIT_WiiInputTester",
+  "name": "WIIT",
+  "author": "BlocksumoGuys",
+  "category": "controllers",
+  "description": "Wii's Input Tester.",
+  "platforms": [
+    "wii"
+  ],
+  "source": {
+    "github": "BlocksumoGuys/WIIT",
+    "asset": "WIIT.zip"
+  },
+  "page": "https://github.com/BlocksumoGuys/WIIT",
+  "format": "zip",
+  "pin": {
+    "sha256": "0e6d579cb70387f9f6cf16f98050f258cc9311049ce54a156699480ce3f249c6",
+    "tag": "1.0"
+  },
+  "install": [
+    {
+      "from": "apps/WIIT/",
+      "to": "apps/WIIT_WiiInputTester/"
+    }
+  ]
+}

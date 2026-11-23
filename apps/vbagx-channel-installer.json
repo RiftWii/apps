@@ -1,0 +1,27 @@
+{
+  "id": "vbagx-channel-installer",
+  "name": "VBA GX Channel Installer",
+  "author": "Tantric",
+  "category": "wiimenu",
+  "description": "VBA GX Channel Installer",
+  "platforms": [
+    "mini",
+    "wii"
+  ],
+  "source": {
+    "github": "dborth/vbagx",
+    "asset": "VisualBoyAdvanceGX-Channel-Installer.zip"
+  },
+  "page": "https://github.com/dborth/vbagx",
+  "format": "zip",
+  "pin": {
+    "sha256": "d2a6871d9b1c26e3aa641f4083bf3c9dab1530235680cf51c73dea46f6ed91c7",
+    "tag": "3.0.6"
+  },
+  "install": [
+    {
+      "from": "apps/vbagx-channel-installer/",
+      "to": "apps/vbagx-channel-installer/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Fire_Emblem_Transfer_Tool",
+  "name": "Fire Emblem Transfer Tool",
+  "author": "SuperrSonic",
+  "category": "gametools",
+  "description": "Transfer data without a link cable",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/Fire_Emblem_Transfer_Tool.zip",
+    "version": "1"
+  },
+  "page": "https://oscwii.org/library/app/Fire_Emblem_Transfer_Tool",
+  "format": "zip",
+  "pin": {
+    "sha256": "f4efe58c1d32b4d5b817f3cfaf6940b744aef1fcffd974aad0333b5c3105bdb9"
+  },
+  "install": [
+    {
+      "from": "apps/Fire_Emblem_Transfer_Tool/",
+      "to": "apps/Fire_Emblem_Transfer_Tool/"
+    }
+  ]
+}

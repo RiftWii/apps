@@ -1,0 +1,28 @@
+{
+  "id": "cdbackup",
+  "name": "cdbackup",
+  "author": "thepikachugamer",
+  "category": "wiimenu",
+  "description": "Backup/restore/export Wii message board data.",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Naim2000/cdbackup",
+    "asset": "cdbackup.zip"
+  },
+  "page": "https://github.com/Naim2000/cdbackup",
+  "format": "zip",
+  "pin": {
+    "sha256": "299d339b5b6db5f768fdc6aad1bfca3561f8ea93ae11be98718ba5625465b7bf",
+    "tag": "v1.4.0"
+  },
+  "install": [
+    {
+      "from": "apps/cdbackup/",
+      "to": "apps/cdbackup/"
+    }
+  ]
+}

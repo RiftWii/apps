@@ -1,0 +1,28 @@
+{
+  "id": "fceuxtx",
+  "name": "FCE Ultra TX",
+  "author": "Tanooki, Tantric",
+  "category": "emulators",
+  "description": "NES/Famicom Emulator",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "saulfabregwiivc/FCEUXTX",
+    "asset": "FCEUXTX-*-Wii.zip"
+  },
+  "page": "https://github.com/saulfabregwiivc/FCEUXTX",
+  "format": "zip",
+  "pin": {
+    "sha256": "0a89ea9411b1b5bfb27589ba325ce1730749ad74511230aad643d476f40921b9",
+    "tag": "1.1.7"
+  },
+  "install": [
+    {
+      "from": "apps/fceuxtx/",
+      "to": "apps/fceuxtx/"
+    }
+  ]
+}

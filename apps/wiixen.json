@@ -1,0 +1,27 @@
+{
+  "id": "wiixen",
+  "name": "Wiixen",
+  "author": "GeorgeCottrell",
+  "category": "games",
+  "description": "Hexen port; bring your own hexen.wad",
+  "page": "https://github.com/GeorgeCottrell/Wiixen",
+  "platforms": [
+    "wii",
+    "vwii"
+  ],
+  "source": {
+    "github": "GeorgeCottrell/Wiixen",
+    "asset": "Wiixen-v*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v0.2",
+    "sha256": "64ffa9daf798c0365bed79257909b77a035579e68c3386d76636425b120f44f4"
+  },
+  "install": [
+    {
+      "from": "apps/wiixen/",
+      "to": "apps/wiixen/"
+    }
+  ]
+}

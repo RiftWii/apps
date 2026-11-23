@@ -1,0 +1,28 @@
+{
+  "id": "paperplane",
+  "name": "Paper Airplane Chase GX",
+  "author": "cmyksoda",
+  "category": "games",
+  "description": "Paper Airplane Chase for Wii!",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "cmyksoda/Paper-Airplane-Chase-GX",
+    "asset": "Paper-Airplane-Chase-GX.zip"
+  },
+  "page": "https://github.com/cmyksoda/Paper-Airplane-Chase-GX",
+  "format": "zip",
+  "pin": {
+    "sha256": "8b19cd23b2fc7b9d6fa840da47248ddfb8009cc62a3815170a874b011c5143a8",
+    "tag": "v1.1.0"
+  },
+  "install": [
+    {
+      "from": "apps/paperplane/",
+      "to": "apps/paperplane/"
+    }
+  ]
+}

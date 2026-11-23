@@ -1,0 +1,27 @@
+{
+  "id": "VC_Test",
+  "name": "Visual Controller Test",
+  "author": "Mr. Reaper",
+  "category": "controllers",
+  "description": "Test all your controllers",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://wiibrew.org/w/images/3/3c/VC_Test_v1.2.zip",
+    "version": "1.2"
+  },
+  "page": "https://oscwii.org/library/app/VC_Test",
+  "format": "zip",
+  "pin": {
+    "sha256": "f968c35ce3501b849640481352cc2ef4102569e331ec54961dbbcc1e358e7c5c"
+  },
+  "install": [
+    {
+      "from": "VC_Test/",
+      "to": "apps/VC_Test/"
+    }
+  ]
+}

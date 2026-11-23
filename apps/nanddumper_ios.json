@@ -1,0 +1,28 @@
+{
+  "id": "nanddumper_ios",
+  "name": "nanddumper@IOS",
+  "author": "thepikachugamer",
+  "category": "system",
+  "description": "NAND dumper",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Naim2000/nanddumper_ios",
+    "asset": "nanddumper_ios.zip"
+  },
+  "page": "https://github.com/Naim2000/nanddumper_ios",
+  "format": "zip",
+  "pin": {
+    "sha256": "e67656e180d45b5336a55f3f711c4ac0f461dbd833f2dbe3cff9a76469fafbc2",
+    "tag": "1.1"
+  },
+  "install": [
+    {
+      "from": "apps/nanddumper_ios/",
+      "to": "apps/nanddumper_ios/"
+    }
+  ]
+}

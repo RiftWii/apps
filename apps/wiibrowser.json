@@ -1,0 +1,27 @@
+{
+  "id": "wiibrowser",
+  "name": "WiiBrowser",
+  "author": "gave92",
+  "category": "internet",
+  "description": "A Web browser for the Wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "url": "https://hbbarchive.oscwii.org/legacy/wiibrowser.zip",
+    "version": "rev132"
+  },
+  "page": "https://oscwii.org/library/app/wiibrowser",
+  "format": "zip",
+  "pin": {
+    "sha256": "7908446ca8094287211a290b15cd85f0ecc11eb6028c4f06150073a650ec702a"
+  },
+  "install": [
+    {
+      "from": "apps/wiibrowser/",
+      "to": "apps/wiibrowser/"
+    }
+  ]
+}

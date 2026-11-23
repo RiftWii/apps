@@ -1,0 +1,28 @@
+{
+  "id": "system-channel-restorer",
+  "name": "system-channel-restorer",
+  "author": "thepikachugamer",
+  "category": "system",
+  "description": "(Re)install missing system titles",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "Naim2000/system-channel-restorer",
+    "asset": "system-channel-restorer.zip"
+  },
+  "page": "https://github.com/Naim2000/system-channel-restorer",
+  "format": "zip",
+  "pin": {
+    "sha256": "c70b950f448132f5ac3e226e297b8210d1afc47ea775f50ef059998cd397f7ef",
+    "tag": "1.2"
+  },
+  "install": [
+    {
+      "from": "apps/system-channel-restorer/",
+      "to": "apps/system-channel-restorer/"
+    }
+  ]
+}
