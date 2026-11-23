@@ -71,5 +71,9 @@ jobs:
           git push -f origin update/pins
           if ! gh pr view update/pins --json state --jq .state 2>/dev/null | grep -q OPEN; then
             { echo "New releases pinned by the daily update. Check each one before merging:"; echo; grep "pinned" "$RUNNER_TEMP/update.txt" | sed 's/^/- /'; } > "$RUNNER_TEMP/body.md"
-            gh pr create --base main --head update/pins --title "New app releases" --body-file "$RUNNER_TEMP/body.md"
+            # The organization may not let workflows open pull requests:
+            # then the branch is there for a maintainer to open one.
+            if ! gh pr create --base main --head update/pins --title "New app releases" --body-file "$RUNNER_TEMP/body.md"; then
+              echo "::notice::New pins are on the update/pins branch; open a pull request from it: https://github.com/${{ github.repository }}/compare/main...update/pins"
+            fi
           fi
