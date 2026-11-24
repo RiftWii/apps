@@ -3,7 +3,7 @@
   "name": "Snes9x GX Channel Installer",
   "author": "Tantric",
   "category": "wiimenu",
-  "description": "Snes9x GX Channel Installer",
+  "description": "Installs Snes9x GX as a channel on the Wii Menu.",
   "platforms": [
     "mini",
     "wii"

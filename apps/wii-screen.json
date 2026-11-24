@@ -1,9 +1,9 @@
 {
   "id": "wii-screen",
-  "name": "Video mode explorer",
+  "name": "Video Mode Explorer",
   "author": "Alberto Mardegan",
-  "category": "controllers",
-  "description": "Video mode explorer",
+  "category": "system",
+  "description": "Tries each of the video modes the Wii supports.",
   "platforms": [
     "mini",
     "vwii",

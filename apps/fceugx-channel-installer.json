@@ -3,7 +3,7 @@
   "name": "FCE Ultra GX Channel Installer",
   "author": "Tantric",
   "category": "wiimenu",
-  "description": "FCE Ultra GX Channel Installer",
+  "description": "Installs FCE Ultra GX as a channel on the Wii Menu.",
   "platforms": [
     "mini",
     "wii"

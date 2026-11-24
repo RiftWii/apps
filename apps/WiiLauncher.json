@@ -3,7 +3,7 @@
   "name": "WiiLauncher",
   "author": "conanac",
   "category": "loaders",
-  "description": "WiiLauncher",
+  "description": "An alternative to Gecko OS for starting games.",
   "platforms": [
     "vwii",
     "wii"

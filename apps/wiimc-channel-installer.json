@@ -3,7 +3,7 @@
   "name": "WiiMC Channel Installer",
   "author": "Tantric",
   "category": "wiimenu",
-  "description": "WiiMC Channel Installer",
+  "description": "Installs WiiMC as a channel on the Wii Menu.",
   "platforms": [
     "mini",
     "wii"
