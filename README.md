@@ -1,7 +1,10 @@
-# RiftWii apps
+<p align="center"><img src="docs/rift-store.png" alt="Rift Store: homebrew for your Wii" width="640"></p>
 
-The list of homebrew apps that [RiftWii](https://github.com/KakarottoCake/Riftwii)'s
-app store offers. Each app is one small manifest in `apps/`. GitHub Pages
+# Rift Store
+
+The list of homebrew apps in the **Rift Store**, the store built into
+[RiftWii](https://github.com/KakarottoCake/Riftwii) (Settings > Online >
+Rift Store). Each app is one small manifest in `apps/`. GitHub Pages
 publishes the list as **https://riftwii.github.io/apps/apps.json**, with
 each app's icon beside it.
 
@@ -13,6 +16,9 @@ The format, and what RiftWii accepts, is in RiftWii's
 [docs/APPSTORE.md](https://github.com/KakarottoCake/Riftwii/blob/main/docs/APPSTORE.md).
 
 ## Add an app
+
+**The step-by-step guide is [CONTRIBUTING.md](CONTRIBUTING.md)** (also the
+pinned issue). In short:
 
 1. Read [CONTENT-RULES.md](CONTENT-RULES.md).
 2. Add `apps/<id>.json` (start from a similar app's file). For a GitHub
@@ -41,6 +47,12 @@ something new lands there, and publishes each build under its own tag
 `games`, `emulators`, `media`, `internet`, `online` (online services),
 `gametools`, `loaders`, `system`, `wiimenu`, `controllers`, `creative`,
 `toys` (demos and toys).
+
+## Logo
+
+`docs/rift-store.png` (1280x640), `docs/rift-store-wide.png` (1600x400) and
+`docs/rift-store-mark.png` (the bag, 512x512), drawn by RiftWii's
+`tools/store_logo.html`.
 
 ## License
 

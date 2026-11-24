@@ -1,3 +1,5 @@
+<!-- How to add an app: CONTRIBUTING.md (also the pinned issue). -->
+
 ## App
 
 - Manifest: `apps/...json`
@@ -8,4 +10,5 @@
 - [ ] The app's source is public (or I explain why not above).
 - [ ] The download is the author's own release, and the app starts on a Wii (or in Dolphin).
 - [ ] It ships no copyrighted game data and nothing its owner had taken down.
-- [ ] I read CONTENT-RULES.md.
+- [ ] I read CONTENT-RULES.md and CONTRIBUTING.md.
+- [ ] The `pin` is the release file's SHA-256 (CONTRIBUTING.md, step 2).
