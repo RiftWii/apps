@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "http://tinyhack.com/wii/wiiapple/wiiapple.zip",
     "version": "0.0.7"

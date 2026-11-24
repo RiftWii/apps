@@ -9,6 +9,12 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "quatric/mightymike-wii",
     "asset": "mightymike-wii.zip"

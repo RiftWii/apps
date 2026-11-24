@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/BlueMSX-Wii_v1.0.3B_Wiimpathy_MSXWii_SRL-saulfabreg.zip",
     "version": "V1.0.3B"

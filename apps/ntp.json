@@ -8,6 +8,10 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/ntp.zip",
     "version": "1.0"

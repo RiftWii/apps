@@ -9,6 +9,13 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "quatric/babysmash-wii",
     "asset": "babysmash-wii.zip"

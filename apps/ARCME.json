@@ -7,6 +7,10 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "modmii/Any-Region-Changer-ModMii-Edition",
     "asset": "ARCME.zip"

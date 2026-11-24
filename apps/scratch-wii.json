@@ -8,6 +8,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "ScratchEverywhere/ScratchEverywhere",
     "asset": "scratch-wii.zip"

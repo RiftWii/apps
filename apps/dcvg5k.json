@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "keyboard"
+  ],
   "source": {
     "url": "http://dcvg5k.free.fr/download/dcvg5k_wii_binaire.zip",
     "version": "r1"

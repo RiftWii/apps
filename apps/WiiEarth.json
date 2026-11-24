@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://github.com/PaulWagener/WiiEarth/raw/master/WiiEarth/WiiEarth.zip",
     "version": "2.3"

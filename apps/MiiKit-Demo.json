@@ -9,6 +9,10 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "cmyksoda/MiiKit-Demo",
     "asset": "MiiKit-Demo-*.zip"

@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "modmii/YAWM-ModMii-Edition",
     "asset": "yawmME.zip"

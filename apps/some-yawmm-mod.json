@@ -7,6 +7,11 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "FIX94/Some-YAWMM-Mod",
     "asset": "some-yawmm-mod-v*.zip"

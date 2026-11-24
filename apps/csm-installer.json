@@ -8,6 +8,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "Naim2000/csm-installer",
     "asset": "csm-installer.zip"

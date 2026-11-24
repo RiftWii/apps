@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic"
+  ],
   "source": {
     "github": "dpembo/tetwiis",
     "asset": "tetwiis.zip"

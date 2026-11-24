@@ -7,6 +7,11 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "suloku/gcmm",
     "asset": "gcmm_*.zip"

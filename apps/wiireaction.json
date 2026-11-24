@@ -8,6 +8,9 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "KyleWii/WiiReaction",
     "asset": "WiiReaction.zip"

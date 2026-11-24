@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "keyboard"
+  ],
   "source": {
     "github": "Oibaf66/frodo-wii",
     "asset": "c64-network.org-wii-*.bin.tar.gz"

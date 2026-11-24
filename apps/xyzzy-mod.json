@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "DarkMatterCore/xyzzy-mod",
     "asset": "xyzzy-mod_v*.zip"

@@ -7,6 +7,12 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "http://www.nanolx.org/hbf/Installer/HomebrewFilter-rev47.tar.bz2",
     "version": "rev47"

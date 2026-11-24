@@ -7,6 +7,9 @@
   "platforms": [
     "vwii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/USB_Toggle.zip",
     "version": "v1.00"

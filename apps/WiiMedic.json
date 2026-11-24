@@ -7,6 +7,11 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "gamecube"
+  ],
   "source": {
     "github": "PowFPS1/WiiMedic",
     "asset": "WiiMedic_*.zip"

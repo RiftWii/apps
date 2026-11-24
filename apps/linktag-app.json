@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "emilydaemon/linktag-app",
     "asset": "linktag-app.zip"

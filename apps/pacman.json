@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/a/ae/Wii_pacman1_04_20160712.zip",
     "version": "1.04"

@@ -7,6 +7,9 @@
   "platforms": [
     "mini"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/RealWnD_Mini.zip",
     "version": "0.21b-Mini"

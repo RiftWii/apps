@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/0/08/ART_S55.zip",
     "version": "1.2"

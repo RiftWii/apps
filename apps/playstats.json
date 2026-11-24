@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "http://www.toxicbreakfast.com/tb/downloads/playstats.zip",
     "version": "1.1"

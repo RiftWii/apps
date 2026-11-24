@@ -7,6 +7,11 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "gamecube"
+  ],
   "source": {
     "github": "Bazmoc/Wii-Network-Config-Editor",
     "asset": "WNCE.V*.zip"

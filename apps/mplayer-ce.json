@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mplayer-ce/mplayer_r658.zip",
     "version": "0.80 r658"

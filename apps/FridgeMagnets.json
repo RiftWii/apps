@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/2/20/FridgeMagnets.zip",
     "version": "v0.34"

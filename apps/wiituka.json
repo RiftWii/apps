@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "keyboard"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/wiituka.zip",
     "version": "0.98.8"

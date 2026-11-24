@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "abdelali221/Wii-Network-Profiles-Viewer",
     "asset": "WNPV.zip"

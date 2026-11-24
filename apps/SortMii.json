@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://codeberg.org/boreal/SortMii/releases/download/latest/SortMii.zip",
     "version": "0.3.1"

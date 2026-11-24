@@ -10,6 +10,13 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "BenoitAdam/nullDC4Wii",
     "asset": "nulldc4wii_*.7z"

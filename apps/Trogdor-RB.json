@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "Mode8fx/Trogdor-Reburninated",
     "asset": "Trogdor-Reburninated-v*-wii.zip"

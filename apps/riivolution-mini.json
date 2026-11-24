@@ -7,6 +7,12 @@
   "platforms": [
     "mini"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "r00t1024/rawksd",
     "asset": "riivolution.zip"

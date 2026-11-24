@@ -9,6 +9,10 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk"
+  ],
   "source": {
     "github": "GeorgeCottrell/Wiixen",
     "asset": "Wiixen-v*.zip"

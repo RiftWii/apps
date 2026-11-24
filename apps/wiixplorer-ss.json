@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/wiixplorer-ss.zip",
     "version": "260"

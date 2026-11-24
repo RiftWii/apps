@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "emukidid/cleanrip",
     "asset": "CleanRip-*[!-gc].zip"

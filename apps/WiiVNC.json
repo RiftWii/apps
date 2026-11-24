@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "https://github.com/PaulWagener/WiiVNC/raw/master/WiiVNC.zip",
     "version": "1.3"

@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "raz0red/wiixl",
     "asset": "wiixl-*.zip"

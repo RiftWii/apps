@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/mame4wii.zip",
     "version": "1.35.2(MAME 0.135s)"

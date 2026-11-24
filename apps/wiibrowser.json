@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "keyboard"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/wiibrowser.zip",
     "version": "rev132"

@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "Wiimpathy/HatariWii",
     "asset": "HatariWii-*.zip"

@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "abdelali221/SnakeWii",
     "asset": "SnakeWii.zip"

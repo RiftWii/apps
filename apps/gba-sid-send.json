@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "gamecube"
+  ],
   "source": {
     "github": "FIX94/gba-sid-send",
     "asset": "GBA-SID-Send_v1.0.zip"

@@ -8,6 +8,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/DumpMiiNANDv1.2.zip",
     "version": "v1.2"

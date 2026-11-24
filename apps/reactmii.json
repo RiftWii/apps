@@ -8,6 +8,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "Some-Random-Guy123456/ReactMii",
     "asset": "reactmii.zip"

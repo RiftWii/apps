@@ -7,6 +7,10 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "scooby7402976/mymenuifymod",
     "asset": "mymenuifymod.zip"

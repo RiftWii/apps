@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://filetrip.net/files/f/23776-PieChart_0.8.rar",
     "version": "0.8"

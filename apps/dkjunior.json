@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://github.com/PaulGoes/Wii-Donkey-Kong-Jr/raw/master/download/DKJunior.zip",
     "version": "1.0"

@@ -51,6 +51,7 @@ is the quickest start. A GitHub release looks like this:
   "license": "GPL-3.0",
   "page": "https://github.com/you/myapp",
   "platforms": ["wii", "vwii", "mini"],
+  "controllers": ["wiimote", "classic", "gamecube"],
   "source": {"github": "you/myapp", "asset": "MyApp-*.zip"},
   "format": "zip",
   "install": [
@@ -69,6 +70,7 @@ is the quickest start. A GitHub release looks like this:
 | `license` | Optional: an SPDX id such as `GPL-3.0`, `MIT`. |
 | `page` | Your app's page (`https://`). The store shows it as a QR code. |
 | `platforms` | Any of `wii`, `vwii`, `mini`: where it works. |
+| `controllers` | Optional: what it can be played with, any of `wiimote`, `nunchuk`, `classic`, `gamecube`, `keyboard` (USB). The store shows them on the app's page, and apps with `classic` or `gamecube` appear under "Without a Wii Remote". |
 | `source` | GitHub: `{"github": "owner/repo", "asset": "<pattern>"}`, where the pattern matches **exactly one** file of the release. Elsewhere: `{"url": "https://…", "version": "1.0", "released": "YYYY-MM-DD"}`. |
 | `install` | Zip only: where the zip's folders go. `from` is a folder in the zip (ending in `/`), `to` is `apps/<id>/` or one of your `data_folders`. If your zip's top folder has a version in it, `*` matches it: `"*/apps/myapp/"`. |
 | `data_folders` | Optional: folders at the card's root your app keeps saves or settings in (`["myapp"]`). Removing the app keeps them. |

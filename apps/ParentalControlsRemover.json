@@ -8,6 +8,10 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "Aeplet/Wii-Parental-Controls-Remover",
     "asset": "ParentalControlsRemover.zip"

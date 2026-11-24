@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "sctech-tr/wiiRPS",
     "asset": "wiirps.7z"

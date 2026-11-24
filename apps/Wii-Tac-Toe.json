@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "Crayon2000/Wii-Tac-Toe",
     "asset": "wii-tac-toe.*.zip"

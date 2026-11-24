@@ -8,6 +8,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/Eject_DVD.zip",
     "version": "0.1"

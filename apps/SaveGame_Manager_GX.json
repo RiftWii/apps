@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://master.dl.sourceforge.net/project/savegame-manager-gx/HBC_SetUp_R127.zip?viasf=1",
     "version": "rev127"

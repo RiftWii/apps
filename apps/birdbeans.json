@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "cmyksoda/Bird-and-Beans-GX",
     "asset": "Bird-and-Beans-GX.zip"

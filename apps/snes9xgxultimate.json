@@ -9,6 +9,12 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "VrepliroidV/Snes9XGX-ULTIMATE",
     "asset": "Snes9xGXUltimate-Wii.zip"

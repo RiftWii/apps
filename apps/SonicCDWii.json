@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "ultra0000/Sonic-CD-11-Decompilation",
     "asset": "RSDKv3.Wii.zip"

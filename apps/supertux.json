@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "DeltaResero/SuperTux-Wii",
     "asset": "SuperTux-Wii-v0.1.4-wii-d.*.zip"

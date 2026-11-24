@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "keyboard"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/2/23/Wiishell-20080702.tar.bz2",
     "version": "20080702"

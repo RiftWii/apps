@@ -9,6 +9,11 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "quatric/wii-mobiclip-player",
     "asset": "wii-mobiclip-player.zip"
