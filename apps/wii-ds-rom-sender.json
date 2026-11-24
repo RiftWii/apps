@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "FIX94/wii-ds-rom-sender",
     "asset": "wii-ds-rom-sender-v*.zip"

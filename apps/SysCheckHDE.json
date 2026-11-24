@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/SysCheckHDE.zip",
     "version": "2.4.0 HD Edition"

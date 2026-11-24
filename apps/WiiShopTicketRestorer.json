@@ -8,6 +8,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "Quadraxis-v2/WiiShopTicketRestorer",
     "asset": "WiiShopTicketRestorer_v*.zip"

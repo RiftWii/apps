@@ -9,6 +9,10 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "cmyksoda/empty-slot-creator",
     "asset": "EmptySlotCreator-v*.zip"

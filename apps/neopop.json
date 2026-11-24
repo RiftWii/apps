@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/neopop.zip",
     "version": "0.71.2"

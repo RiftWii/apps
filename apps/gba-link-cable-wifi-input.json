@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "gamecube"
+  ],
   "source": {
     "github": "FIX94/gba-link-cable-wifi-input",
     "asset": "gba-link-cable-wifi-input-v1.2.zip"

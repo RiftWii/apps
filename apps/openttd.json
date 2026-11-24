@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "https://files.extremscorner.org/wii/apps/openttd/latest",
     "version": "1.3.2"

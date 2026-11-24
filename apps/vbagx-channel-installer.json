@@ -8,6 +8,9 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "dborth/vbagx",
     "asset": "VisualBoyAdvanceGX-Channel-Installer.zip"

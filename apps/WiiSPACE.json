@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/6/67/WiiSPACE_v1.2a.zip",
     "version": "1.2a"

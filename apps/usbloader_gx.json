@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "wiidev/usbloadergx",
     "asset": "usbloadergx_r*.zip"

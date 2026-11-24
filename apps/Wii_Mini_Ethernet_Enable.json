@@ -7,6 +7,9 @@
   "platforms": [
     "mini"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/Wii_Mini_Ethernet_Enable.zip",
     "version": "1"

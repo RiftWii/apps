@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/yabause-r2926wii-beta26.zip",
     "version": "r2926 beta26"

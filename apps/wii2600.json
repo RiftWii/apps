@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "raz0red/wii2600",
     "asset": "wii2600-0_2.zip"

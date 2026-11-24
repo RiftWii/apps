@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "mardy/wii-screen",
     "asset": "wii-screen*.zip"

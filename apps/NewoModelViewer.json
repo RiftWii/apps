@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://owensoft.net/project/newogame/dl/NewoModelViewer.zip",
     "version": "1.4"

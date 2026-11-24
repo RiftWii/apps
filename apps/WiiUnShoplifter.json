@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "WiiLink24/WiiUnShoplifter",
     "asset": "WiiUnShoplifter.zip"

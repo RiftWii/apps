@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "https://github.com/Oibaf66/uae-wii/releases/download/v12.0/uae-wii-v12-bin.tar.gz",
     "version": "12"

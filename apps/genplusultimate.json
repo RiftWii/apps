@@ -9,6 +9,12 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "VrepliroidV/GenesisPlusGX-ULTIMATE",
     "asset": "GenesisPlusGXUltimate-Wii.zip"

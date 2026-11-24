@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "WiiLink24/AccountLinker",
     "asset": "account_linker.zip"

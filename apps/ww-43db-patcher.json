@@ -7,6 +7,10 @@
   "platforms": [
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic"
+  ],
   "source": {
     "github": "DarkMatterCore/ww-43db-patcher",
     "asset": "ww-43db-patcher_v*.zip"

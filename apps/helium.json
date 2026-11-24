@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk"
+  ],
   "source": {
     "url": "http://www.beril.se/bin/heliumwii.zip",
     "version": "0.1.1"

@@ -7,6 +7,12 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "WiiExpand/Liichess",
     "asset": "Liichess.zip"

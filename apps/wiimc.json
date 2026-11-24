@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "dborth/wiimc",
     "asset": "WiiMC.*.New.Install.zip"

@@ -7,6 +7,10 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk"
+  ],
   "source": {
     "github": "BlocksumoGuys/WIIT",
     "asset": "WIIT.zip"

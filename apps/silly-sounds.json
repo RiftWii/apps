@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic"
+  ],
   "source": {
     "github": "DaniLionn/silly-sounds-homebrew-wii",
     "asset": "Silly-sounds.zip"

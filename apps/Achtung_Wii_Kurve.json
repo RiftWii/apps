@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/Achtung_Wii_Kurve.zip",
     "version": "1.3"

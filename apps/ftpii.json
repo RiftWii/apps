@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/FTPii_0.0.22_HBC_package.7z",
     "version": "0.0.22"

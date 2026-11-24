@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "Def64/rainbii",
     "asset": "Rainbii.zip"

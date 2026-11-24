@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "http://dommagemais.free.fr/progs/wii/ResidualVM/residualvm_wii_v0.2.zip",
     "version": "0.2"

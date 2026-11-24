@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic"
+  ],
   "source": {
     "url": "https://aos.party/download_public/cavex_a003.zip",
     "version": "Alpha 0.3.0"

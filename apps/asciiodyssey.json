@@ -9,6 +9,13 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "cmyksoda/ASCII-Odyssey",
     "asset": "ASCII-Odyssey.zip"

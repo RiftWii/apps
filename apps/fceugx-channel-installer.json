@@ -8,6 +8,9 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "dborth/fceugx",
     "asset": "FCEUltraGX-Channel-Installer.zip"

@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wiiradio/wiiradio_07.zip",
     "version": "0.7"

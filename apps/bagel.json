@@ -9,6 +9,9 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "Bagelman47/bagel-wii",
     "asset": "bagel.zip"

@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "Chadderz121/wup-028-bslug",
     "asset": "wup-028-bslug-v*.zip"

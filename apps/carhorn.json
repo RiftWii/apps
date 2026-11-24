@@ -9,6 +9,9 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "dakotath/carhorn",
     "asset": "carhorn.zip"

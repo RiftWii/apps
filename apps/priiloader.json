@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "DacoTaco/priiloader",
     "asset": "Priiloader_*.zip"

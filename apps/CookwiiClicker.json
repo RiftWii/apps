@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hightide.coolpage.biz/projects/cookwii_clicker/source.zip",
     "version": "0.2.0"

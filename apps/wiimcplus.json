@@ -9,6 +9,12 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "Passha64/WiiMCPlus",
     "asset": "WiiMCPlus-[0-9]*.zip"

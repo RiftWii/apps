@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "http://www.toxicbreakfast.com/cgi-bin/download?file=yahtzwii.zip",
     "version": "3.11"

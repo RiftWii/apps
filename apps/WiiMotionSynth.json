@@ -9,6 +9,11 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic"
+  ],
   "source": {
     "github": "CGdiego/Wii-Motion-Synth",
     "asset": "WiiMotionSynth-v*.zip"

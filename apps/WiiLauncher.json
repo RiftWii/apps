@@ -8,6 +8,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/1/12/Wiilauncher_r11.zip",
     "version": "0.2"

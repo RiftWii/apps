@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/SSRT.zip",
     "version": "2"

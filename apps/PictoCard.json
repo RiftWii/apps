@@ -9,6 +9,13 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "larsenv/PictoCard-Client",
     "asset": "PictoCard-Wii.zip"

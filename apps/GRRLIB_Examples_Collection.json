@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://codeberg.org/boreal/GRRLIB-Examples-Collection/releases/download/latest/release.zip",
     "version": "0.1.2"

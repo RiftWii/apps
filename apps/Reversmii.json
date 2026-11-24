@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "http://www.toxicbreakfast.com/cgi-bin/download?file=reversmii.zip",
     "version": "1.0"

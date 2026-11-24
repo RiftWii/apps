@@ -9,6 +9,9 @@
     "wii",
     "vwii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "cmyksoda/WiiCam",
     "asset": "WiiCam.zip"

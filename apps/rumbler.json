@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://donut.eu.org/downloads/rumbler.zip",
     "version": "1.0"

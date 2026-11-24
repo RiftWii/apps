@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "url": "https://autumn-mnya.github.io/games/cavestorywii/files/cavestorywii_1.0.1.zip",
     "version": "1.0.1"

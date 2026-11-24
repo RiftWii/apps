@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "Zarithya/BlueMii",
     "asset": "BlueMii.*.zip"

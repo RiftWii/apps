@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "url": "https://github.com/xOx-Liy-Codez-XD-oXo/lilyskate/releases/download/1.0/lilyskate-1_0.zip",
     "version": "1.0"

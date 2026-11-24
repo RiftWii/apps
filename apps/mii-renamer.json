@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "skyfloogle/mii-renamer",
     "asset": "mii-renamer-*.zip"

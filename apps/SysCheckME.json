@@ -8,6 +8,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "modmii/SysCheck-ModMii-Edition",
     "asset": "SysCheckME.zip"

@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "AliceLR/megazeux",
     "asset": "mzx*-wii.zip"

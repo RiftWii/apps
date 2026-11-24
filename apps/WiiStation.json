@@ -10,6 +10,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
   "source": {
     "github": "RiftWii/wiistation-nightly",
     "asset": "WiiStation-*.zip",

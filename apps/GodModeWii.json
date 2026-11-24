@@ -9,6 +9,12 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "quatric/GodModeWii",
     "asset": "GodModeWii.zip"

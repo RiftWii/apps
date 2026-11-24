@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "keyboard"
+  ],
   "source": {
     "github": "schismtracker/schismtracker",
     "asset": "schismtracker-*-wii.zip"

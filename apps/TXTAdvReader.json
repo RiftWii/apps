@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "url": "https://wiibrew.org/w/images/3/37/TXTAdvReader.zip",
     "version": "1.0"

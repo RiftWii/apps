@@ -8,6 +8,9 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "abdelali221/Standby-Fan-Patcher",
     "asset": "SFP.zip"

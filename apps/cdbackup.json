@@ -9,6 +9,11 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "github": "Naim2000/cdbackup",
     "asset": "cdbackup.zip"

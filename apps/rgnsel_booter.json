@@ -9,6 +9,9 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "Brawl345/rgnsel_booter",
     "asset": "rgnsel_booter-*.zip"

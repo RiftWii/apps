@@ -9,6 +9,13 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
   "source": {
     "url": "https://github.com/Oibaf66/fbzx-wii/releases/download/v15.0/fbzx-wii-v15-bin.tar.gz",
     "version": "v15"

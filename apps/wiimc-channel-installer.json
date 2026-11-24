@@ -8,6 +8,9 @@
     "mini",
     "wii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "dborth/wiimc",
     "asset": "WiiMC.Channel.Installer.2.0.zip"

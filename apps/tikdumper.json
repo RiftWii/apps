@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "Aeplet/tikdumper",
     "asset": "tikdumper.zip"

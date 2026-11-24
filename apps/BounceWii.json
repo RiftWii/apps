@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "github": "Greeg0/BounceWii",
     "asset": "BounceWii-v*.zip"

@@ -7,6 +7,9 @@
   "platforms": [
     "wii"
   ],
+  "controllers": [
+    "gamecube"
+  ],
   "source": {
     "github": "FIX94/gba-link-cable-dumper",
     "asset": "gba-link-cable-dumper-v1.6.zip"

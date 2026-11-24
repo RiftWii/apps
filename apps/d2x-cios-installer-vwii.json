@@ -7,6 +7,9 @@
   "platforms": [
     "vwii"
   ],
+  "controllers": [
+    "wiimote"
+  ],
   "source": {
     "github": "wiidev/d2x-cios",
     "asset": "d2x-v11-*[-vWii].zip"

@@ -9,6 +9,10 @@
     "vwii",
     "wii"
   ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
   "source": {
     "url": "https://hbbarchive.oscwii.org/legacy/TrojanWii.zip",
     "version": "1.1"
