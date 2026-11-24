@@ -3,7 +3,7 @@
   "name": "WiiNFO",
   "author": "VTSTech",
   "category": "system",
-  "description": "WiiNFO",
+  "description": "Shows information about the Wii's system.",
   "platforms": [
     "mini",
     "vwii",

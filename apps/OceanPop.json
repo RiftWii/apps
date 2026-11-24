@@ -1,9 +1,9 @@
 {
   "id": "OceanPop",
-  "name": "A relaxing match 3 puzzle game",
+  "name": "OceanPop",
   "author": "Wouter Wijsman",
   "category": "games",
-  "description": "A relaxing match 3 puzzle game",
+  "description": "A relaxing match-3 puzzle game with three modes.",
   "platforms": [
     "mini",
     "vwii",

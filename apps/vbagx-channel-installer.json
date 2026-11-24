@@ -3,7 +3,7 @@
   "name": "VBA GX Channel Installer",
   "author": "Tantric",
   "category": "wiimenu",
-  "description": "VBA GX Channel Installer",
+  "description": "Installs Visual Boy Advance GX as a channel on the Wii Menu.",
   "platforms": [
     "mini",
     "wii"

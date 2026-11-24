@@ -3,7 +3,7 @@
   "name": "SEEPROM Viewer",
   "author": "Vega, Team Twiizers",
   "category": "system",
-  "description": "SEEPROM Viewer",
+  "description": "Shows what is stored in the Wii's SEEPROM.",
   "platforms": [
     "mini",
     "wii"

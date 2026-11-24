@@ -3,7 +3,7 @@
   "name": "Simple cert.sys Extractor",
   "author": "FIX94",
   "category": "system",
-  "description": "Simple cert.sys Extractor",
+  "description": "Copies the Wii's cert.sys from its NAND to the SD card.",
   "platforms": [
     "mini",
     "vwii",

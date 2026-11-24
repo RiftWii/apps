@@ -1,9 +1,9 @@
 {
   "id": "BillardGL",
-  "name": "3D pool billiard simulator",
+  "name": "BillardGL",
   "author": "T. Nopper, S. Disch, M. Welte",
   "category": "games",
-  "description": "3D pool billiard simulator",
+  "description": "A realistic 3D pool and billiards game.",
   "platforms": [
     "mini",
     "vwii",
