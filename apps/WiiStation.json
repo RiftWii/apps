@@ -1,28 +1,37 @@
 {
   "id": "WiiStation",
-  "name": "Wiistation",
+  "name": "WiiStation",
   "author": "xjsxjs197",
   "category": "emulators",
-  "description": "PSX Emulator for Wii",
+  "description": "PlayStation emulator, with USB and Wii U Pro controllers, light guns and 240p.",
+  "license": "GPL-3.0",
   "platforms": [
     "mini",
     "vwii",
     "wii"
   ],
   "source": {
-    "github": "xjsxjs197/WiiSXRX_2022",
-    "asset": "WiiStation_Ver*.zip"
+    "github": "RiftWii/wiistation-nightly",
+    "asset": "WiiStation-*.zip",
+    "prerelease": true
   },
   "page": "https://github.com/xjsxjs197/WiiSXRX_2022",
   "format": "zip",
+  "data_folders": [
+    "wiisxrx"
+  ],
   "pin": {
-    "sha256": "9a492297721ca1156796b908ba9a0f996926bd1fc32b88bb5a5aa0c54a6c7a7c",
-    "tag": "WiiStation_Ver3.2"
+    "sha256": "b222248679e8289b28cdc6b0360a66dd85cfc08f93770dc2bbd2c954e7484954",
+    "tag": "nightly-2026.11.24-9ae85a5"
   },
   "install": [
     {
-      "from": "WiiStation_Ver3.2/apps/WiiStation_Ver3.2/",
+      "from": "apps/WiiStation/",
       "to": "apps/WiiStation/"
+    },
+    {
+      "from": "wiisxrx/",
+      "to": "wiisxrx/"
     }
   ]
 }

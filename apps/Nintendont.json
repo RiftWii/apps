@@ -1,0 +1,29 @@
+{
+  "id": "Nintendont",
+  "name": "Nintendont",
+  "author": "FIX94, crediar",
+  "category": "loaders",
+  "description": "Plays GameCube games from an SD card or USB drive, with GameCube, Wii and USB controllers.",
+  "license": "GPL-2.0",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "source": {
+    "github": "RiftWii/nintendont-nightly",
+    "asset": "Nintendont-*.zip",
+    "prerelease": true
+  },
+  "page": "https://github.com/FIX94/Nintendont",
+  "format": "zip",
+  "pin": {
+    "sha256": "a7f0f94d169e5407bf537f9e4eecdec2b60b906bf0a2dad2dbb03a7e85f88a17",
+    "tag": "nightly-2026.11.24-7a18345"
+  },
+  "install": [
+    {
+      "from": "apps/Nintendont/",
+      "to": "apps/Nintendont/"
+    }
+  ]
+}
