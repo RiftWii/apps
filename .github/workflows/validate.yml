@@ -23,9 +23,8 @@ concurrency:
 
 env:
   # The RiftWii revision whose rules the list is checked against.
-  # TODO: main once KakarottoCake/Riftwii#608 is merged.
   RIFTWII_REPO: KakarottoCake/Riftwii
-  RIFTWII_REF: app-list
+  RIFTWII_REF: main
 
 jobs:
   validate:
