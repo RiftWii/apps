@@ -3,7 +3,7 @@
   "name": "NeoPop GX",
   "author": "Eke-Eke",
   "category": "emulators",
-  "description": "Neo Geo Pocket Color Emulator",
+  "description": "A Neo Geo Pocket and Pocket Color emulator.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,13 +13,13 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/neopop.zip",
+    "url": "https://static.wiidatabase.de/NeoPop-GX.zip",
     "version": "0.71.2"
   },
-  "page": "https://oscwii.org/library/app/neopop",
+  "page": "https://wiidatabase.de/downloads/emulatoren/neopop-gx/",
   "format": "zip",
   "pin": {
-    "sha256": "e74200efad18afd2a059bc87fa1a14c6bd3c9bdcb65be67edd96e94c9c160673"
+    "sha256": "a8359a51667f4bcde66c6594cbff09b292a853723312542bfa6c458e68c5449b"
   },
   "install": [
     {

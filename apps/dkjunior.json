@@ -3,7 +3,7 @@
   "name": "Donkey Kong Jr",
   "author": "Paul Goes",
   "category": "games",
-  "description": "Homebrew Donkey Kong Jr",
+  "description": "A remake of Donkey Kong Jr. made for the Wii.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://github.com/PaulGoes/Wii-Donkey-Kong-Jr/raw/master/download/DKJunior.zip",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/dkjunior",
+  "page": "https://github.com/PaulGoes/Wii-Donkey-Kong-Jr",
   "format": "zip",
   "pin": {
     "sha256": "7a90cfdf8d2ae39668d915d9765a5f700169db5a039cf5e0515405ffdc740c31"

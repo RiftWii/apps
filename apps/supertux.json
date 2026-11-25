@@ -3,7 +3,7 @@
   "name": "SuperTux Wii",
   "author": "Two devs, scanff, Arikado, DeltaResero",
   "category": "games",
-  "description": "Port of SuperTux Milestone 1",
+  "description": "SuperTux, an early version of the open-source platformer.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "WiiXplorer SS",
   "author": "Diego",
   "category": "system",
-  "description": "Wii File Browser",
+  "description": "A file browser for your SD card, USB drives and network shares.",
   "platforms": [
     "mini",
     "vwii",
@@ -17,17 +17,17 @@
     "keyboard"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/wiixplorer-ss.zip",
+    "url": "https://static.wiidatabase.de/WiiXplorer-SS.zip",
     "version": "260"
   },
-  "page": "https://oscwii.org/library/app/wiixplorer-ss",
+  "page": "https://wiidatabase.de/downloads/wii-tools/wiixplorer-ss/",
   "format": "zip",
   "pin": {
-    "sha256": "d4c863ed040ae937a5e626a87cdfa1ab0e335f0aeaf205664a3fda4c93edab21"
+    "sha256": "e2f9f7a1083dfc381f3dc4fba02c984e769ab927b5b93a80bb98b5ad0e0a3917"
   },
   "install": [
     {
-      "from": "apps/wiixplorer-ss/",
+      "from": "apps/wiixplorer/",
       "to": "apps/wiixplorer-ss/"
     }
   ]

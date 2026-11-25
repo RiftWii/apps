@@ -3,7 +3,7 @@
   "name": "Metronome",
   "author": "Westy92",
   "category": "creative",
-  "description": "A Metronome for the Wii",
+  "description": "A metronome that keeps time while you play music.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,17 +16,17 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/metronome.zip",
+    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wii-metronome/metronome_v1.3.zip",
     "version": "1.3"
   },
-  "page": "https://oscwii.org/library/app/metronome",
+  "page": "https://github.com/westy92/Wii-Metronome",
   "format": "zip",
   "pin": {
-    "sha256": "4947fdc0b2f91747b423792090136afe86eeaed037f3f9a08d02d32dc6eb2abb"
+    "sha256": "91d612ac59d6c047095e21a7d72ea1b7fe56d78e36feb59992d797b331ef81b5"
   },
   "install": [
     {
-      "from": "apps/metronome/",
+      "from": "",
       "to": "apps/metronome/"
     }
   ]

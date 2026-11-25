@@ -3,7 +3,7 @@
   "name": "Visual Boy Advance GX",
   "author": "Tantric",
   "category": "emulators",
-  "description": "GBA/GBC/GB Emulator",
+  "description": "A Game Boy, Game Boy Color and Game Boy Advance emulator.",
   "platforms": [
     "mini",
     "vwii",

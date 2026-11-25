@@ -3,7 +3,7 @@
   "name": "NetSlug Wii",
   "author": "Chadderz",
   "category": "gametools",
-  "description": "Play online throw Local!",
+  "description": "Plays games' local multiplayer over the internet.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,13 +13,13 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/netslug.zip",
+    "url": "https://static.wiidatabase.de/NetSlug.zip",
     "version": "v01.0002mod_2"
   },
-  "page": "https://oscwii.org/library/app/netslug",
+  "page": "https://wiidatabase.de/downloads/wii-tools/netslug/",
   "format": "zip",
   "pin": {
-    "sha256": "157cc1d57dca7d438139090c401c82584ceed386cdc0889e36d781cca74f703e"
+    "sha256": "172fe83b9f60042e8aef0f9162a82b64fd0ecc1b197bb905fa6da7899993acf8"
   },
   "install": [
     {

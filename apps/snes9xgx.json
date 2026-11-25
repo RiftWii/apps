@@ -3,7 +3,7 @@
   "name": "Snes9x GX",
   "author": "Tantric",
   "category": "emulators",
-  "description": "Super Nintendo Emulator",
+  "description": "A Super Nintendo emulator.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "LinkTag App",
   "author": "emilydaemon",
   "category": "online",
-  "description": "View your LinkTag!",
+  "description": "Shows your LinkTag.",
   "platforms": [
     "mini",
     "vwii",

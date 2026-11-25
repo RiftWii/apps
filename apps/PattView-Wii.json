@@ -3,7 +3,7 @@
   "name": "PattView Wii",
   "author": "Vash",
   "category": "gametools",
-  "description": "AC:CF Pattern Editor",
+  "description": "Views and edits the designs from Animal Crossing: City Folk.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,18 +13,12 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/PattView-Wii.zip",
+    "url": "https://web.archive.org/web/20191021203822id_/https://vash.game-hackers.com/files/PattView_Wii.rar",
     "version": "0.1 Alpha"
   },
-  "page": "https://oscwii.org/library/app/PattView-Wii",
-  "format": "zip",
+  "page": "https://wiibrew.org/wiki/PattView_Wii",
+  "format": "rar",
   "pin": {
-    "sha256": "795a03e2d6eeda6a6171040a3130a23448032ddaaf95ac61d61518d55215e6f7"
-  },
-  "install": [
-    {
-      "from": "apps/PattView-Wii/",
-      "to": "apps/PattView-Wii/"
-    }
-  ]
+    "sha256": "245a627a63edacf2af74c5dfa0a2a455301c0ce6aaf398a883dd825b47cb7ad9"
+  }
 }

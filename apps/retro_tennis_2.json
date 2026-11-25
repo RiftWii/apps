@@ -3,7 +3,7 @@
   "name": "Retro Tennis 2",
   "author": "ZombieNW",
   "category": "games",
-  "description": "A fancy pong clone for Wii",
+  "description": "A Pong game with a modern look.",
   "platforms": [
     "mini",
     "vwii",

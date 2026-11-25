@@ -3,7 +3,7 @@
   "name": "Chippy",
   "author": "Meir Goldstein",
   "category": "emulators",
-  "description": "CHIP8 and SCHIP Interpreter",
+  "description": "Runs CHIP-8 and SuperCHIP programs.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,17 +13,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/chippy.zip",
+    "url": "https://static.wiidatabase.de/Chippy.zip",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/chippy",
+  "page": "https://wiidatabase.de/downloads/emulatoren/chippy/",
   "format": "zip",
   "pin": {
-    "sha256": "4e9bb5d6d23a3135bebe41f733718c70a5efef8c58fbd5976c7b9d3c5c2d861c"
+    "sha256": "514b4446f67de145da15b18bd061a502c62144bb816d6dd3e34ed100012b21dd"
   },
   "install": [
     {
-      "from": "apps/chippy/",
+      "from": "chippy/",
       "to": "apps/chippy/"
     }
   ]

@@ -3,7 +3,7 @@
   "name": "ftpii",
   "author": "joedj",
   "category": "system",
-  "description": "An FTP server",
+  "description": "Reach your Wii's SD card and USB drive from a computer on your network (FTP).",
   "platforms": [
     "mini",
     "vwii",
@@ -14,12 +14,18 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/FTPii_0.0.22_HBC_package.7z",
+    "url": "https://static.wiidatabase.de/ftpii.zip",
     "version": "0.0.22"
   },
-  "page": "https://oscwii.org/library/app/ftpii",
-  "format": "7z",
+  "page": "https://wiidatabase.de/downloads/wii-tools/ftpii/",
+  "format": "zip",
   "pin": {
-    "sha256": "e6e71847644d1ff28c99dc1a31cd859943d6c092d0c8377974f25427c8c9fcc4"
-  }
+    "sha256": "00a8f419734147e5a4d07ed471498dbc52107572b8991495b2d2142e1d73483a"
+  },
+  "install": [
+    {
+      "from": "apps/ftpii/",
+      "to": "apps/ftpii/"
+    }
+  ]
 }

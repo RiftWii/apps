@@ -3,7 +3,7 @@
   "name": "Text-based Controller Test",
   "author": "sctech-tr",
   "category": "controllers",
-  "description": "Simple app where you can test your controllers.",
+  "description": "Tests your controllers, with every button shown as text.",
   "platforms": [
     "mini",
     "vwii",

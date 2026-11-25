@@ -3,7 +3,7 @@
   "name": "WiiSystemMenuPlayer",
   "author": "Dimok and Giantpune",
   "category": "wiimenu",
-  "description": "Wii System Menu Player",
+  "description": "Plays the Wii Menu's sounds and music.",
   "platforms": [
     "mini",
     "vwii",
@@ -19,7 +19,7 @@
     "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wii-system-menu-player/wsmplayer_v0.1.zip",
     "version": "v0.1"
   },
-  "page": "https://oscwii.org/library/app/wsmplayer",
+  "page": "https://code.google.com/archive/p/wii-system-menu-player/",
   "format": "zip",
   "pin": {
     "sha256": "3a8bfb732a5932bb35fa90a56ea38fb7df7031790e3254baae0dbe69c4f99413"

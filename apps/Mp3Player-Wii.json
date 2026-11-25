@@ -3,7 +3,7 @@
   "name": "Mp3Player-Wii",
   "author": "AmineTheJurk",
   "category": "media",
-  "description": "A MP3 Player for the wii",
+  "description": "Plays MP3 files.",
   "platforms": [
     "wii"
   ],

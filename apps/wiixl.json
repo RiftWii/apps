@@ -3,7 +3,7 @@
   "name": "WiiXL",
   "author": "raz0red",
   "category": "emulators",
-  "description": "Atari 800/XL/XE/5200",
+  "description": "An Atari 800, XL, XE and 5200 emulator.",
   "platforms": [
     "mini",
     "vwii",

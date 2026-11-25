@@ -3,7 +3,7 @@
   "name": "WiiMC-SS",
   "author": "SuperrSonic",
   "category": "media",
-  "description": "Wii Media Player",
+  "description": "A media player for your videos, music and pictures.",
   "platforms": [
     "mini",
     "vwii",

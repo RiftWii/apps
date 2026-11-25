@@ -3,7 +3,7 @@
   "name": "ReactMii",
   "author": "Some_Random_guy",
   "category": "games",
-  "description": "Minimal Wii reaction time tester.",
+  "description": "Tests how quickly you react.",
   "platforms": [
     "vwii",
     "wii"

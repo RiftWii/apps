@@ -3,7 +3,7 @@
   "name": "Tetwiis",
   "author": "Pembo",
   "category": "games",
-  "description": "Wii Tetris",
+  "description": "A falling-blocks puzzle game.",
   "platforms": [
     "mini",
     "vwii",

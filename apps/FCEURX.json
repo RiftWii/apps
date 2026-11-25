@@ -3,7 +3,7 @@
   "name": "FCE Ultra RX",
   "author": "NiuuS, Tantric",
   "category": "emulators",
-  "description": "Nintendo Emulator",
+  "description": "A NES and Famicom emulator, a fork of FCE Ultra GX.",
   "platforms": [
     "mini",
     "vwii",

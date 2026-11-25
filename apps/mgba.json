@@ -3,7 +3,7 @@
   "name": "mGBA",
   "author": "Vicki Pfau (endrift)",
   "category": "emulators",
-  "description": "mGBA Game Boy Advance emulator",
+  "description": "mGBA, a Game Boy Advance emulator.",
   "platforms": [
     "mini",
     "vwii",

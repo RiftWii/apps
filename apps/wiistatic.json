@@ -3,7 +3,7 @@
   "name": "Wii Static",
   "author": "emilydaemon",
   "category": "toys",
-  "description": "TV Static on your Wii!",
+  "description": "TV static on your screen.",
   "platforms": [
     "mini",
     "vwii",
@@ -17,7 +17,7 @@
     "url": "https://donut.eu.org/downloads/wiistatic.zip",
     "version": "1.0.0"
   },
-  "page": "https://oscwii.org/library/app/wiistatic",
+  "page": "https://donut.eu.org/",
   "format": "zip",
   "pin": {
     "sha256": "26e64d4f006d03c30a4a67742effb817da7b764de4526a41ad90d30b38157e94"

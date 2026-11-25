@@ -3,7 +3,7 @@
   "name": "Settings Editor GUI",
   "author": "JoostinOnline, stfour",
   "category": "system",
-  "description": "Modify your settings via homebrew.",
+  "description": "Changes your Wii's system settings.",
   "platforms": [
     "mini",
     "vwii",
@@ -12,26 +12,26 @@
   "controllers": [
     "wiimote"
   ],
+  "data_folders": [
+    "ploader"
+  ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/Settings-Editor-GUI.zip",
+    "url": "https://static.wiidatabase.de/Settings-Editor-GUI.zip",
     "version": "v1.9"
   },
-  "page": "https://oscwii.org/library/app/Settings-Editor-GUI",
+  "page": "https://wiidatabase.de/downloads/wii-tools/settings-editor-gui/",
   "format": "zip",
   "pin": {
-    "sha256": "877539e223b5160966830c57b9aad105b0db16b74c937c11f00b4293cc781e84"
+    "sha256": "58c4a78052e7932db949b5318bca7b5d84c06205f0888e5878f41c301d3dcc21"
   },
   "install": [
     {
-      "from": "apps/Settings-Editor-GUI/",
+      "from": "apps/Settings Editor GUI/",
       "to": "apps/Settings-Editor-GUI/"
     },
     {
       "from": "ploader/",
       "to": "ploader/"
     }
-  ],
-  "data_folders": [
-    "ploader"
   ]
 }

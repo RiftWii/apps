@@ -3,7 +3,7 @@
   "name": "tikdumper",
   "author": "Aep",
   "category": "system",
-  "description": "Dump tickets (.tik) from your Wii",
+  "description": "Copies your Wii's tickets (.tik files) to the SD card.",
   "platforms": [
     "mini",
     "vwii",

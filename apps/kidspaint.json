@@ -3,7 +3,7 @@
   "name": "Kidspaint",
   "author": "Uffe Flarup",
   "category": "creative",
-  "description": "Painting program for kids",
+  "description": "A painting program for children.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,13 +13,13 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/kidspaint.zip",
+    "url": "https://static.wiidatabase.de/Kidspaint.zip",
     "version": "2.0.2"
   },
-  "page": "https://oscwii.org/library/app/kidspaint",
+  "page": "https://wiidatabase.de/downloads/spiele/kidspaint/",
   "format": "zip",
   "pin": {
-    "sha256": "409c18828a649249c44aef8ba5c0ecbf301d4991d1de606ee1bbe4249d57d69c"
+    "sha256": "c4be8dd5ebbadfd81c7324740c61cffdb89facecfca47e0cb2399fa8b2a9d8cf"
   },
   "install": [
     {

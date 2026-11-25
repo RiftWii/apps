@@ -3,7 +3,7 @@
   "name": "SortMii",
   "author": "boreal",
   "category": "toys",
-  "description": "Sorting Algorithm Visualizer",
+  "description": "Shows sorting algorithms at work.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://codeberg.org/boreal/SortMii/releases/download/latest/SortMii.zip",
     "version": "0.3.1"
   },
-  "page": "https://oscwii.org/library/app/SortMii",
+  "page": "https://codeberg.org/boreal/SortMii",
   "format": "zip",
   "pin": {
     "sha256": "1a8b088c892748f71270ad808d3f4e9e3a247f5bcbcc6901c4bc4adb8552e57b"

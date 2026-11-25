@@ -3,7 +3,7 @@
   "name": "Fire Emblem Transfer Tool",
   "author": "SuperrSonic",
   "category": "gametools",
-  "description": "Transfer data without a link cable",
+  "description": "Moves Fire Emblem save data from one game to the next, without the usual cable.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,18 +13,12 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/Fire_Emblem_Transfer_Tool.zip",
+    "url": "https://static.wiidatabase.de/Fire-Emblem-Transfer-Tool.7z",
     "version": "1"
   },
-  "page": "https://oscwii.org/library/app/Fire_Emblem_Transfer_Tool",
-  "format": "zip",
+  "page": "https://wiidatabase.de/downloads/wii-tools/fire-emblem-transfer-tool/",
+  "format": "7z",
   "pin": {
-    "sha256": "f4efe58c1d32b4d5b817f3cfaf6940b744aef1fcffd974aad0333b5c3105bdb9"
-  },
-  "install": [
-    {
-      "from": "apps/Fire_Emblem_Transfer_Tool/",
-      "to": "apps/Fire_Emblem_Transfer_Tool/"
-    }
-  ]
+    "sha256": "d1e7e9e2fe4ab2131aea4720bc1f8bb065b24291735d0415761d7b997a1aae9b"
+  }
 }

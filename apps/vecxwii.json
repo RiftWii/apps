@@ -3,7 +3,7 @@
   "name": "VectrexWii",
   "author": "Aruskano, cmyksoda",
   "category": "emulators",
-  "description": "Vectrex Emulator",
+  "description": "A Vectrex emulator.",
   "platforms": [
     "mini",
     "vwii",

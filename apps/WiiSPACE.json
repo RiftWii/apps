@@ -3,7 +3,7 @@
   "name": "WiiSPACE",
   "author": "Seiken",
   "category": "games",
-  "description": "Shoot-'em-up in space",
+  "description": "A shoot-'em-up in space.",
   "platforms": [
     "mini",
     "vwii",
@@ -19,7 +19,7 @@
     "url": "https://wiibrew.org/w/images/6/67/WiiSPACE_v1.2a.zip",
     "version": "1.2a"
   },
-  "page": "https://oscwii.org/library/app/WiiSPACE",
+  "page": "https://wiibrew.org/wiki/WiiSPACE",
   "format": "zip",
   "pin": {
     "sha256": "43b018d04a662daf5bbceac1f25dd1029e4dfcd7275bc147562d7b24a5965333"

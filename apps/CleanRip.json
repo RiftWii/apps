@@ -3,7 +3,7 @@
   "name": "CleanRip",
   "author": "emu_kidid",
   "category": "gametools",
-  "description": "Wii/GC Disc Ripper Tool",
+  "description": "Copies your own Wii and GameCube discs to a USB drive or SD card.",
   "platforms": [
     "mini",
     "vwii",

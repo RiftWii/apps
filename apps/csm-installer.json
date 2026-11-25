@@ -3,7 +3,7 @@
   "name": "csm-installer",
   "author": "thepikachugamer",
   "category": "wiimenu",
-  "description": "Wii menu theme installer.",
+  "description": "Installs Wii Menu themes (.csm files).",
   "platforms": [
     "vwii",
     "wii"

@@ -3,7 +3,7 @@
   "name": "wcalc",
   "author": "sctech-tr",
   "category": "creative",
-  "description": "calculator for the wii.",
+  "description": "A calculator.",
   "platforms": [
     "mini",
     "vwii",

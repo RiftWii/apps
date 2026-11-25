@@ -3,7 +3,7 @@
   "name": "InspectMii",
   "author": "JoostinOnline",
   "category": "system",
-  "description": "Shows dozens of your Wii settings",
+  "description": "Shows a long list of your Wii's settings and system details.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,17 +13,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/InspectMii.zip",
+    "url": "https://static.wiidatabase.de/InspectMii.zip",
     "version": "v1.2"
   },
-  "page": "https://oscwii.org/library/app/InspectMii",
+  "page": "https://wiidatabase.de/downloads/wii-tools/inspectmii/",
   "format": "zip",
   "pin": {
-    "sha256": "6f469f7b1ae0308e426f993d8e9f80a0650f8613c34a8654cc326e9228386140"
+    "sha256": "47dda52c25f353619a5e5599ac56056fb3c537ad41af05ab79293f8140278995"
   },
   "install": [
     {
-      "from": "apps/InspectMii/",
+      "from": "InspectMii/",
       "to": "apps/InspectMii/"
     }
   ]

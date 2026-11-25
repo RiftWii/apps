@@ -3,7 +3,7 @@
   "name": "WiiSX",
   "author": "Wii64 Team",
   "category": "emulators",
-  "description": "PSX Emulator for Wii",
+  "description": "A PlayStation emulator.",
   "platforms": [
     "mini",
     "vwii",

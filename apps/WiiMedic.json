@@ -3,7 +3,7 @@
   "name": "WiiMedic",
   "author": "PowFPS1",
   "category": "system",
-  "description": "System Diagnostic & Health Monitor",
+  "description": "Checks your Wii's health and system.",
   "platforms": [
     "wii"
   ],

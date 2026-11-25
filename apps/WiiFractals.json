@@ -3,7 +3,7 @@
   "name": "WiiFractals",
   "author": "Abdelali221",
   "category": "toys",
-  "description": "Fractal Generator!",
+  "description": "Draws fractals.",
   "platforms": [
     "vwii",
     "wii"

@@ -3,7 +3,7 @@
   "name": "BounceWii",
   "author": "Greeg0",
   "category": "toys",
-  "description": "Bouncing logo screensaver",
+  "description": "A screensaver: a logo bounces around the screen, as on an old DVD player.",
   "platforms": [
     "mini",
     "vwii",

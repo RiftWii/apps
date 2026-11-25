@@ -3,7 +3,7 @@
   "name": "WiiSXRX",
   "author": "NiuuS",
   "category": "emulators",
-  "description": "PSX Emulator for Wii (-FS build)",
+  "description": "A PlayStation emulator, a fork of WiiSX.",
   "platforms": [
     "mini",
     "vwii",

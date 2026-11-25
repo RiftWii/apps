@@ -1,9 +1,9 @@
 {
   "id": "nSwitch",
-  "name": "nswitch",
+  "name": "nSwitch",
   "author": "OverjoY",
   "category": "loaders",
-  "description": "neek/realnand switcher",
+  "description": "Switches between neek's emulated NAND and your Wii's own memory.",
   "platforms": [
     "wii"
   ],
@@ -11,17 +11,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/nSwitch.zip",
+    "url": "https://static.wiidatabase.de/nSwitch.zip",
     "version": "4.2"
   },
-  "page": "https://oscwii.org/library/app/nSwitch",
+  "page": "https://wiidatabase.de/downloads/wii-tools/nswitch/",
   "format": "zip",
   "pin": {
-    "sha256": "6a9df0b0977dead8615ba2db8c000f302d4674edd045e6967d8b9ee9fe12934b"
+    "sha256": "474705a465bbcf5bd4512655e928bd5b852b113a0832bc9c5ae7dc0c3a70e35d"
   },
   "install": [
     {
-      "from": "apps/nSwitch/",
+      "from": "apps/nswitch/",
       "to": "apps/nSwitch/"
     }
   ]

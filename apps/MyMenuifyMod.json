@@ -3,7 +3,7 @@
   "name": "MyMenuifyMod",
   "author": "Scooby74029",
   "category": "wiimenu",
-  "description": "Theme Installer",
+  "description": "Installs Wii Menu themes.",
   "platforms": [
     "wii"
   ],

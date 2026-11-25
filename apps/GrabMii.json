@@ -3,7 +3,7 @@
   "name": "GrabMii",
   "author": "DevNull-l1r",
   "category": "wiimenu",
-  "description": "A tool to backup, install, and convert Miis.",
+  "description": "Backs up, installs and converts Miis.",
   "platforms": [
     "mini",
     "vwii",

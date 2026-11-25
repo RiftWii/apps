@@ -3,7 +3,7 @@
   "name": "OpenTTD",
   "author": "Extrems",
   "category": "games",
-  "description": "Transport Tycoon Deluxe",
+  "description": "OpenTTD, the open-source take on Transport Tycoon Deluxe.",
   "platforms": [
     "mini",
     "vwii",
@@ -20,7 +20,7 @@
     "url": "https://files.extremscorner.org/wii/apps/openttd/latest",
     "version": "1.3.2"
   },
-  "page": "https://oscwii.org/library/app/openttd",
+  "page": "https://www.extremscorner.org/",
   "format": "zip",
   "pin": {
     "sha256": "eab73e88887b67091b86047ddb5fe8fb5b5077e62c43cc5c4b5279f704962b26"

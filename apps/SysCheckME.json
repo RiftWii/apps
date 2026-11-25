@@ -3,7 +3,7 @@
   "name": "SysCheck ModMii Edition",
   "author": "blackb0x, JoostinOnline, Double_A, R2-D2199, Nano",
   "category": "system",
-  "description": "System Checker ModMii Edition",
+  "description": "Checks your Wii's IOS and system and writes a report (ModMii's edition of SysCheck).",
   "platforms": [
     "vwii",
     "wii"

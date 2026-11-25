@@ -3,7 +3,7 @@
   "name": "Wiituka",
   "author": "D_Skywalk",
   "category": "emulators",
-  "description": "Amstrad CPC Emulator",
+  "description": "An Amstrad CPC emulator.",
   "platforms": [
     "mini",
     "vwii",
@@ -15,13 +15,13 @@
     "keyboard"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/wiituka.zip",
+    "url": "https://static.wiidatabase.de/Wiituka.zip",
     "version": "0.98.8"
   },
-  "page": "https://oscwii.org/library/app/wiituka",
+  "page": "https://wiidatabase.de/downloads/emulatoren/wiituka/",
   "format": "zip",
   "pin": {
-    "sha256": "d3c1680504e99071bb0bb28d3f9f39a2f70417104327278c56bc384c1252458e"
+    "sha256": "1fe4aec6d256c356eb8d6d0e5df00560c1a01e7a05db0144bb8e57931c2a0b11"
   },
   "install": [
     {

@@ -3,7 +3,7 @@
   "name": "Mii Renamer",
   "author": "Floogle",
   "category": "wiimenu",
-  "description": "Renames Miis",
+  "description": "Gives your Miis new names.",
   "platforms": [
     "mini",
     "vwii",

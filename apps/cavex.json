@@ -3,7 +3,7 @@
   "name": "CavEX",
   "author": "ByteBit/xtreme8000",
   "category": "games",
-  "description": "Beta 1.7.3 for the Wii",
+  "description": "A block-building game in the style of Minecraft's Beta 1.7.3, made for the Wii.",
   "platforms": [
     "mini",
     "vwii",
@@ -18,7 +18,7 @@
     "url": "https://aos.party/download_public/cavex_a003.zip",
     "version": "Alpha 0.3.0"
   },
-  "page": "https://oscwii.org/library/app/cavex",
+  "page": "https://aos.party/",
   "format": "zip",
   "pin": {
     "sha256": "c2b2ca29e7b3ab4eb5b607efc3dbc0b5558b8b35abfecd9170185db17453ee67"

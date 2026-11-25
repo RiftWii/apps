@@ -3,7 +3,7 @@
   "name": "Playstats",
   "author": "chris",
   "category": "gametools",
-  "description": "Wii playtime history stats",
+  "description": "Shows how long you have played each game, from your Wii's own play history.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "http://www.toxicbreakfast.com/tb/downloads/playstats.zip",
     "version": "1.1"
   },
-  "page": "https://oscwii.org/library/app/playstats",
+  "page": "https://wiibrew.org/wiki/Playstats",
   "format": "zip",
   "pin": {
     "sha256": "8855f7cbca7773544772def8f6b4bddd93709e82a0ae53faab52077ab3a9d028"

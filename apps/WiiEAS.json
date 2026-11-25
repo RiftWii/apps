@@ -3,7 +3,7 @@
   "name": "WiiEAS",
   "author": "cmyksoda",
   "category": "internet",
-  "description": "Live EAS alerts from the United States",
+  "description": "Shows live alerts from the United States' Emergency Alert System.",
   "platforms": [
     "mini",
     "vwii",

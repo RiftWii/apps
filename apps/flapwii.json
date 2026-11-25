@@ -3,7 +3,7 @@
   "name": "Flapwii Bird",
   "author": "TheBlueOompaLoompa",
   "category": "games",
-  "description": "Flappy Bird for the Wii!",
+  "description": "A Flappy Bird game for the Wii.",
   "platforms": [
     "mini",
     "vwii",

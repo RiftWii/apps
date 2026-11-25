@@ -3,7 +3,7 @@
   "name": "WIIT",
   "author": "BlocksumoGuys",
   "category": "controllers",
-  "description": "Wii's Input Tester.",
+  "description": "Tests your Wii's controllers and inputs.",
   "platforms": [
     "wii"
   ],

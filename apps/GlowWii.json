@@ -3,7 +3,7 @@
   "name": "GlowWii",
   "author": "Larsenv",
   "category": "wiimenu",
-  "description": "Make your Wii disc drive light glow.",
+  "description": "Makes your Wii's disc drive light glow.",
   "platforms": [
     "wii"
   ],

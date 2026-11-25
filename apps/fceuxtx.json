@@ -3,7 +3,7 @@
   "name": "FCE Ultra TX",
   "author": "Tanooki, Tantric",
   "category": "emulators",
-  "description": "NES/Famicom Emulator",
+  "description": "A NES and Famicom emulator, a fork of FCE Ultra GX.",
   "platforms": [
     "mini",
     "vwii",

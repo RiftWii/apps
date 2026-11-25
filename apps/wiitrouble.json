@@ -3,7 +3,7 @@
   "name": "Wii Trouble",
   "author": "hayden0729",
   "category": "games",
-  "description": "Basic multiplayer tank game",
+  "description": "A simple multiplayer tank game.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,17 +13,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/wiitrouble.zip",
+    "url": "https://www.dropbox.com/s/27cbqv1fem58fnu/wiitrouble.zip?dl=1",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/wiitrouble",
+  "page": "https://github.com/hayden0729/wii-trouble",
   "format": "zip",
   "pin": {
-    "sha256": "708fc3042cb4c64884e0e873498851043e13a15f3bdf1bb4635cb47b4044b1c3"
+    "sha256": "da6e92865db3b13107acb1ba5171ad938603ea25df0477dfba07ac8ea92fcaa5"
   },
   "install": [
     {
-      "from": "apps/wiitrouble/",
+      "from": "wiitrouble/",
       "to": "apps/wiitrouble/"
     }
   ]

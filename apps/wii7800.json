@@ -3,7 +3,7 @@
   "name": "Wii7800",
   "author": "raz0red",
   "category": "emulators",
-  "description": "Atari 7800 Emulator",
+  "description": "An Atari 7800 emulator.",
   "platforms": [
     "mini",
     "vwii",

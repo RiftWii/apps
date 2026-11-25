@@ -3,7 +3,7 @@
   "name": "Wiiengine",
   "author": "Hermes",
   "category": "emulators",
-  "description": "PCengine Emulator",
+  "description": "A PC Engine and TurboGrafx-16 emulator.",
   "platforms": [
     "mini",
     "vwii",
@@ -15,18 +15,12 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/wiiengine.zip",
+    "url": "https://static.wiidatabase.de/WiiEngine.rar",
     "version": "1.5BB"
   },
-  "page": "https://oscwii.org/library/app/wiiengine",
-  "format": "zip",
+  "page": "https://wiidatabase.de/downloads/emulatoren/wiiengine/",
+  "format": "rar",
   "pin": {
-    "sha256": "dc0f8a88c1e9ac17d5a31cbda3724da17366b91444d0ed8004f07d1f4410346d"
-  },
-  "install": [
-    {
-      "from": "apps/wiiengine/",
-      "to": "apps/wiiengine/"
-    }
-  ]
+    "sha256": "42e9d8d63d1406fd794e34c845626d649e6d2631a5ef619f31369ac31036b4e3"
+  }
 }

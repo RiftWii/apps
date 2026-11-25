@@ -3,7 +3,7 @@
   "name": "Wii Sports Resort Patcher",
   "author": "WiiLink",
   "category": "gametools",
-  "description": "Patches Wii Sports Resort to allow for downloading CMOC Miis without cIOS",
+  "description": "Patches Wii Sports Resort so it can download Miis from the Check Mii Out Channel without a custom IOS.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "WNPV",
   "author": "Abdelali221",
   "category": "system",
-  "description": "Network Profiles Viewer!",
+  "description": "Shows your Wii's network profiles.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "Starfield Simulator",
   "author": "GatoWare",
   "category": "toys",
-  "description": "A dynamic 3D starfield screensaver simulation for the Wii.",
+  "description": "A 3D starfield screensaver.",
   "platforms": [
     "wii"
   ],

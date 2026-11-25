@@ -3,7 +3,7 @@
   "name": "Some YAWMM Mod",
   "author": "FIX94",
   "category": "system",
-  "description": "Install\\Uninstall WADs",
+  "description": "Installs and removes WAD files.",
   "platforms": [
     "wii"
   ],

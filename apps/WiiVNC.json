@@ -3,7 +3,7 @@
   "name": "WiiVNC",
   "author": "PaulWagener",
   "category": "internet",
-  "description": "Control your computer",
+  "description": "Controls your computer from the Wii, over VNC.",
   "platforms": [
     "mini",
     "vwii",
@@ -18,7 +18,7 @@
     "url": "https://github.com/PaulWagener/WiiVNC/raw/master/WiiVNC.zip",
     "version": "1.3"
   },
-  "page": "https://oscwii.org/library/app/WiiVNC",
+  "page": "https://github.com/PaulWagener/WiiVNC",
   "format": "zip",
   "pin": {
     "sha256": "370b0fc9b8e2c580b8cae136aedbbb61d6300604c38e472d04abd5e6fe1b198b"

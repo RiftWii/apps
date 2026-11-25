@@ -3,7 +3,7 @@
   "name": "FCE Ultra GX",
   "author": "Tantric",
   "category": "emulators",
-  "description": "Nintendo Emulator",
+  "description": "A NES and Famicom emulator.",
   "platforms": [
     "mini",
     "vwii",

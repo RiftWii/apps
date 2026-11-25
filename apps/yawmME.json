@@ -3,7 +3,7 @@
   "name": "YAWM ModMii Edition",
   "author": "Various",
   "category": "system",
-  "description": "Manage WADs and Launch Apps",
+  "description": "Installs WAD files and starts apps (ModMii's edition of YAWM).",
   "platforms": [
     "mini",
     "vwii",

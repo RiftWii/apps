@@ -3,7 +3,7 @@
   "name": "nanddumper@IOS",
   "author": "thepikachugamer",
   "category": "system",
-  "description": "NAND dumper",
+  "description": "Copies your Wii's internal memory (NAND) to the SD card.",
   "platforms": [
     "mini",
     "vwii",

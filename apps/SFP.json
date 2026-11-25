@@ -3,7 +3,7 @@
   "name": "Standby-Fan-Patcher",
   "author": "Abdelali221",
   "category": "system",
-  "description": "Make your fan stay on while in standby!",
+  "description": "Keeps your Wii's fan running in standby.",
   "platforms": [
     "mini",
     "wii"

@@ -3,7 +3,7 @@
   "name": "DOSBox for Wii",
   "author": "Tantric",
   "category": "emulators",
-  "description": "DOS Emulator",
+  "description": "Runs DOS games and programs.",
   "platforms": [
     "mini",
     "vwii",

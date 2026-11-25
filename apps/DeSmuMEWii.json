@@ -3,7 +3,7 @@
   "name": "DeSmuME Wii",
   "author": "Many",
   "category": "emulators",
-  "description": "DeSmuME on Wii",
+  "description": "An early Nintendo DS emulator for the Wii, based on DeSmuME.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,13 +16,13 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/DeSmuMEWii.zip",
-    "version": "r253"
+    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/desmumewii/DeSmuME%20Wii%20r185.zip",
+    "version": "r185"
   },
-  "page": "https://oscwii.org/library/app/DeSmuMEWii",
+  "page": "https://code.google.com/archive/p/desmumewii/",
   "format": "zip",
   "pin": {
-    "sha256": "0764e5f8a0848a43e769ac271ac60615433aea4930f816ce54a2ee0b2cd36449"
+    "sha256": "5e4ac2e6b02ba71c6f94276c9267070bee1183daedb3e09574213a633976fe00"
   },
   "install": [
     {

@@ -3,7 +3,7 @@
   "name": "Bolt Thrower",
   "author": "Paul Overy",
   "category": "games",
-  "description": "Bolt Thrower Game",
+  "description": "Bolt Thrower, an action game made for the Wii.",
   "platforms": [
     "mini",
     "vwii",
@@ -17,7 +17,7 @@
     "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/wii-bolt-thrower/BoltThrower_v0.71.7z",
     "version": "v0.71"
   },
-  "page": "https://oscwii.org/library/app/BoltThrower",
+  "page": "https://code.google.com/archive/p/wii-bolt-thrower/",
   "format": "7z",
   "pin": {
     "sha256": "6fd2cf24cf08b69f13c905c2d0232a940726b5609ab5266e88487334ca247ab7"

@@ -3,7 +3,7 @@
   "name": "TONG!",
   "author": "Owen Swerkstrom",
   "category": "games",
-  "description": "Tetris meets Pong",
+  "description": "Tetris and Pong, played at once.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,13 +13,13 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/tong.zip",
+    "url": "https://web.archive.org/web/20160810115829id_/http://www.nongnu.org/tong/tong-wii.zip",
     "version": "1.2"
   },
-  "page": "https://oscwii.org/library/app/tong",
+  "page": "https://www.nongnu.org/tong/",
   "format": "zip",
   "pin": {
-    "sha256": "3e01cdb6379cbedd5c5aafc77fc026ab9735f7403dbf7f173c92844270be6bea"
+    "sha256": "b52fcb4e4e9b2b9a270e76d570ae957151b892c31b60220940ac6d3c7faca0dc"
   },
   "install": [
     {

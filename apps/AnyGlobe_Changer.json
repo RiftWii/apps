@@ -3,7 +3,7 @@
   "name": "AnyGlobe Changer",
   "author": "fishguy6564",
   "category": "gametools",
-  "description": "Changes your globe position for Wii games.",
+  "description": "Sets where your Wii says it is on the globe, for the channels and games that use it.",
   "platforms": [
     "wii"
   ],

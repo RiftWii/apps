@@ -12,17 +12,18 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/seeprom-viewer.zip",
-    "version": "0.8"
+    "github": "VegaASM/Seeprom-Viewer",
+    "asset": "seeprom-viewer-0.8-hbc.zip"
   },
-  "page": "https://oscwii.org/library/app/seeprom-viewer",
+  "page": "https://github.com/VegaASM/Seeprom-Viewer",
   "format": "zip",
   "pin": {
-    "sha256": "9691d44a2a61dc169580d203345dc8304fc0dff3147a63c65b6323c712d25a2b"
+    "sha256": "8e31294cb1a726490f8a14a14b618d9b02192224400721dbaacff627dadbaec9",
+    "tag": "0.8"
   },
   "install": [
     {
-      "from": "apps/seeprom-viewer/",
+      "from": "seeprom-viewer-0.8-hbc/",
       "to": "apps/seeprom-viewer/"
     }
   ]

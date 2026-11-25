@@ -3,7 +3,7 @@
   "name": "Rainbii",
   "author": "Def64",
   "category": "toys",
-  "description": "Rainbii - Fade colors",
+  "description": "Fades the screen through the colours of the rainbow.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "Fridge Magnets",
   "author": "Paul Overy",
   "category": "games",
-  "description": "Wii Fridge Magnets Game",
+  "description": "Arrange word magnets on a fridge door to make sentences.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://wiibrew.org/w/images/2/20/FridgeMagnets.zip",
     "version": "v0.34"
   },
-  "page": "https://oscwii.org/library/app/FridgeMagnets",
+  "page": "https://wiibrew.org/wiki/FridgeMagnets",
   "format": "zip",
   "pin": {
     "sha256": "51b776a25f6d679dfb90e62753765a8e281e03c481fec0210445354fa131915d"
