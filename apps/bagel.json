@@ -23,7 +23,7 @@
   },
   "install": [
     {
-      "from": "apps/bagel/",
+      "from": "bagel/",
       "to": "apps/bagel/"
     }
   ]
