@@ -1,0 +1,34 @@
+{
+  "id": "am2r",
+  "name": "AM2R GX",
+  "author": "cmyksoda",
+  "category": "games",
+  "description": "Another Metroid 2 Remake 1.5.5 on the Wii. You add the AM2R 1.1 zip yourself, and the first start sets the game up (see its page).",
+  "license": "AGPL-3.0",
+  "page": "https://github.com/cmyksoda/AM2R-GX",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
+  "source": {
+    "github": "cmyksoda/AM2R-GX",
+    "asset": "am2r-gx-*[0-9].zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.3.2",
+    "sha256": "ffeb7299006c045150587d678e7ae35442e0c7410b823c2fe2208011604cf71c"
+  },
+  "install": [
+    {
+      "from": "*/apps/am2r/",
+      "to": "apps/am2r/"
+    }
+  ]
+}

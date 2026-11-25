@@ -1,0 +1,31 @@
+{
+  "id": "BootMiiConfigurationEditor",
+  "name": "BootMii Config Editor",
+  "author": "Pembo",
+  "category": "system",
+  "description": "Changes BootMii's settings (video mode, what it starts, its wait) from the Wii, without a PC.",
+  "page": "https://github.com/dpembo/bootmiiconfigurationeditor",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
+  "source": {
+    "github": "dpembo/bootmiiconfigurationeditor",
+    "asset": "Bootmii_cfg_ed.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v2.7",
+    "sha256": "98ccebfc62b83caeff4725e5649cbb4b3dbf0c805c8bf4de6329a3573fc56c5c"
+  },
+  "install": [
+    {
+      "from": "",
+      "to": "apps/BootMiiConfigurationEditor/"
+    }
+  ]
+}

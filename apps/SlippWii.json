@@ -1,0 +1,38 @@
+{
+  "id": "SlippWii",
+  "name": "SlippWii",
+  "author": "2gifts",
+  "category": "online",
+  "description": "Slippi online for Super Smash Bros. Melee on a real Wii, with rollback netcode, against players on Slippi Dolphin. Uses your own Melee disc.",
+  "license": "GPL-2.0",
+  "page": "https://github.com/2gifts/SlippWii",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "gamecube"
+  ],
+  "source": {
+    "github": "2gifts/SlippWii",
+    "asset": "SlippWii-*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.8.1",
+    "sha256": "d7b1f4a0d896d6c4f6b2238a4bd0fb915cb4747687dceac41edf0c8cc1b071c1"
+  },
+  "data_folders": [
+    "slippwii"
+  ],
+  "install": [
+    {
+      "from": "apps/SlippWii/",
+      "to": "apps/SlippWii/"
+    },
+    {
+      "from": "slippwii/",
+      "to": "slippwii/"
+    }
+  ]
+}

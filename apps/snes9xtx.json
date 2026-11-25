@@ -1,0 +1,35 @@
+{
+  "id": "snes9xtx",
+  "name": "Snes9x TX",
+  "author": "saulfabreg",
+  "category": "emulators",
+  "description": "A Super Nintendo emulator, from Snes9x GX with more options and fixes.",
+  "license": "GPL-2.0",
+  "page": "https://github.com/saulfabregwiivc/Snes9xTX",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
+  "source": {
+    "github": "saulfabregwiivc/Snes9xTX",
+    "asset": "Snes9xTX-?.?.?-Wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "1.1.3",
+    "sha256": "1ec4dfe427baebf1b38472bbc007300f8b0d9cb960829e45d105e2eccd41d47c"
+  },
+  "install": [
+    {
+      "from": "apps/snes9xtx/",
+      "to": "apps/snes9xtx/"
+    }
+  ]
+}

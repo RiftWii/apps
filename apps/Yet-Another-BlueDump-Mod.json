@@ -1,0 +1,28 @@
+{
+  "id": "Yet-Another-BlueDump-Mod",
+  "name": "Yet Another BlueDump MOD",
+  "author": "DarkMatterCore",
+  "category": "system",
+  "description": "Backs up saves and channels from the Wii's memory as WADs, to the SD card or a USB drive, and turns content.bin files into WADs.",
+  "license": "GPL-2.0",
+  "page": "https://github.com/DarkMatterCore/bluedump-mod",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
+  "source": {
+    "url": "https://github.com/DarkMatterCore/bluedump-mod/raw/master/HBC/boot.dol",
+    "version": "2024-02-04",
+    "released": "2024-02-04"
+  },
+  "format": "dol",
+  "pin": {
+    "sha256": "b80da8114bf07989f61f0b8f8fd14be72227ff2fa5c8b02e3b6cd9220faef55a"
+  }
+}

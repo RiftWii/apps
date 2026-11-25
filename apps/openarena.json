@@ -1,0 +1,32 @@
+{
+  "id": "openarena",
+  "name": "OpenArena",
+  "author": "Mayo1970",
+  "category": "games",
+  "description": "The free Quake III style arena shooter, aimed with the Wii Remote and moved with the Nunchuk. Copy the game's own baseoa .pk3 files to the card.",
+  "license": "GPL-2.0",
+  "page": "https://github.com/Mayo1970/ioQuake3-wii",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "nunchuk"
+  ],
+  "source": {
+    "github": "Mayo1970/ioQuake3-wii",
+    "asset": "OpenArena-Wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "1.4",
+    "sha256": "340b0e9a1af42201eaa1464c1ef9afc7a6c7004e01fa92bc6f1767d238649ccd"
+  },
+  "install": [
+    {
+      "from": "OpenArena-Wii/",
+      "to": "apps/openarena/"
+    }
+  ]
+}
