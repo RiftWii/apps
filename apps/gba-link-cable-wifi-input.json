@@ -3,7 +3,7 @@
   "name": "GBA Link Cable WiFi Input Server",
   "author": "FIX94",
   "category": "gametools",
-  "description": "No description provided.",
+  "description": "Turns a Game Boy Advance into a PC controller: the GBA plugs into the Wii with the link cable, and the Wii sends its buttons to your PC.",
   "platforms": [
     "wii"
   ],

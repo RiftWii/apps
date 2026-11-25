@@ -3,7 +3,7 @@
   "name": "GBA Link Cable ROM Sender",
   "author": "FIX94",
   "category": "gametools",
-  "description": "No description provided.",
+  "description": "Sends small Game Boy Advance games (256 KB or less) from your SD card or USB drive to a GBA plugged in with the GameCube link cable.",
   "platforms": [
     "wii"
   ],

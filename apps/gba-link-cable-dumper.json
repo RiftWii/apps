@@ -3,7 +3,7 @@
   "name": "GBA Link Cable Dumper",
   "author": "FIX94",
   "category": "gametools",
-  "description": "No description provided.",
+  "description": "Copies a Game Boy Advance cartridge's game and save, and the GBA's own BIOS, to your SD card through the GameCube link cable.",
   "platforms": [
     "wii"
   ],

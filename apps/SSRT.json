@@ -3,7 +3,7 @@
   "name": "System Settings Replace Tool",
   "author": "Tona, PabloACZ",
   "category": "system",
-  "description": "No description provided.",
+  "description": "Backs up or puts back setting.txt, the file with your Wii's serial number and region. Repairs a Wii whose copy got lost or damaged.",
   "platforms": [
     "wii"
   ],
