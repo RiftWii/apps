@@ -3,7 +3,7 @@
   "name": "Wii-Themer",
   "author": "Scooby74029",
   "category": "wiimenu",
-  "description": "No description provided.",
+  "description": "Installs custom Wii Menu themes from a themes folder on your SD card or USB drive (needs cIOS 236 or 249).",
   "platforms": [
     "wii"
   ],

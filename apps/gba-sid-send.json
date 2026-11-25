@@ -3,7 +3,7 @@
   "name": "GBA SID Send",
   "author": "FIX94",
   "category": "gametools",
-  "description": "No description provided.",
+  "description": "Plays Commodore 64 music (.sid files) on a Game Boy Advance, sent from your SD card or USB drive through the GameCube link cable.",
   "platforms": [
     "wii"
   ],
