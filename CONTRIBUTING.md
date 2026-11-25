@@ -23,7 +23,9 @@ Your app needs:
       releases are best: updates then reach the store on their own.
 - [ ] **A `boot.dol` or `boot.elf` that ends up in `apps/<id>/`** on the
       SD card. Put a `meta.xml` and an `icon.png` (the Homebrew Channel's
-      128x48 icon) next to it: the store shows that icon.
+      128x48 icon) next to it: the store shows that icon. If your release
+      is not a zip, or has no icon, add the icon as **`apps/<id>.png`**
+      beside your app's file instead (a PNG of 128x48, at most 64 KB).
 - [ ] **Public source code**, or a stated reason why not (then expect a
       closer review).
 - [ ] **No copyrighted game data**, and nothing its owner had taken down.
