@@ -1,0 +1,30 @@
+{
+  "id": "hackmii",
+  "name": "HackMii Installer",
+  "author": "Team Twiizers",
+  "category": "system",
+  "description": "Installs or updates the Homebrew Channel, and installs BootMii on a Wii. On a Wii U it installs the Homebrew Channel only.",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
+  "source": {
+    "url": "https://bootmii.org/hackmii_installer_v1.2.zip",
+    "version": "1.2"
+  },
+  "page": "https://bootmii.org/download/",
+  "format": "zip",
+  "pin": {
+    "sha256": "32b7406956860ffb50d46f83e5fb6b8d67cd2612781cd97619d0c2371c84c945"
+  },
+  "install": [
+    {
+      "from": "hackmii_installer_v1.2/boot.elf",
+      "to": "apps/hackmii/boot.elf"
+    }
+  ]
+}
