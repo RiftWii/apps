@@ -13,7 +13,7 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://web.archive.org/web/20160810115829id_/http://www.nongnu.org/tong/tong-wii.zip",
+    "url": "https://web.archive.org/web/20160810115829id_/http%3A//www.nongnu.org/tong/tong-wii.zip",
     "version": "1.2"
   },
   "page": "https://www.nongnu.org/tong/",
