@@ -19,11 +19,11 @@
   "format": "zip",
   "pin": {
     "tag": "v1.2.0",
-    "sha256": "2f06a4df6416db7b34a9f8153a3484e1513af688740c753e8bcbb104a3c734d4"
+    "sha256": "99923a57733998f306281679b6e06ba3f8966c1925141986fbd2dc9857ee8a2c"
   },
   "install": [
     {
-      "from": "apps/bagel/",
+      "from": "bagel/",
       "to": "apps/bagel/"
     }
   ]

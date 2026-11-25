@@ -1,0 +1,31 @@
+{
+  "id": "WiiBagel",
+  "name": "Wii Bagel",
+  "author": "Bagel Studios, jornmann, Andy Sloane",
+  "category": "toys",
+  "description": "A spinning bagel with toppings and music. A flips between a bagel and a donut, B pauses, the D-pad turns it and + and - zoom.",
+  "page": "https://github.com/Bagelman47/Wii-Bagel",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote"
+  ],
+  "source": {
+    "github": "Bagelman47/Wii-Bagel",
+    "asset": "wiibagel.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.0.0",
+    "sha256": "7bcba22625e35b713784b288cde10ba3dd5bf69f27ff1d0bb9c3e350088686b3"
+  },
+  "install": [
+    {
+      "from": "WiiBagel/",
+      "to": "apps/WiiBagel/"
+    }
+  ]
+}
