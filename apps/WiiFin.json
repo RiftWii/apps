@@ -1,0 +1,33 @@
+{
+  "id": "WiiFin",
+  "name": "WiiFin",
+  "author": "fabienmillet",
+  "category": "media",
+  "description": "Watch and listen to your own Jellyfin media server's films, shows and music, with subtitles, and play to the Wii from Jellyfin's apps.",
+  "page": "https://github.com/fabienmillet/WiiFin",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube",
+    "keyboard"
+  ],
+  "source": {
+    "github": "fabienmillet/WiiFin",
+    "asset": "WiiFin-hbc.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "v1.1.0",
+    "sha256": "fe3e2d1b60cf315a67f32788fc0fa6db877e183f06738c1fa6badfdbbedf2952"
+  },
+  "install": [
+    {
+      "from": "apps/WiiFin/",
+      "to": "apps/WiiFin/"
+    }
+  ]
+}
