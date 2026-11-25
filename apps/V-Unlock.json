@@ -1,0 +1,25 @@
+{
+  "id": "V-Unlock",
+  "name": "V-Unlock",
+  "author": "VegaASM",
+  "category": "gametools",
+  "description": "Unlocks every character, kart and cup in your Mario Kart Wii save.",
+  "page": "https://github.com/VegaASM/V-Unlock",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote"
+  ],
+  "source": {
+    "url": "https://github.com/VegaASM/V-Unlock/raw/main/V-Unlock/boot.dol",
+    "version": "2022-09-10",
+    "released": "2022-09-10"
+  },
+  "format": "dol",
+  "pin": {
+    "sha256": "db4d5a0edee7f9cdda7ffa0c7759a46f43e137a292b9fce1a6317d4d3c190b70"
+  }
+}

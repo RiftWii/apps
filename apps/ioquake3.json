@@ -1,0 +1,32 @@
+{
+  "id": "ioquake3",
+  "name": "Quake III Arena (ioQuake3)",
+  "author": "Mayo1970",
+  "category": "games",
+  "description": "ioQuake3 for the Wii: Quake III Arena aimed with the Wii Remote and moved with the Nunchuk, online too. Needs your own baseq3 .pk3 files.",
+  "license": "GPL-2.0",
+  "page": "https://github.com/Mayo1970/ioQuake3-wii",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "nunchuk"
+  ],
+  "source": {
+    "github": "Mayo1970/ioQuake3-wii",
+    "asset": "ioQuake3-Wii.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "1.4",
+    "sha256": "f5c98d2016e979168e6bff51dac54960d2a91b3361f2f845e410b75cb3536799"
+  },
+  "install": [
+    {
+      "from": "ioQuake3-Wii/",
+      "to": "apps/ioquake3/"
+    }
+  ]
+}

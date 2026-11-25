@@ -1,0 +1,28 @@
+{
+  "id": "RetroArch",
+  "name": "RetroArch",
+  "author": "libretro",
+  "category": "emulators",
+  "description": "The libretro front-end with dozens of emulator cores in one menu. A 7z from libretro's site: unpack it on a PC to the SD card.",
+  "license": "GPL-3.0",
+  "page": "https://www.retroarch.com/",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "nunchuk",
+    "classic",
+    "gamecube"
+  ],
+  "source": {
+    "url": "https://buildbot.libretro.com/stable/1.22.2/nintendo/wii/RetroArch.7z",
+    "version": "1.22.2",
+    "released": "2025-11-20"
+  },
+  "format": "7z",
+  "pin": {
+    "sha256": "d6f8dfda55419d8c7120bf1ed42f86cf416fa0d79b1ed2aa88f0f0b51eb6a060"
+  }
+}

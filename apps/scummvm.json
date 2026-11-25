@@ -1,0 +1,33 @@
+{
+  "id": "scummvm",
+  "name": "ScummVM",
+  "author": "The ScummVM Team",
+  "category": "emulators",
+  "description": "Plays classic point-and-click adventures (LucasArts, Sierra, Revolution and many more) from your own game files.",
+  "license": "GPL-3.0",
+  "page": "https://www.scummvm.org/",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "gamecube"
+  ],
+  "source": {
+    "url": "https://downloads.scummvm.org/frs/scummvm/2026.1.0/scummvm-2026.1.0-wii.zip",
+    "version": "2026.1.0",
+    "released": "2026-01-19"
+  },
+  "format": "zip",
+  "pin": {
+    "sha256": "8c65d11fe17a2e16a1253de73bdd46c8eba78f88cbf8d46b92357942b8a5e86b"
+  },
+  "install": [
+    {
+      "from": "",
+      "to": "apps/scummvm/"
+    }
+  ]
+}

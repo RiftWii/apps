@@ -1,0 +1,31 @@
+{
+  "id": "aurorachat",
+  "name": "Aurorachat",
+  "author": "Unitendo",
+  "category": "online",
+  "description": "Real-time chat rooms shared with Aurorachat's apps on other consoles and the web.",
+  "page": "https://github.com/Unitendo/aurorachat-wii",
+  "platforms": [
+    "mini",
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote"
+  ],
+  "source": {
+    "github": "Unitendo/aurorachat-wii",
+    "asset": "aurorachat-wii*.zip"
+  },
+  "format": "zip",
+  "pin": {
+    "tag": "0.6",
+    "sha256": "c17d8d93c0f7fe9acbe5ecf0789ecac6aa835f4eceb7dd13788144a1f7909680"
+  },
+  "install": [
+    {
+      "from": "*/",
+      "to": "apps/aurorachat/"
+    }
+  ]
+}
