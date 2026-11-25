@@ -28,5 +28,6 @@
       "from": "OpenArena-Wii/",
       "to": "apps/openarena/"
     }
-  ]
+  ],
+  "icon_in_zip": "OpenArena-Wii/ICON.PNG"
 }

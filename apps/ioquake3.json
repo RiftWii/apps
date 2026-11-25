@@ -28,5 +28,6 @@
       "from": "ioQuake3-Wii/",
       "to": "apps/ioquake3/"
     }
-  ]
+  ],
+  "icon_in_zip": "ioQuake3-Wii/ICON.PNG"
 }
