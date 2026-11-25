@@ -3,7 +3,7 @@
   "name": "ww-43db-patcher",
   "author": "DarkMatterCore",
   "category": "gametools",
-  "description": "vWii WiiWare 43DB patcher.",
+  "description": "Patches the list that decides which WiiWare runs in 4:3 on a Wii U.",
   "platforms": [
     "vwii"
   ],

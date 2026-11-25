@@ -3,7 +3,7 @@
   "name": "Neverball",
   "author": "Jānis Rūcis, Alberto Mardegan (port)",
   "category": "games",
-  "description": "3D floor-tilting game",
+  "description": "Tilt the floor to roll a ball through each level.",
   "platforms": [
     "mini",
     "vwii",

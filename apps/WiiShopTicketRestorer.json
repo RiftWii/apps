@@ -3,7 +3,7 @@
   "name": "Wii Shop Ticket Restorer",
   "author": "Quadraxis_v2",
   "category": "system",
-  "description": "This application lets you get back the tickets of your purchased games from the Wii Shop Channel in case you lost them or overwrote them.",
+  "description": "Gets back the tickets for games you bought in the Wii Shop Channel if they were lost or overwritten.",
   "platforms": [
     "vwii",
     "wii"

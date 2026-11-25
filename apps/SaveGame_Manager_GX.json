@@ -3,7 +3,7 @@
   "name": "SaveGame Manager GX",
   "author": "Dj_Skual",
   "category": "gametools",
-  "description": "SaveGames/Mii Manager",
+  "description": "Backs up and restores game saves and Miis.",
   "platforms": [
     "mini",
     "vwii",
@@ -19,7 +19,7 @@
     "url": "https://master.dl.sourceforge.net/project/savegame-manager-gx/HBC_SetUp_R127.zip?viasf=1",
     "version": "rev127"
   },
-  "page": "https://oscwii.org/library/app/SaveGame_Manager_GX",
+  "page": "https://sourceforge.net/projects/savegame-manager-gx/",
   "format": "zip",
   "pin": {
     "sha256": "9631da3bfe77c6704a3cafb9abe14148b714f3dc9e4ef6dfa00be8f4689c3d73"

@@ -3,7 +3,7 @@
   "name": "C64-network.org (Frodo)",
   "author": "Simon Kagstrom, Oibaf",
   "category": "emulators",
-  "description": "Commodore 64 emulator",
+  "description": "A Commodore 64 emulator, with online play through C64-network.org.",
   "platforms": [
     "mini",
     "vwii",

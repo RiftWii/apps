@@ -3,7 +3,7 @@
   "name": "HatariWii",
   "author": "Wiimpathy",
   "category": "emulators",
-  "description": "Atari ST Emulator for Wii",
+  "description": "An Atari ST emulator.",
   "platforms": [
     "mini",
     "vwii",

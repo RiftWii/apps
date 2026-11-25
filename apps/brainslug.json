@@ -3,7 +3,7 @@
   "name": "brainslug",
   "author": "Chadderz",
   "category": "gametools",
-  "description": "BrainSlug Patching Engine",
+  "description": "A patching engine that loads code modules into Wii games as they start.",
   "platforms": [
     "mini",
     "vwii",

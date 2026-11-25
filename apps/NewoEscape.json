@@ -3,7 +3,7 @@
   "name": "Newo Escape",
   "author": "Owen",
   "category": "games",
-  "description": "Warp jump gone bad. Survive.",
+  "description": "A warp jump went wrong: survive.",
   "platforms": [
     "mini",
     "vwii",
@@ -19,7 +19,7 @@
     "url": "https://owensoft.net/project/newogame/dl/NewoEscape.zip",
     "version": "2"
   },
-  "page": "https://oscwii.org/library/app/NewoEscape",
+  "page": "https://owensoft.net/project/newogame/",
   "format": "zip",
   "pin": {
     "sha256": "2988da5c05f1a2034cb6fcc5042a47de1bb079f7b1213ca1f6512bc9d370c86e"

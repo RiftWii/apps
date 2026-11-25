@@ -3,7 +3,7 @@
   "name": "NeoCD-WII",
   "author": "Wiimpathy, Jacobeian",
   "category": "emulators",
-  "description": "Neo-Geo CD Emulator",
+  "description": "A Neo Geo CD emulator.",
   "platforms": [
     "mini",
     "vwii",

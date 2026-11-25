@@ -3,7 +3,7 @@
   "name": "nReader",
   "author": "hediibl",
   "category": "system",
-  "description": "Wii NAND Report Tool",
+  "description": "Reports what is on your Wii's internal memory (NAND).",
   "platforms": [
     "mini",
     "wii"

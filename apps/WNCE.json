@@ -3,7 +3,7 @@
   "name": "Wii Network Config Editor",
   "author": "Bazmoc",
   "category": "system",
-  "description": "Network Settings Editor",
+  "description": "Edits your Wii's network settings.",
   "platforms": [
     "wii"
   ],

@@ -3,7 +3,7 @@
   "name": "Load Priiloader",
   "author": "DacoTaco",
   "category": "system",
-  "description": "Priiloader Menu Loader",
+  "description": "Opens the Priiloader menu from the Homebrew Channel.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "Parental Controls Remover",
   "author": "Aep",
   "category": "system",
-  "description": "Remove parental controls from your Wii",
+  "description": "Removes your Wii's parental controls.",
   "platforms": [
     "mini",
     "wii"

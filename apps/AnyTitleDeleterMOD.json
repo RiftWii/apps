@@ -3,7 +3,7 @@
   "name": "AnyTitle Deleter MOD",
   "author": "Red Squirrel",
   "category": "system",
-  "description": "Delete any title",
+  "description": "Removes any title from your Wii: channels, saves and system titles. Use it with care.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://wiibrew.org/w/images/f/f3/AnyTitleDeleterMODv71.rar",
     "version": "7.1"
   },
-  "page": "https://oscwii.org/library/app/AnyTitleDeleterMOD",
+  "page": "https://wiibrew.org/wiki/AnyTitle_Deleter/AnyTitle_Deleter_MOD",
   "format": "rar",
   "pin": {
     "sha256": "8538d56b2bf5b1660f108dd5260d9c91d59fb89d48c4a2d96b1da8b1f3fa25f0"

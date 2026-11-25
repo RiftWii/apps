@@ -3,7 +3,7 @@
   "name": "WiiHandy",
   "author": "raz0red",
   "category": "emulators",
-  "description": "Atari Lynx Emulator",
+  "description": "An Atari Lynx emulator.",
   "platforms": [
     "mini",
     "vwii",

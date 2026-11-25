@@ -3,7 +3,7 @@
   "name": "MotionPlusVideoSeen",
   "author": "WiiDatabase Team",
   "category": "wiimenu",
-  "description": "Motion Plus Video Seen Setter",
+  "description": "Sets whether your Wii thinks you have watched the MotionPlus introduction video.",
   "platforms": [
     "mini",
     "vwii",

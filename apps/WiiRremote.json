@@ -3,7 +3,7 @@
   "name": "WiiRremote",
   "author": "Abdelali221",
   "category": "controllers",
-  "description": "Use your Wii as an IR blaster!",
+  "description": "Turns your Wii into an infrared remote control.",
   "platforms": [
     "mini",
     "vwii",

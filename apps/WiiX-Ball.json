@@ -3,7 +3,7 @@
   "name": "WiiX-Ball",
   "author": "KMS",
   "category": "games",
-  "description": "Breakout for the Wii",
+  "description": "A Breakout game.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,17 +13,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/WiiX-Ball.zip",
+    "url": "https://static.wiidatabase.de/WiiX-Ball.zip",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/WiiX-Ball",
+  "page": "https://wiidatabase.de/downloads/spiele/wiix-ball/",
   "format": "zip",
   "pin": {
-    "sha256": "d6c89beddecf0c4b0f995e9af72337d2fee38740324d006a32dab2a80ca579b8"
+    "sha256": "ed1d4da89e321d6a37296eb08bb088391b84c8a6a35222c0f8e43d615be3f451"
   },
   "install": [
     {
-      "from": "apps/WiiX-Ball/",
+      "from": "",
       "to": "apps/WiiX-Ball/"
     }
   ]

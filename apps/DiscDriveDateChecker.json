@@ -3,7 +3,7 @@
   "name": "Disc Drive Date Checker",
   "author": "Aep",
   "category": "gametools",
-  "description": "Check your Wii's Disc Drive Date",
+  "description": "Shows when your Wii's disc drive was made.",
   "platforms": [
     "mini",
     "vwii",

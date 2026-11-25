@@ -3,7 +3,7 @@
   "name": "Wii DS ROM Sender",
   "author": "FIX94",
   "category": "gametools",
-  "description": "Send NDS ROMs to a DS using DLP.",
+  "description": "Sends Nintendo DS programs to a DS over Download Play.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "ClassiCube",
   "author": "Unknownshadow200",
   "category": "games",
-  "description": "Play ClassiCube",
+  "description": "ClassiCube, a block-building game in the style of classic Minecraft, with online play.",
   "platforms": [
     "wii"
   ],
@@ -18,7 +18,7 @@
     "url": "https://cdn.classicube.net/client/release/ClassiCube-wii.zip",
     "version": "1.3.9"
   },
-  "page": "https://oscwii.org/library/app/ClassiCube",
+  "page": "https://www.classicube.net/",
   "format": "zip",
   "pin": {
     "sha256": "ec5cf7c0ab8e34fe91c90d665fa4c74b87b14f6c963b6307766455e0b1a61881"

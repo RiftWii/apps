@@ -17,7 +17,7 @@
     "url": "https://wiibrew.org/w/images/1/12/Wiilauncher_r11.zip",
     "version": "0.2"
   },
-  "page": "https://oscwii.org/library/app/WiiLauncher",
+  "page": "https://wiibrew.org/wiki/WiiLauncher",
   "format": "zip",
   "pin": {
     "sha256": "e7c8d55b8185ae6ccb31ce19075f0690767888e94e1df9723c2a5bd6d63ffd6c"

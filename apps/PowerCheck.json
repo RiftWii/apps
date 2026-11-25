@@ -3,7 +3,7 @@
   "name": "PowerCheck",
   "author": "JoostinOnline",
   "category": "controllers",
-  "description": "Checks how charged your remotes are",
+  "description": "Shows how much charge is left in your Wii Remotes.",
   "platforms": [
     "mini",
     "vwii",
@@ -13,17 +13,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/PowerCheck.zip",
+    "url": "https://static.wiidatabase.de/PowerCheck.zip",
     "version": "v1.8"
   },
-  "page": "https://oscwii.org/library/app/PowerCheck",
+  "page": "https://wiidatabase.de/downloads/wii-tools/powercheck/",
   "format": "zip",
   "pin": {
-    "sha256": "cd12f5ad3deb18997bcf41af598d1cb95ef622b2d193bef5801dff870ac3eb79"
+    "sha256": "5130d6d50986c5518e57419295ef25ae476ea2f4629a4c53a2385bccd7aa353b"
   },
   "install": [
     {
-      "from": "apps/PowerCheck/",
+      "from": "PowerCheck/",
       "to": "apps/PowerCheck/"
     }
   ]

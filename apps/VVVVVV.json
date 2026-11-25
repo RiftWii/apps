@@ -3,7 +3,7 @@
   "name": "VVVVVV",
   "author": "Terry Cavanagh",
   "category": "games",
-  "description": "Platforms, teleportation, gravity!",
+  "description": "Flip gravity to get through each room.",
   "platforms": [
     "mini",
     "vwii",

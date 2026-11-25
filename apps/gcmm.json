@@ -3,7 +3,7 @@
   "name": "GCMM",
   "author": "suloku",
   "category": "gametools",
-  "description": "Memory Card Manager",
+  "description": "Backs up, restores and deletes GameCube memory card saves.",
   "platforms": [
     "wii"
   ],

@@ -3,7 +3,7 @@
   "name": "MegaZeux",
   "author": "Alexis Janson, Gilead Kutnick, Alistair Strachan, Alice Rowan",
   "category": "games",
-  "description": "A simple game creation system (GCS)",
+  "description": "MegaZeux: make and play your own games.",
   "platforms": [
     "mini",
     "vwii",

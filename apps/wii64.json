@@ -3,7 +3,7 @@
   "name": "Wii64 | glN64 GFX",
   "author": "Wii64 Team",
   "category": "emulators",
-  "description": "N64 Emulator for Wii",
+  "description": "A Nintendo 64 emulator, with the glN64 graphics.",
   "platforms": [
     "mini",
     "vwii",

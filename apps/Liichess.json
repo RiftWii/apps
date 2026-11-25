@@ -3,7 +3,7 @@
   "name": "Liichess",
   "author": "26gy2",
   "category": "internet",
-  "description": "Play online chess from a wii!",
+  "description": "Play chess online on Lichess, from your Wii.",
   "platforms": [
     "wii"
   ],

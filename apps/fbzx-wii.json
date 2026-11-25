@@ -3,7 +3,7 @@
   "name": "FBZX Wii",
   "author": "Oibaf (Fabio Olimpieri)",
   "category": "emulators",
-  "description": "ZX Spectrum Emulator",
+  "description": "A ZX Spectrum emulator.",
   "platforms": [
     "mini",
     "vwii",
@@ -20,7 +20,7 @@
     "url": "https://github.com/Oibaf66/fbzx-wii/releases/download/v15.0/fbzx-wii-v15-bin.tar.gz",
     "version": "v15"
   },
-  "page": "https://oscwii.org/library/app/fbzx-wii",
+  "page": "https://github.com/Oibaf66/fbzx-wii",
   "format": "tar.gz",
   "pin": {
     "sha256": "a8606a57689d7d2ac4ee657cf6a3de3fe1ae97fbac60022a291ed6543afba308"

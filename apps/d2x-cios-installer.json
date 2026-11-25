@@ -3,7 +3,7 @@
   "name": "d2x cIOS installer",
   "author": "dragbe",
   "category": "system",
-  "description": "Custom IOS installer",
+  "description": "Installs the d2x custom IOS that USB loaders and other homebrew rely on.",
   "platforms": [
     "wii"
   ],

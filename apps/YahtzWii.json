@@ -3,7 +3,7 @@
   "name": "YahtzWii",
   "author": "chris",
   "category": "games",
-  "description": "Yahtzee for the Wii",
+  "description": "Yahtzee, the dice game.",
   "platforms": [
     "mini",
     "vwii",
@@ -19,7 +19,7 @@
     "url": "http://www.toxicbreakfast.com/cgi-bin/download?file=yahtzwii.zip",
     "version": "3.11"
   },
-  "page": "https://oscwii.org/library/app/YahtzWii",
+  "page": "https://wiibrew.org/wiki/Yahtzwii",
   "format": "zip",
   "pin": {
     "sha256": "d61b39665473692d0bbc4d408720154a0fa934a10b5b3a086bb112910a016875"

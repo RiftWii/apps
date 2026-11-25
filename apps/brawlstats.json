@@ -3,7 +3,7 @@
   "name": "BrawlStats",
   "author": "Marc",
   "category": "gametools",
-  "description": "Stores your SSBB stats!",
+  "description": "Keeps track of your Super Smash Bros. Brawl statistics.",
   "platforms": [
     "mini",
     "vwii",
@@ -14,17 +14,17 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/brawlstats.zip",
+    "url": "https://static.wiidatabase.de/BrawlStats.zip",
     "version": "1.2.1"
   },
-  "page": "https://oscwii.org/library/app/brawlstats",
+  "page": "https://wiidatabase.de/downloads/wii-tools/brawlstats/",
   "format": "zip",
   "pin": {
-    "sha256": "8fc4bac868f46f67b51ef4c43588e05ce3256e5c0fb95a14610a6b61cd357b67"
+    "sha256": "6bd829053c926ec5e4d5fcc943a4da4a16e13b12e890358d9e138a70a1bb190e"
   },
   "install": [
     {
-      "from": "apps/brawlstats/",
+      "from": "brawlstats/",
       "to": "apps/brawlstats/"
     }
   ]

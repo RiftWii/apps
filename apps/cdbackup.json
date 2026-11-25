@@ -3,7 +3,7 @@
   "name": "cdbackup",
   "author": "thepikachugamer",
   "category": "wiimenu",
-  "description": "Backup/restore/export Wii message board data.",
+  "description": "Backs up, restores and exports the posts on your Wii Message Board.",
   "platforms": [
     "mini",
     "vwii",

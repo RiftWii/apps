@@ -3,7 +3,7 @@
   "name": "Calibrator",
   "author": "Extrems",
   "category": "controllers",
-  "description": "Calibration assistant",
+  "description": "Helps you calibrate, step by step.",
   "platforms": [
     "mini",
     "vwii",
@@ -18,7 +18,7 @@
     "url": "https://files.extremscorner.org/wii/apps/calibrator/latest",
     "version": "1.1"
   },
-  "page": "https://oscwii.org/library/app/calibrator",
+  "page": "https://www.extremscorner.org/",
   "format": "zip",
   "pin": {
     "sha256": "97dbb5f40484021dc28599e45a7f8f23fdc4989648015c10a4eb6d9577e954ea"

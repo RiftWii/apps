@@ -3,7 +3,7 @@
   "name": "Priiloader Installer",
   "author": "DacoTaco/Crediar",
   "category": "system",
-  "description": "Preloader Mod",
+  "description": "Installs Priiloader, which starts before the Wii Menu and can rescue a broken one.",
   "platforms": [
     "mini",
     "vwii",

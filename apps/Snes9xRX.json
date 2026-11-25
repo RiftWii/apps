@@ -3,7 +3,7 @@
   "name": "Snes9x RX",
   "author": "NiuuS",
   "category": "emulators",
-  "description": "Super Nintendo Emulator",
+  "description": "A Super Nintendo emulator, a fork of Snes9x GX.",
   "platforms": [
     "mini",
     "vwii",

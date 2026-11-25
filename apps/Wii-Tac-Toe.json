@@ -3,7 +3,7 @@
   "name": "Wii-Tac-Toe",
   "author": "Crayon",
   "category": "games",
-  "description": "Tic-Tac-Toe game",
+  "description": "Tic-tac-toe.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "RSSMii",
   "author": "WiiDatabase.de, RiiConnect24, main()",
   "category": "online",
-  "description": "Subscribe to RSS-Feeds!",
+  "description": "Reads RSS news feeds.",
   "platforms": [
     "vwii",
     "wii"

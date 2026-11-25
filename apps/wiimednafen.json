@@ -3,7 +3,7 @@
   "name": "WiiMednafen",
   "author": "raz0red",
   "category": "emulators",
-  "description": "Mednafen Emulator",
+  "description": "A multi-system emulator based on Mednafen.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,17 +16,18 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/wiimednafen.zip",
-    "version": "0.2-pre"
+    "github": "raz0red/wii-mednafen",
+    "asset": "wiimednafen-0_2_pre.zip"
   },
-  "page": "https://oscwii.org/library/app/wiimednafen",
+  "page": "https://github.com/raz0red/wii-mednafen",
   "format": "zip",
   "pin": {
-    "sha256": "2e56d796ce9d424d3e197709eb7e71d219c88b5af4a74c6a26d3faee84866d15"
+    "sha256": "34bf430ac8805b7ec1235972b29e6048552429916037cd8d3ac85f76a3a4400b",
+    "tag": "0.2-pre"
   },
   "install": [
     {
-      "from": "apps/wiimednafen/",
+      "from": "APPS/wiimednafen/",
       "to": "apps/wiimednafen/"
     }
   ]

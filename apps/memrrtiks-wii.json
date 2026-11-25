@@ -3,7 +3,7 @@
   "name": "memrrtiks, suashem",
   "author": "Terry Cavanagh",
   "category": "games",
-  "description": "by Terry Cavanagh",
+  "description": "Two small games by Terry Cavanagh: memrrtiks and suashem.",
   "platforms": [
     "mini",
     "vwii",
@@ -17,7 +17,7 @@
     "url": "https://reterry.uk/memrrtiks-wii.zip",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/memrrtiks-wii",
+  "page": "https://reterry.uk/",
   "format": "zip",
   "pin": {
     "sha256": "c734d374246e1a5c394bfe696d9d88d726e748eefcb7f3d9d506046907bcaa91"

@@ -3,7 +3,7 @@
   "name": "NetSurf Wii",
   "author": "quatric",
   "category": "internet",
-  "description": "NetSurf 3.12 Dev — Experimental",
+  "description": "NetSurf, a web browser (an experimental build of 3.12).",
   "platforms": [
     "mini",
     "vwii",

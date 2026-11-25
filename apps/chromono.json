@@ -3,7 +3,7 @@
   "name": "chro.mono",
   "author": "Thomas Perl, Alberto Mardegan (port)",
   "category": "games",
-  "description": "Circle color puzzle game",
+  "description": "A puzzle game of coloured circles.",
   "platforms": [
     "mini",
     "vwii",

@@ -1,9 +1,9 @@
 {
   "id": "TXTAdvReader",
-  "name": "TEXT ADVENTURE READER",
+  "name": "Text Adventure Reader",
   "author": "Ernani da Silva Costa",
   "category": "creative",
-  "description": "Create and play your own stories!",
+  "description": "Write your own text adventures and play them.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://wiibrew.org/w/images/3/37/TXTAdvReader.zip",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/TXTAdvReader",
+  "page": "https://wiibrew.org/wiki/Text_Adventure_Reader",
   "format": "zip",
   "pin": {
     "sha256": "ca8a3b44117349384efc3ad7cdeabe81319027d4ef902365fcdeb6bb086dd1aa"

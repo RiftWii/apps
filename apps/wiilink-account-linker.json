@@ -3,7 +3,7 @@
   "name": "WiiLink Account Linker",
   "author": "Sketch",
   "category": "online",
-  "description": "Links your Wii to your WiiLink Account!",
+  "description": "Links your Wii to your WiiLink account.",
   "platforms": [
     "mini",
     "vwii",

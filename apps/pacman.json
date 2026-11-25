@@ -3,7 +3,7 @@
   "name": "Pacman",
   "author": "A.D.Price/D.Ashley/P.Briot",
   "category": "games",
-  "description": "Arcade emulator",
+  "description": "Pac-Man, played through an arcade emulator.",
   "platforms": [
     "mini",
     "vwii",
@@ -18,7 +18,7 @@
     "url": "https://wiibrew.org/w/images/a/ae/Wii_pacman1_04_20160712.zip",
     "version": "1.04"
   },
-  "page": "https://oscwii.org/library/app/pacman",
+  "page": "https://wiibrew.org/wiki/Pacman",
   "format": "zip",
   "pin": {
     "sha256": "98cb3e64db362847e1638af0e89b2418ee3b67fdc3af39151499e119fb5587bb"

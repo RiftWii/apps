@@ -3,7 +3,7 @@
   "name": "SuDokuL",
   "author": "Mode8fx",
   "category": "games",
-  "description": "Sudoku made with SDL2",
+  "description": "Sudoku puzzles.",
   "platforms": [
     "mini",
     "vwii",

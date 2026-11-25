@@ -3,7 +3,7 @@
   "name": "MAME Wii",
   "author": "Toad King + MAME Team",
   "category": "emulators",
-  "description": "Arcade Emulation",
+  "description": "An arcade emulator based on MAME.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,13 +16,13 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/sdlmame-wii.zip",
+    "url": "https://static.wiidatabase.de/MAME-Wii-v1.1-r26.zip",
     "version": "1.1 (MAME 0.134u4)"
   },
-  "page": "https://oscwii.org/library/app/sdlmame-wii",
+  "page": "https://wiidatabase.de/downloads/emulatoren/mame-wii/",
   "format": "zip",
   "pin": {
-    "sha256": "7ad1c925bfce9fc79c6003c47f7eb67b376cc67ffe128226d7ca9fd13b36c8b8"
+    "sha256": "6a314d9ab5da788dbd642fbf64e447e41848c0a9b4a2ff32194582d5e980caa5"
   },
   "install": [
     {

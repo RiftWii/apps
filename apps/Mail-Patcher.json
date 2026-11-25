@@ -3,7 +3,7 @@
   "name": "WiiLink Mail Patcher",
   "author": "WiiLink",
   "category": "online",
-  "description": "Patches Wii Mail to WiiLink's domain",
+  "description": "Sets up Wii Mail to use WiiLink's service.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "Helium Boy",
   "author": "Bertil",
   "category": "games",
-  "description": "3d platformer",
+  "description": "A 3D platformer.",
   "platforms": [
     "mini",
     "vwii",
@@ -17,7 +17,7 @@
     "url": "http://www.beril.se/bin/heliumwii.zip",
     "version": "0.1.1"
   },
-  "page": "https://oscwii.org/library/app/helium",
+  "page": "https://www.beril.se/",
   "format": "zip",
   "pin": {
     "sha256": "43611930b53383646256104d7e4cff1cb94b1431cbd3fff739665b8eafd1cb56"

@@ -3,7 +3,7 @@
   "name": "ButtonBreakWii",
   "author": "Strong Enough",
   "category": "games",
-  "description": "Button Break for Wii",
+  "description": "A port of the game Button Break to the Wii.",
   "platforms": [
     "mini",
     "vwii",

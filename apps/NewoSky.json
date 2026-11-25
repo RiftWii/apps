@@ -3,7 +3,7 @@
   "name": "Newo Sky",
   "author": "Owen",
   "category": "toys",
-  "description": "Procgen walking simulator",
+  "description": "Walk through a world that is made as you go.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://owensoft.net/project/newogame/dl/newosky.zip",
     "version": "1.1"
   },
-  "page": "https://oscwii.org/library/app/NewoSky",
+  "page": "https://owensoft.net/project/newogame/",
   "format": "zip",
   "pin": {
     "sha256": "b332721715ae397c0ded1a00b6d2b466bf5a77221b1fb7a95f3109d184bfe13b"

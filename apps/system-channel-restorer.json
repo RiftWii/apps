@@ -3,7 +3,7 @@
   "name": "system-channel-restorer",
   "author": "thepikachugamer",
   "category": "system",
-  "description": "(Re)install missing system titles",
+  "description": "Installs system titles that are missing from your Wii.",
   "platforms": [
     "mini",
     "vwii",

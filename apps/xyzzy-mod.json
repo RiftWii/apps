@@ -3,7 +3,7 @@
   "name": "Xyzzy",
   "author": "Bushing, DarkMatterCore",
   "category": "system",
-  "description": "Extract your Wii console keys!",
+  "description": "Reads your Wii's console keys and saves them to the SD card.",
   "platforms": [
     "mini",
     "vwii",

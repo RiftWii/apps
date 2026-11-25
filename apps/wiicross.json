@@ -3,7 +3,7 @@
   "name": "Piero's Wiicross",
   "author": "Scognito",
   "category": "games",
-  "description": "A picross game for Wii",
+  "description": "Picture logic puzzles (picross).",
   "platforms": [
     "mini",
     "vwii",
@@ -14,18 +14,12 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/wiicross.zip",
+    "url": "https://static.wiidatabase.de/Pieros-Wiicross.rar",
     "version": "v0.2"
   },
-  "page": "https://oscwii.org/library/app/wiicross",
-  "format": "zip",
+  "page": "https://wiidatabase.de/downloads/spiele/pieros-wiicross/",
+  "format": "rar",
   "pin": {
-    "sha256": "50524365278b3bb0e93764e4153ea44398fe158c226f7202d43bbe63cd1e9afd"
-  },
-  "install": [
-    {
-      "from": "apps/wiicross/",
-      "to": "apps/wiicross/"
-    }
-  ]
+    "sha256": "e58a34dc3b046f28bc530a064a9ec23173e13ad8c536cb26fe2183021dd8ba4c"
+  }
 }

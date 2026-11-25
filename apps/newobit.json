@@ -3,7 +3,7 @@
   "name": "Newo Bit",
   "author": "Owen",
   "category": "games",
-  "description": "chill solar puzzle game",
+  "description": "A relaxed puzzle game set among the planets.",
   "platforms": [
     "mini",
     "vwii",
@@ -19,7 +19,7 @@
     "url": "https://owensoft.net/project/newogame/dl/newobit.zip",
     "version": "1.0"
   },
-  "page": "https://oscwii.org/library/app/newobit",
+  "page": "https://owensoft.net/project/newogame/",
   "format": "zip",
   "pin": {
     "sha256": "c8455b9bbb6ce0858b020ec29605c801d416b246627ad5d1acd0e0772ef1ff90"

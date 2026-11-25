@@ -3,7 +3,7 @@
   "name": "wiiRPS",
   "author": "sctech-tr",
   "category": "games",
-  "description": "A port of rock, paper, scissors for the wii.",
+  "description": "Rock, paper, scissors.",
   "platforms": [
     "mini",
     "vwii",

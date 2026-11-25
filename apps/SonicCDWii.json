@@ -3,7 +3,7 @@
   "name": "Sonic CD",
   "author": "ultra0",
   "category": "games",
-  "description": "Sonic CD (2011) Port",
+  "description": "A port of Sonic CD (the 2011 version) to the Wii.",
   "platforms": [
     "mini",
     "vwii",

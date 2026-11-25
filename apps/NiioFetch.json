@@ -3,7 +3,7 @@
   "name": "NiioFetch",
   "author": "Abdelali221",
   "category": "system",
-  "description": "Check your Wii's Info!",
+  "description": "Shows your Wii's details on one screen.",
   "platforms": [
     "vwii",
     "wii"

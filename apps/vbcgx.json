@@ -3,7 +3,7 @@
   "name": "VBoy Color GX",
   "author": "cmyksoda",
   "category": "emulators",
-  "description": "Virtual Boy emulator, in color!",
+  "description": "A Virtual Boy emulator, in colour.",
   "platforms": [
     "mini",
     "vwii",

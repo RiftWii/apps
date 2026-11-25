@@ -3,7 +3,7 @@
   "name": "Stopwatch",
   "author": "ILovemyhouse",
   "category": "creative",
-  "description": "A stopwatch for your Wii.",
+  "description": "A stopwatch.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://github.com/Ilovemyhous/Wii-Stopwatch/releases/download/Alpha/Stopwatch.V2.0.0.Alpha.Dev.V1.zip",
     "version": "v2.0.0 Alpha Dev v1"
   },
-  "page": "https://oscwii.org/library/app/stopwatch",
+  "page": "https://github.com/Ilovemyhous/Wii-Stopwatch",
   "format": "zip",
   "pin": {
     "sha256": "5e47f66de4ee97805777e04e482530f78880247181b7bb01e3bfebc0fb05fd14"

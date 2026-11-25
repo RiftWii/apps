@@ -3,7 +3,7 @@
   "name": "Offline Network Enabler",
   "author": "suloku",
   "category": "system",
-  "description": "Enable network connections",
+  "description": "Turns your Wii's network connection on.",
   "platforms": [
     "wii"
   ],
@@ -15,7 +15,7 @@
     "url": "https://wiibrew.org/w/images/8/85/OfflineNetworkEnabler.rar",
     "version": "0.1"
   },
-  "page": "https://oscwii.org/library/app/net_enabler",
+  "page": "https://wiibrew.org/wiki/Offline_Network_Enabler",
   "format": "rar",
   "pin": {
     "sha256": "3611cf7b4fcbac1f984661bc03ecbdd293374ec22c7b91c658c3bd082f252c74"

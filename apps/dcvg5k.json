@@ -3,7 +3,7 @@
   "name": "DCVG5K Wii",
   "author": "Danel Coulom",
   "category": "emulators",
-  "description": "DCVG5K on Wii",
+  "description": "An emulator of the Philips VG 5000 home computer.",
   "platforms": [
     "mini",
     "vwii",
@@ -17,7 +17,7 @@
     "url": "http://dcvg5k.free.fr/download/dcvg5k_wii_binaire.zip",
     "version": "r1"
   },
-  "page": "https://oscwii.org/library/app/dcvg5k",
+  "page": "https://wiibrew.org/wiki/Dcvg5k",
   "format": "zip",
   "pin": {
     "sha256": "6dbd767360ca0d5f4d8d592b0f9c33251fe156c0e942303e274503659cede1c5"

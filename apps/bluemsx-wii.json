@@ -3,7 +3,7 @@
   "name": "BlueMSX-Wii",
   "author": "Tim Brugman, Wiimpathy",
   "category": "emulators",
-  "description": "BlueMSX port for Wii",
+  "description": "An MSX computer emulator, based on blueMSX.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,17 +16,17 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/BlueMSX-Wii_v1.0.3B_Wiimpathy_MSXWii_SRL-saulfabreg.zip",
+    "url": "https://static.wiidatabase.de/BlueMSX-Wii.zip",
     "version": "V1.0.3B"
   },
-  "page": "https://oscwii.org/library/app/bluemsx-wii",
+  "page": "https://wiidatabase.de/downloads/emulatoren/bluemsx-wii/",
   "format": "zip",
   "pin": {
-    "sha256": "e408f090974103371668b21c7762626108569a5027db94dfc93a7cd92ba303dd"
+    "sha256": "9c4ffc823227d22c2a916241f64cc0d0106f3d10d3b7ba70735633658a9f4eb1"
   },
   "install": [
     {
-      "from": "apps/blueMSXWii_SRL/",
+      "from": "apps/bluemsx-wii/",
       "to": "apps/bluemsx-wii/"
     }
   ]

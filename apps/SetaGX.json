@@ -3,7 +3,7 @@
   "name": "Seta GX",
   "author": "Evoca",
   "category": "emulators",
-  "description": "Sega Saturn Emulator",
+  "description": "A Sega Saturn emulator.",
   "platforms": [
     "mini",
     "vwii",

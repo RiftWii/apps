@@ -3,7 +3,7 @@
   "name": "WiiColEm",
   "author": "raz0red",
   "category": "emulators",
-  "description": "ColecoVision Emulator",
+  "description": "A ColecoVision emulator.",
   "platforms": [
     "mini",
     "vwii",

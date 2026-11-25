@@ -3,7 +3,7 @@
   "name": "rgnsel booter",
   "author": "iCON",
   "category": "loaders",
-  "description": "Boots region select channel",
+  "description": "Starts the region select channel.",
   "platforms": [
     "mini",
     "vwii",

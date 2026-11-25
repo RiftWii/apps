@@ -3,7 +3,7 @@
   "name": "d2x cIOS installer for vWii",
   "author": "dragbe, FIX94",
   "category": "system",
-  "description": "Custom IOS installer",
+  "description": "Installs the d2x custom IOS in a Wii U's Wii mode.",
   "platforms": [
     "vwii"
   ],

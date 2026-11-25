@@ -3,7 +3,7 @@
   "name": "Choices",
   "author": "awes145",
   "category": "games",
-  "description": "Guess the number correctly for 20 rounds to win.",
+  "description": "Guess the right number twenty rounds in a row to win.",
   "platforms": [
     "mini",
     "vwii",

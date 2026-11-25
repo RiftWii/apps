@@ -3,7 +3,7 @@
   "name": "GodModeWii",
   "author": "quatric",
   "category": "system",
-  "description": "GodMode9-style file manager",
+  "description": "A file manager in the style of GodMode9.",
   "platforms": [
     "mini",
     "vwii",

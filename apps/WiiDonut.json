@@ -3,7 +3,7 @@
   "name": "Wii Donut",
   "author": "jornmann, Andy Sloane",
   "category": "toys",
-  "description": "A spinning donut for your Wii!",
+  "description": "A donut, spinning on your screen.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "WiiUnShoplifter",
   "author": "Sketch",
   "category": "system",
-  "description": "No more shoplifting",
+  "description": "Cleans up Wii Shop titles.",
   "platforms": [
     "mini",
     "vwii",

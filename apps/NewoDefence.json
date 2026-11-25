@@ -3,7 +3,7 @@
   "name": "Newo Defence",
   "author": "Owen",
   "category": "games",
-  "description": "Like Missile command in space!",
+  "description": "Stop the missiles before they land, as in Missile Command, but in space.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://owensoft.net/project/newogame/dl/NewoDefence.zip",
     "version": "1.2"
   },
-  "page": "https://oscwii.org/library/app/NewoDefence",
+  "page": "https://owensoft.net/project/newogame/",
   "format": "zip",
   "pin": {
     "sha256": "60ffcea6acb33a219c364b8801bd02cf5142ffd9af2bcd9311578e8d0b8f8f29"

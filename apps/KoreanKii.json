@@ -3,7 +3,7 @@
   "name": "KoreanKii",
   "author": "tueidj, JoostinOnline",
   "category": "system",
-  "description": "Add or remove the Korean key from the SEEPROM.",
+  "description": "Adds or removes the Korean key in your Wii's SEEPROM.",
   "platforms": [
     "wii"
   ],
@@ -11,17 +11,17 @@
     "wiimote"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/KoreanKii-1.1.zip",
+    "url": "https://static.wiidatabase.de/KoreanKii.zip",
     "version": "1.1"
   },
-  "page": "https://oscwii.org/library/app/KoreanKii",
+  "page": "https://wiidatabase.de/downloads/",
   "format": "zip",
   "pin": {
-    "sha256": "7e9427e9fe9c14af92920d0fd3227e1c53f2fb4e3170eadbe8cc73c832dc9902"
+    "sha256": "85aacbcaddf407b3813a010d2cd6f45fa14edd3ae2ecd184873e52430cc2790a"
   },
   "install": [
     {
-      "from": "apps/KoreanKii/",
+      "from": "KoreanKii/",
       "to": "apps/KoreanKii/"
     }
   ]

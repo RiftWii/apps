@@ -3,7 +3,7 @@
   "name": "betterpii",
   "author": "Dakotath",
   "category": "creative",
-  "description": "Calculates Pi.",
+  "description": "Works out the digits of pi on your Wii.",
   "platforms": [
     "mini",
     "vwii",

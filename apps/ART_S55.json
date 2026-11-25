@@ -3,7 +3,7 @@
   "name": "ART_S55",
   "author": "axiot",
   "category": "media",
-  "description": "Studio 55 Art (ART_S55)",
+  "description": "Art from Studio 55, shown on your TV.",
   "platforms": [
     "mini",
     "vwii",
@@ -16,7 +16,7 @@
     "url": "https://wiibrew.org/w/images/0/08/ART_S55.zip",
     "version": "1.2"
   },
-  "page": "https://oscwii.org/library/app/ART_S55",
+  "page": "https://wiibrew.org/wiki/ART_S55",
   "format": "zip",
   "pin": {
     "sha256": "db6eb26af8ed4ec3b7ff7661deafd9cb164fc44be1e708a868c5bd384a207844"

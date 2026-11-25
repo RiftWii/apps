@@ -3,7 +3,7 @@
   "name": "Not64",
   "author": "Extrems",
   "category": "emulators",
-  "description": "N64 Emulator for Wii",
+  "description": "A Nintendo 64 emulator, a fork of Wii64.",
   "platforms": [
     "mini",
     "vwii",

@@ -3,7 +3,7 @@
   "name": "crack-attack",
   "author": "Daniel Nelson",
   "category": "games",
-  "description": "Multiplayer puzzle game like \"Tetris Attack\"",
+  "description": "A multiplayer puzzle game in the style of Tetris Attack.",
   "platforms": [
     "mini",
     "vwii",

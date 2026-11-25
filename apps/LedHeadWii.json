@@ -3,7 +3,7 @@
   "name": "LEDhead",
   "author": "Nebiun",
   "category": "games",
-  "description": "Classic electronic LED game simulator",
+  "description": "Plays like the handheld LED games of the late 1970s.",
   "platforms": [
     "mini",
     "vwii",

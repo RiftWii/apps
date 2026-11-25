@@ -3,7 +3,7 @@
   "name": "TrojanWii",
   "author": "Jon Conrad",
   "category": "games",
-  "description": "Trojan LCD Simulator for Wii",
+  "description": "Plays like Trojan, a handheld LCD game.",
   "platforms": [
     "mini",
     "vwii",
@@ -14,18 +14,12 @@
     "gamecube"
   ],
   "source": {
-    "url": "https://hbbarchive.oscwii.org/legacy/TrojanWii.zip",
+    "url": "https://static.wiidatabase.de/Trojan-Wii.rar",
     "version": "1.1"
   },
-  "page": "https://oscwii.org/library/app/TrojanWii",
-  "format": "zip",
+  "page": "https://wiidatabase.de/downloads/emulatoren/trojan-wii/",
+  "format": "rar",
   "pin": {
-    "sha256": "c51cdda4fa6b6e7053f7cb8a385fba850cf587fac3b0b20aa2e5c807e048fd60"
-  },
-  "install": [
-    {
-      "from": "apps/TrojanWii/",
-      "to": "apps/TrojanWii/"
-    }
-  ]
+    "sha256": "fca7683ec65cfcb98bdcd6e7edb932516f75501e7dbbf4d6cc0267edc043dcb9"
+  }
 }

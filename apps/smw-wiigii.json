@@ -3,7 +3,7 @@
   "name": "Super Mario War Wii",
   "author": "Tantric",
   "category": "games",
-  "description": "Port of Super Mario War",
+  "description": "Super Mario War, a multiplayer game of stomping the others.",
   "platforms": [
     "mini",
     "vwii",
