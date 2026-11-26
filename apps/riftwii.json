@@ -1,0 +1,33 @@
+{
+  "id": "riftwii",
+  "name": "RiftWii",
+  "author": "RiftWii contributors",
+  "category": "loaders",
+  "description": "Plays Riivolution mods and starts Wii and GameCube games from the disc, USB or SD.",
+  "license": "GPL-3.0-or-later",
+  "platforms": [
+    "vwii",
+    "wii"
+  ],
+  "controllers": [
+    "wiimote",
+    "classic",
+    "gamecube"
+  ],
+  "source": {
+    "github": "KakarottoCake/Riftwii",
+    "asset": "riftwii-v*.zip"
+  },
+  "page": "https://riftwii.com/",
+  "format": "zip",
+  "install": [
+    {
+      "from": "sd-card/apps/riftwii/",
+      "to": "apps/riftwii/"
+    }
+  ],
+  "pin": {
+    "tag": "v2611-252",
+    "sha256": "3161a6b778c3cab1d10930aeab288f91e0bc9db867e74d6bcebc7b284132c9d9"
+  }
+}
