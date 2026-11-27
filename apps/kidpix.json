@@ -22,8 +22,8 @@
   },
   "format": "zip",
   "pin": {
-    "tag": "v0.3.2",
-    "sha256": "ec998aa3d30eb73a241b8561438ee5256da6b64dd00b45382021eb1223fb2b79"
+    "tag": "latest",
+    "sha256": "1ff4f70cb8b4885ba078b59707e79ddd314fadd0cdcc59a3af4cd63cd3f880a2"
   },
   "install": [
     {

@@ -23,8 +23,8 @@
   "page": "https://github.com/DeltaResero/SuperTux-Wii",
   "format": "zip",
   "pin": {
-    "sha256": "6951faea8b5179a73ffe924c56bc3b4a222ba9789548d516b4d4897efc4af3ed",
-    "tag": "v0.1.4-wii-d.07"
+    "tag": "v0.1.4-wii-d.08",
+    "sha256": "4f671f9cf8ee3e92cd41dd302bd4180a04c4d5d8fc2882bda2dbbf4b719a66c0"
   },
   "install": [
     {
